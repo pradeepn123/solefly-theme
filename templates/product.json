@@ -1,0 +1,268 @@
+{
+  "sections": {
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc": {
+      "type": "breadcrumbs",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "section_spacing_top": 16,
+        "section_spacing_bottom": 0,
+        "show_breadcrumbs_product_title": true
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h5"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "xs",
+            "show_tax_status": false,
+            "show_sale_amount_badge": true,
+            "highlight_sale_price": true
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "show_inventory_status": "always",
+            "inventory_threshhold": 11,
+            "text_when_many_in_stock": "Many in stock",
+            "text_when_few_in_stock": "Act now, few in stock!",
+            "show_inventory_counter": false,
+            "high_level_indicator_color": "#00c853",
+            "low_level_indicator_color": "#ff3d3d"
+          }
+        },
+        "29040344-ce22-4d9d-aab8-1dcb43bb2ab5": {
+          "type": "product_drawer_with_tabs",
+          "disabled": true,
+          "settings": {
+            "popup_link_text": "Size Guide",
+            "btn_style": "text",
+            "icon": "none",
+            "button_background_color": "#e9ffcd",
+            "button_text_color": "#141416",
+            "tab_1_title": "MEN",
+            "tab_1_text": "<p>Tell more about your product, care instructions, country of origin, manufacturer information, matching colors and accessories.<\/p>",
+            "tab_1_page": "",
+            "tab_2_title": "WOMEN",
+            "tab_2_text": "<p>Tell more about your product, care instructions, country of origin, manufacturer information, matching colors and accessories.<\/p>",
+            "tab_2_page": "",
+            "tab_3_title": "KID",
+            "tab_3_text": "<p>Tell more about your product, care instructions, country of origin, manufacturer information, matching colors and accessories.<\/p>",
+            "tab_3_page": ""
+          }
+        },
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183": {
+          "type": "variant_picker",
+          "settings": {
+            "option_type": "button-outline",
+            "primary_swatch_option_type": "variant-images",
+            "secondary_swatch_option_type": "swatches",
+            "option_name": "",
+            "information_drawer_button_label": "",
+            "text": "",
+            "page": "",
+            "image_width": 60
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_pickup_availability": true,
+            "enable_gift_card": false
+          }
+        },
+        "6d6606d5-ae7e-4306-b3d7-67030f2e4136": {
+          "type": "related_products",
+          "settings": {
+            "color_scheme": "primary",
+            "show_background": false,
+            "show_in_quick_view": true,
+            "block_layout": "carousel-with-vertical-cards",
+            "img_ratio": "fit-portrait",
+            "title": "You may also like",
+            "heading_size": "h7",
+            "alignment": "left",
+            "product_recommendations_type": "auto",
+            "featured_collection": "9five-eyewear",
+            "featured_products": [
+
+            ],
+            "products_to_show": 3,
+            "show_navigation_on_hover": true,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 5
+          }
+        },
+        "28586830-d855-4547-8946-94914bac9e85": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "block_style": "static",
+            "icon": "none"
+          }
+        },
+        "c9188b10-e29c-4c63-b385-a3faa860d64a": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "heading": "Information tag",
+            "body": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>",
+            "content_alignment": "left",
+            "icon": "none",
+            "icon_position": "inline",
+            "tag_background_color": "#f6f6f6",
+            "tag_text_color": "#141416",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "inventory_status",
+        "29040344-ce22-4d9d-aab8-1dcb43bb2ab5",
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183",
+        "quantity_selector",
+        "buy_buttons",
+        "6d6606d5-ae7e-4306-b3d7-67030f2e4136",
+        "28586830-d855-4547-8946-94914bac9e85",
+        "c9188b10-e29c-4c63-b385-a3faa860d64a"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "section_spacing_top": 30,
+        "section_spacing_bottom": 30,
+        "layout": "thumbnails-bottom",
+        "desktop_space_between_media": 20,
+        "thumbnails_size": 88,
+        "mobile_layout": "thumbnails-right",
+        "img_ratio": "landscape",
+        "show_only_selected_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "enable_video_autoplay": true,
+        "scale_video": true
+      }
+    },
+    "product-details": {
+      "type": "product-details",
+      "blocks": {
+        "eaea97df-77ab-4b25-ab4d-7127a70f662c": {
+          "type": "description",
+          "settings": {
+            "title": "Description",
+            "icon": "none"
+          }
+        },
+        "860566f2-5be2-4ed8-9964-b27e88c6c92b": {
+          "type": "collapsible_row",
+          "settings": {
+            "title": "Content tab",
+            "icon": "none",
+            "text": "<p>Pair image with text to tell more about your product: care instructions, country of origin, manufacturer information, matching colors and accessories.<\/p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "5594cd3a-1c1c-436c-82e1-5acc9d0e8bcf": {
+          "type": "collapsible_row",
+          "settings": {
+            "title": "Content tab",
+            "icon": "none",
+            "text": "<p>Pair image with text to tell more about your product: care instructions, country of origin, manufacturer information, matching colors and accessories.<\/p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "4987e3cf-fed0-4e1b-921a-99aaa4edfc74": {
+          "type": "collapsible_row",
+          "settings": {
+            "title": "Content tab",
+            "icon": "none",
+            "text": "<p>Pair image with text to tell more about your product: care instructions, country of origin, manufacturer information, matching colors and accessories.<\/p>",
+            "page": "",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "eaea97df-77ab-4b25-ab4d-7127a70f662c",
+        "860566f2-5be2-4ed8-9964-b27e88c6c92b",
+        "5594cd3a-1c1c-436c-82e1-5acc9d0e8bcf",
+        "4987e3cf-fed0-4e1b-921a-99aaa4edfc74"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": true,
+        "container_size": "large",
+        "section_spacing_top": 20,
+        "section_spacing_bottom": 20,
+        "style": "tabs",
+        "expand_first_collapsible_row": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "You may also like",
+        "heading_size": "h1",
+        "alignment": "left",
+        "product_recommendations_type": "auto",
+        "featured_collection": "",
+        "featured_products": [
+
+        ],
+        "img_ratio": "portrait",
+        "product_card_align": "center",
+        "cards_to_show": 18,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 12,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    }
+  },
+  "order": [
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
+    "main",
+    "product-details",
+    "product-recommendations"
+  ]
+}

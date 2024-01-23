@@ -1,0 +1,286 @@
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_1": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>Free shipping on all orders over $150 dollars<\/p>",
+            "link": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_1"
+      ],
+      "settings": {
+        "show_only_on_homepage": true,
+        "color_scheme": "custom-1",
+        "container_size": "full-screen",
+        "show_navigation_arrows": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 6,
+        "show_language_selector": false,
+        "show_currency_selector": false,
+        "show_social_list": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "menu_3_KCYWwJ": {
+          "type": "menu-3",
+          "disabled": true,
+          "settings": {
+            "mega_nav_item_name": "Accessories",
+            "add_spacing": false,
+            "block_layout": "carousel",
+            "collection_list": [
+
+            ],
+            "img_ratio": "fit-portrait",
+            "text_style": "on-image-bottom",
+            "collection_card_content_align": "center",
+            "heading_size": "h6",
+            "show_product_count": true,
+            "collection_card_overlay_opacity": 15,
+            "columns": 5,
+            "desktop_space_between_cards": 12,
+            "mobile_space_between_cards": 12,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 4
+          }
+        },
+        "menu_2_pp9dWA": {
+          "type": "menu-2",
+          "settings": {
+            "mega_nav_item_name": "MEN",
+            "add_spacing": true,
+            "collection": "",
+            "featured_products": [
+              "air-jordan-1-low-gs-5",
+              "jordan-air-jordan-tee-2",
+              "air-force-1-se-gs",
+              "jordan-air-jordan-tee-5",
+              "air-jordan-x-union-t-shirt-2"
+            ],
+            "img_ratio": "default",
+            "product_card_align": "left",
+            "columns": 3,
+            "desktop_space_between_cards": 12,
+            "mobile_space_between_cards": 12,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
+        },
+        "menu_2_k7CPfY": {
+          "type": "menu-2",
+          "settings": {
+            "mega_nav_item_name": "women",
+            "add_spacing": true,
+            "collection": "",
+            "featured_products": [
+              "salehe-bembury-x-the-pollex-slide",
+              "jordan-essential-track-jacket-wmns",
+              "jordan-jumpman-sports-bra-wmns-1",
+              "converse-chuck-70-play-cdg-ox"
+            ],
+            "img_ratio": "fit-portrait",
+            "product_card_align": "left",
+            "columns": 3,
+            "desktop_space_between_cards": 12,
+            "mobile_space_between_cards": 12,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
+        },
+        "menu_2_fgMnK6": {
+          "type": "menu-2",
+          "settings": {
+            "mega_nav_item_name": "kids",
+            "add_spacing": true,
+            "collection": "",
+            "featured_products": [
+              "air-jordan-4-retro-gs",
+              "air-jordan-essential-fleece-diamond-shorts-2",
+              "jordan-1-mid-td"
+            ],
+            "img_ratio": "fit-portrait",
+            "product_card_align": "left",
+            "columns": 3,
+            "desktop_space_between_cards": 12,
+            "mobile_space_between_cards": 12,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
+        },
+        "menu_1_FiD9HW": {
+          "type": "menu-1",
+          "settings": {
+            "mega_nav_item_name": "accessories",
+            "color_scheme": "white",
+            "add_spacing": true,
+            "desktop_img_ratio": 1.6,
+            "mobile_img_ratio": 0.6,
+            "columns": 6,
+            "desktop_space_between_cards": 12,
+            "mobile_space_between_cards": 12,
+            "heading_size": "h5",
+            "body_size": "body3",
+            "content_position": "bottom-left",
+            "enable_vertical_text": true,
+            "overlay_opacity": 25,
+            "show_item_1": true,
+            "item_1_img": "shopify:\/\/shop_images\/watches_52968c9c-7058-4e91-a501-f7de37f17c77.png",
+            "item_1_title": "Watches",
+            "item_1_text": "",
+            "item_1_btn_text": "",
+            "item_1_link": "shopify:\/\/collections\/watches",
+            "show_item_2": true,
+            "item_2_img": "shopify:\/\/shop_images\/eyewear.png",
+            "item_2_title": "Eyewear",
+            "item_2_text": "",
+            "item_2_btn_text": "",
+            "item_2_link": "shopify:\/\/collections\/9five-eyewear",
+            "show_item_3": true,
+            "item_3_img": "shopify:\/\/shop_images\/headwear.png",
+            "item_3_title": "Headgear",
+            "item_3_text": "",
+            "item_3_btn_text": "",
+            "item_3_link": "shopify:\/\/collections\/headwear",
+            "show_item_4": true,
+            "item_4_img": "shopify:\/\/shop_images\/bags_and_wallets.png",
+            "item_4_title": "Bags & Wallets",
+            "item_4_text": "",
+            "item_4_btn_text": "",
+            "item_4_link": "shopify:\/\/collections\/bags-1",
+            "show_item_5": true,
+            "item_5_img": "shopify:\/\/shop_images\/Other_accessories.png",
+            "item_5_title": "Other Accessories",
+            "item_5_text": "",
+            "item_5_btn_text": "",
+            "item_5_link": "shopify:\/\/collections\/accessories",
+            "show_item_6": false,
+            "item_6_title": "Image with text",
+            "item_6_text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "item_6_btn_text": "Link label",
+            "item_6_link": "",
+            "show_item_7": false,
+            "item_7_title": "Image with text",
+            "item_7_text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "item_7_btn_text": "Link label",
+            "item_7_link": "",
+            "show_item_8": false,
+            "item_8_title": "Image with text",
+            "item_8_text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "item_8_btn_text": "Link label",
+            "item_8_link": "",
+            "show_item_9": false,
+            "item_9_title": "Image with text",
+            "item_9_text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "item_9_btn_text": "Link label",
+            "item_9_link": ""
+          }
+        },
+        "menu_1_QgB7b6": {
+          "type": "menu-1",
+          "settings": {
+            "mega_nav_item_name": "BRANDS",
+            "color_scheme": "white",
+            "add_spacing": true,
+            "desktop_img_ratio": 1.6,
+            "mobile_img_ratio": 0.6,
+            "columns": 4,
+            "desktop_space_between_cards": 12,
+            "mobile_space_between_cards": 12,
+            "heading_size": "h6",
+            "body_size": "body3",
+            "content_position": "bottom-left",
+            "enable_vertical_text": true,
+            "overlay_opacity": 7,
+            "show_item_1": true,
+            "item_1_img": "shopify:\/\/shop_images\/Adidas_1324e8c0-2e25-42d0-8fc6-50f788eab40e.png",
+            "item_1_title": "",
+            "item_1_text": "",
+            "item_1_btn_text": "",
+            "item_1_link": "shopify:\/\/collections\/watches",
+            "show_item_2": true,
+            "item_2_img": "shopify:\/\/shop_images\/Nike_d751177e-61e3-41f1-8e91-65a7f3bc97c3.png",
+            "item_2_title": "",
+            "item_2_text": "",
+            "item_2_btn_text": "",
+            "item_2_link": "shopify:\/\/collections\/9five-eyewear",
+            "show_item_3": true,
+            "item_3_img": "shopify:\/\/shop_images\/New_era_28263a98-34b5-4df0-a339-4af0628df059.png",
+            "item_3_title": "",
+            "item_3_text": "",
+            "item_3_btn_text": "",
+            "item_3_link": "shopify:\/\/collections\/headwear",
+            "show_item_4": true,
+            "item_4_img": "shopify:\/\/shop_images\/New_era-1.png",
+            "item_4_title": "",
+            "item_4_text": "",
+            "item_4_btn_text": "",
+            "item_4_link": "shopify:\/\/collections\/bags-1",
+            "show_item_5": false,
+            "item_5_title": "",
+            "item_5_text": "",
+            "item_5_btn_text": "",
+            "item_5_link": "shopify:\/\/collections\/accessories",
+            "show_item_6": false,
+            "item_6_title": "Image with text",
+            "item_6_text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "item_6_btn_text": "Link label",
+            "item_6_link": "",
+            "show_item_7": false,
+            "item_7_title": "Image with text",
+            "item_7_text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "item_7_btn_text": "Link label",
+            "item_7_link": "",
+            "show_item_8": false,
+            "item_8_title": "Image with text",
+            "item_8_text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "item_8_btn_text": "Link label",
+            "item_8_link": "",
+            "show_item_9": false,
+            "item_9_title": "Image with text",
+            "item_9_text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "item_9_btn_text": "Link label",
+            "item_9_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "menu_3_KCYWwJ",
+        "menu_2_pp9dWA",
+        "menu_2_k7CPfY",
+        "menu_2_fgMnK6",
+        "menu_1_FiD9HW",
+        "menu_1_QgB7b6"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "grid": "1",
+        "enable_border": false,
+        "enable_sticky": true,
+        "menu_trigger": "hover",
+        "menu": "solefly-nav-sample",
+        "desktop_logo_img": "shopify:\/\/shop_images\/solefly_logo_312f2b0b-d11c-4c7a-91a0-740a3d59197c.png",
+        "desktop_logo_width": 130,
+        "mobile_logo_img": "shopify:\/\/shop_images\/solefly_logo_312f2b0b-d11c-4c7a-91a0-740a3d59197c.png",
+        "mobile_logo_width": 130,
+        "icon_style": "outline",
+        "cart_icon": "bag"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

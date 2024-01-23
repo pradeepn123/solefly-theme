@@ -1,0 +1,54 @@
+/* Sale--menu item--color red */
+.header__item.header__item--sale .underline-text__label {
+  color: #FF0000;
+}
+
+.header__item.header__item--sale .underline-text__label:before {
+  background: #FF0000;
+}
+
+/* Reducing Menu height */
+.round-style .shopify-section-group-main-header-group+.shopify-section-group-main-header-group {
+  margin-bottom: 1rem;
+}
+
+.round-style .shopify-section-group-main-header-group {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .header__logo {
+    padding: 1rem 0;
+  }
+  .header__grid {
+      min-height: 5rem;
+  }
+  .header__item {
+    padding: 0 2rem 1rem;
+  }
+}
+
+.header__nav {
+  padding-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__utils {
+    grid-template-areas: "copyright settings bottom-bar payment-icons";
+  }
+}
+
+/* Product Page */
+.product-variant-picker__pill-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
+}
+
+.pill--large {
+  width: 100%;
+}
+
+.product-form {
+  flex-direction: column-reverse;
+}

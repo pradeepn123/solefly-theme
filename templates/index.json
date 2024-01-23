@@ -1,0 +1,1399 @@
+{
+  "sections": {
+    "35abde66-b33a-4178-b3ef-5bba319784ba": {
+      "type": "slideshow",
+      "blocks": {
+        "image_banner_zFf6r9": {
+          "type": "image-banner",
+          "settings": {
+            "color_scheme": "secondary",
+            "desktop_img": "shopify:\/\/shop_images\/Artboard_3_copy_5.jpg",
+            "mobile_img": "shopify:\/\/shop_images\/mob_banner_001.png",
+            "desktop_overlay_opacity": 0,
+            "mobile_overlay_opacity": 0,
+            "caption": "NIKE AIR",
+            "title": "JORDAN 1 RETRO HIGH OG",
+            "text": "<p>Discover the Origins and Legacy of the JORDAN 1 RETRO HIGH OG<\/p>",
+            "heading_size": "h0",
+            "body_size": "body2",
+            "desktop_content_position": "align-items:center;justify-content:flex-start;",
+            "desktop_content_align": "left",
+            "content_max_width": 528,
+            "content_spacing": 116,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "left",
+            "desktop_content_background": "none",
+            "mobile_content_background": "shadow",
+            "btn_text": "SHOP NOW",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        },
+        "image_banner_yWXpNz": {
+          "type": "image-banner",
+          "settings": {
+            "color_scheme": "secondary",
+            "desktop_img": "shopify:\/\/shop_images\/Artboard_3_copy_9.jpg",
+            "desktop_overlay_opacity": 0,
+            "mobile_overlay_opacity": 0,
+            "caption": "JORDEN",
+            "title": "FLY HIGH AND LAND IN STYLE",
+            "text": "<p>Experience the Unbeatable Comfort and Style of Jorden Shoes.<\/p>",
+            "heading_size": "h0",
+            "body_size": "body2",
+            "desktop_content_position": "align-items:center;justify-content:flex-start;",
+            "desktop_content_align": "left",
+            "content_max_width": 528,
+            "content_spacing": 80,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "left",
+            "desktop_content_background": "none",
+            "mobile_content_background": "shadow",
+            "btn_text": "SHOP NOW",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "outline"
+          }
+        },
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-0": {
+          "type": "image-banner",
+          "settings": {
+            "color_scheme": "secondary",
+            "desktop_img": "shopify:\/\/shop_images\/Artboard_3_copy_7.jpg",
+            "desktop_overlay_opacity": 0,
+            "mobile_overlay_opacity": 0,
+            "caption": "G-SHOCK",
+            "title": "NASA COLLECTION",
+            "text": "<p>Discover the NASA Collection of G-Shock Watches - a perfect blend of style and functionality.<\/p>",
+            "heading_size": "h0",
+            "body_size": "body2",
+            "desktop_content_position": "align-items:center;justify-content:flex-start;",
+            "desktop_content_align": "left",
+            "content_max_width": 600,
+            "content_spacing": 80,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "left",
+            "desktop_content_background": "none",
+            "mobile_content_background": "shadow",
+            "btn_text": "SHOP NOW",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        },
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-1": {
+          "type": "split-image-banner",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "default",
+            "image_proportion": 50,
+            "content_wrapper_width": 30,
+            "caption": "SPLIT IMAGE SLIDE",
+            "title": "Two images with text in between",
+            "text": "",
+            "heading_size": "h2",
+            "body_size": "body3",
+            "content_max_width": 368,
+            "desktop_content_align": "center",
+            "mobile_content_align": "center",
+            "btn_text": "Button label",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "outline"
+          }
+        },
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-2": {
+          "type": "image-banner",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "white",
+            "desktop_overlay_opacity": 20,
+            "mobile_overlay_opacity": 20,
+            "caption": "IMAGE SLIDE",
+            "title": "Image with text",
+            "text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "heading_size": "h2",
+            "body_size": "body3",
+            "desktop_content_position": "align-items:center;justify-content:flex-start;",
+            "desktop_content_align": "left",
+            "content_max_width": 560,
+            "content_spacing": 116,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "desktop_content_background": "solid",
+            "mobile_content_background": "none",
+            "btn_text": "Button label",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "Button label",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        },
+        "26ebac8c-4c8a-4e8c-bf1f-615a97d2f78b": {
+          "type": "split-image-banner",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "default",
+            "image_proportion": 30,
+            "content_wrapper_width": 30,
+            "caption": "SPLIT IMAGE SLIDE",
+            "title": "Two images with text in between",
+            "text": "",
+            "heading_size": "h2",
+            "body_size": "body3",
+            "content_max_width": 368,
+            "desktop_content_align": "center",
+            "mobile_content_align": "center",
+            "btn_text": "Button label",
+            "btn_url": "",
+            "btn_style": "outline",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_banner_zFf6r9",
+        "image_banner_yWXpNz",
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-0",
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-1",
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-2",
+        "26ebac8c-4c8a-4e8c-bf1f-615a97d2f78b"
+      ],
+      "settings": {
+        "color_scheme": "primary",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 20,
+        "desktop_ratio": 0.3,
+        "mobile_ratio": 0.4,
+        "enable_circle_navigation": true,
+        "show_navigation_arrows": "on_hover",
+        "arrows_style": "corner-buttons",
+        "transition_style": "swipe",
+        "autoplay_mode": "one_at_time",
+        "autoplay_interval": 6,
+        "show_button_for_autoplay": true,
+        "accessibility_alt_text": "Slideshow about our brand"
+      }
+    },
+    "collection_list_hCa7c9": {
+      "type": "collection-list",
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "page-width",
+        "section_spacing_top": 20,
+        "section_spacing_bottom": 50,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "SHOP BY CATEGORY",
+        "heading_size": "h2",
+        "alignment": "left",
+        "collection_list": [
+          "womens-apparel",
+          "womens-footwear",
+          "mens-apparel",
+          "mens-footwear",
+          "kids-apparel",
+          "kids-footwear"
+        ],
+        "img_ratio": "fit-portrait",
+        "text_style": "under-image-with-background",
+        "collection_card_content_align": "center",
+        "collection_card_heading_size": "h6",
+        "show_product_count": false,
+        "collection_card_overlay_opacity": 40,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "0dc71aa6-0b87-4df1-8cec-af939c55b65f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>OUR VISION<\/strong><\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        },
+        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-1": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "About"
+          }
+        },
+        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-2": {
+          "type": "heading",
+          "settings": {
+            "title": "A goal that SoleFly strives to achieve is to build a community filled with vitality.",
+            "heading_size": "h2"
+          }
+        },
+        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-4": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "btn_text": "Explore",
+            "btn_url": "",
+            "btn_style": "link",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-0",
+        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-3",
+        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-1",
+        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-2",
+        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-4"
+      ],
+      "settings": {
+        "color_scheme": "primary",
+        "enable_background_around_container": true,
+        "container_size": "small",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "content_align": "center"
+      }
+    },
+    "scrolling_text_WpdCB4": {
+      "type": "scrolling-text",
+      "blocks": {
+        "announcement_jRkzcm": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Solefly",
+            "font_family": "heading",
+            "font_style": "solid",
+            "font_size": 44,
+            "letter_spacing": 0,
+            "spacing_between_messages": 40,
+            "top_and_bottom_spacing": 12,
+            "link": "",
+            "icon": "shipping-box",
+            "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2_copy.png",
+            "icon_size": 80,
+            "scrolling_direction": "right_to_left",
+            "scrolling_speed": 30,
+            "background_color": "#f44336",
+            "background_color_gradient": "",
+            "text_color": "#ffffff",
+            "text_color_gradient": ""
+          }
+        },
+        "announcement_kNUJWb": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Solefly",
+            "font_family": "heading",
+            "font_style": "solid",
+            "font_size": 44,
+            "letter_spacing": 0,
+            "spacing_between_messages": 40,
+            "top_and_bottom_spacing": 12,
+            "link": "",
+            "icon": "shipping-box",
+            "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2.png",
+            "icon_size": 80,
+            "scrolling_direction": "right_to_left",
+            "scrolling_speed": 50,
+            "background_color": "#f7f7f7",
+            "background_color_gradient": "",
+            "text_color": "#f44336",
+            "text_color_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_jRkzcm",
+        "announcement_kNUJWb"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "section_spacing_top": 20,
+        "section_spacing_bottom": 50,
+        "section_layout": "crossed",
+        "inclination_degree": 5,
+        "crossing_point_position": 0,
+        "overlay_opacity": 0
+      }
+    },
+    "scrolling_text_deM9rU": {
+      "type": "scrolling-text",
+      "blocks": {
+        "announcement_qpzRji": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Solefly X Jorden",
+            "font_family": "body",
+            "font_style": "solid",
+            "font_size": 20,
+            "letter_spacing": 0,
+            "spacing_between_messages": 40,
+            "top_and_bottom_spacing": 12,
+            "link": "",
+            "icon": "none",
+            "icon_size": 24,
+            "scrolling_direction": "left_to_right",
+            "scrolling_speed": 69,
+            "background_color": "#ffffff",
+            "background_color_gradient": "",
+            "text_color": "#e7e7e7",
+            "text_color_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_qpzRji"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "section_layout": "crossed",
+        "inclination_degree": 5,
+        "crossing_point_position": 0,
+        "overlay_opacity": 0
+      }
+    },
+    "collection_text_FEb4D9": {
+      "type": "collection-text",
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "page-width",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "content_position": "left",
+        "collection": "solefly-x-jordan-1-capsule",
+        "icon": "none",
+        "caption": "SOLEFLY X JORDEN",
+        "title": "EXCLUSIVE COLLECTION",
+        "text": "",
+        "heading_size": "h2",
+        "body_size": "body4",
+        "link_text": "Explore Collection",
+        "link_url": "",
+        "img_ratio": "fit-portrait",
+        "product_card_align": "left",
+        "cards_to_show": 12,
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "featured_collection_aFBtyF": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "page-width",
+        "section_spacing_top": 60,
+        "section_spacing_bottom": 30,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "Solefly collection",
+        "heading_size": "h2",
+        "alignment": "center",
+        "collection": "sole-fly",
+        "featured_products": [
+
+        ],
+        "img_ratio": "portrait",
+        "product_card_align": "left",
+        "cards_to_show": 16,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "collection_card_position": "after-all-items",
+        "collection_card_content_position": "on-image-bottom",
+        "collection_card_content_align": "left",
+        "collection_card_heading_size": "h6",
+        "collection_card_show_product_count": true,
+        "collection_card_overlay_opacity": 15,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "bdfcb69a-fe4c-45c6-bccc-aaec4c360dc5": {
+      "type": "multiple-collections",
+      "custom_css": [
+        ".collection__tab-name {font-size: 18px; font-weight: 600;}"
+      ],
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "page-width",
+        "section_spacing_top": 60,
+        "section_spacing_bottom": 30,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "WHAT'S TRENDING",
+        "heading_size": "h2",
+        "alignment": "left",
+        "collection_list": [
+          "footwear",
+          "watches",
+          "apparel",
+          "accessories"
+        ],
+        "img_ratio": "fit-portrait",
+        "product_card_align": "left",
+        "cards_to_show": 16,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "collection_card_position": "after-all-items",
+        "collection_card_content_position": "on-image-bottom",
+        "collection_card_content_align": "left",
+        "collection_card_heading_size": "h6",
+        "collection_card_show_product_count": true,
+        "collection_card_overlay_opacity": 15,
+        "autoplay_mode": "one_at_time",
+        "autoplay_interval": 4
+      }
+    },
+    "collage_zDCTkk": {
+      "type": "collage",
+      "blocks": {
+        "collection_qijwBm": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "custom-1",
+            "desktop_columns": 2,
+            "desktop_rows": 2,
+            "collection": "watches",
+            "heading_size": "h4",
+            "show_product_count": false,
+            "image": "shopify:\/\/shop_images\/Watch.jpg",
+            "overlay_opacity": 20,
+            "link_text": "Explore",
+            "content_position": "bottom-left"
+          }
+        },
+        "image_n7rEYC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-1",
+            "desktop_columns": 2,
+            "desktop_rows": 1,
+            "image": "shopify:\/\/shop_images\/Bags.webp",
+            "overlay_opacity": 20,
+            "caption": "",
+            "title": "Bags & Wallets",
+            "text": "",
+            "heading_size": "h4",
+            "body_size": "body3",
+            "link_text": "Explore",
+            "link": "shopify:\/\/collections\/apparel",
+            "content_position": "bottom-left"
+          }
+        },
+        "collection_X3X7Fd": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "custom-1",
+            "desktop_columns": 2,
+            "desktop_rows": 2,
+            "collection": "9five-eyewear",
+            "heading_size": "h4",
+            "show_product_count": false,
+            "image": "shopify:\/\/shop_images\/Eyewear.webp",
+            "overlay_opacity": 20,
+            "link_text": "Explore",
+            "content_position": "bottom-left"
+          }
+        },
+        "image_DjcnpH": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-1",
+            "desktop_columns": 2,
+            "desktop_rows": 1,
+            "image": "shopify:\/\/shop_images\/Headwear.webp",
+            "overlay_opacity": 20,
+            "caption": "",
+            "title": "Headwear",
+            "text": "",
+            "heading_size": "h4",
+            "body_size": "body3",
+            "link_text": "Explore",
+            "link": "shopify:\/\/collections\/accessories",
+            "content_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "collection_qijwBm",
+        "image_n7rEYC",
+        "collection_X3X7Fd",
+        "image_DjcnpH"
+      ],
+      "custom_css": [
+        "h6 {color: #ffffff;}"
+      ],
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "full-screen",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 30,
+        "title": "",
+        "heading_size": "h5",
+        "alignment": "left",
+        "columns": 4,
+        "desktop_row_height": 340,
+        "mobile_row_height": 500,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "mobile_layout": "carousel"
+      }
+    },
+    "collection_list_QHqGJC": {
+      "type": "collection-list",
+      "disabled": true,
+      "custom_css": [
+        "h6 {color: #000000;}",
+        ".collection-card__count {color: #000000;}"
+      ],
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "page-width",
+        "section_spacing_top": 30,
+        "section_spacing_bottom": 60,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "FEATURED COLLECTION",
+        "heading_size": "h2",
+        "alignment": "left",
+        "collection_list": [
+          "jordan-1",
+          "sole-fly",
+          "basketball",
+          "g-shock",
+          "authentics"
+        ],
+        "img_ratio": "fit-portrait",
+        "text_style": "under-image",
+        "collection_card_content_align": "center",
+        "collection_card_heading_size": "h4",
+        "show_product_count": true,
+        "collection_card_overlay_opacity": 10,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 8,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "multiple_collections_ALbKtg": {
+      "type": "multiple-collections",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "page-width",
+        "section_spacing_top": 30,
+        "section_spacing_bottom": 30,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "Shop By",
+        "heading_size": "h2",
+        "alignment": "center",
+        "collection_list": [
+          "mens-1",
+          "womens-2",
+          "kids-1"
+        ],
+        "img_ratio": "fit-portrait",
+        "product_card_align": "left",
+        "cards_to_show": 16,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "collection_card_position": "after-all-items",
+        "collection_card_content_position": "on-image-bottom",
+        "collection_card_content_align": "left",
+        "collection_card_heading_size": "h6",
+        "collection_card_show_product_count": true,
+        "collection_card_overlay_opacity": 15,
+        "autoplay_mode": "one_at_time",
+        "autoplay_interval": 4
+      }
+    },
+    "logo_list_Pfj7pa": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_w3mKGN": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ADIDAS.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_hbkD7E": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jordan_541e6846-a0f5-4501-9405-fa097ab25bc3.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_w9ygpf": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NIKE_1f2793b8-964f-4365-871b-9d2083a5a383.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_kjLjpe": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/comme_des_garcons_c76aae78-a6bf-4aec-ae0f-f7420ff7e4e3.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_HQQzyb": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New_era_552f5c13-e736-4e47-93c3-db88f84823b0.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_NVGeBq": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mitchell_ness_5f2369ce-6e87-41c2-8f74-aa9188772d74.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_UTTHmt": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Oakley_285bf2ff-6e97-45e1-bf67-e9a709f0fd82.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_76c3BC": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vans_0ef8be99-2707-46fb-9b2b-973990aea78f.png",
+            "image_width": 100,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_w3mKGN",
+        "logo_hbkD7E",
+        "logo_w9ygpf",
+        "logo_kjLjpe",
+        "logo_HQQzyb",
+        "logo_NVGeBq",
+        "logo_UTTHmt",
+        "logo_76c3BC"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "secondary",
+        "container_size": "page-width",
+        "section_spacing_top": 30,
+        "section_spacing_bottom": 30,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "",
+        "heading_size": "h2",
+        "alignment": "center",
+        "desktop_columns": 6,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 12,
+        "show_navigation_arrows": "always",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "dd10bcbe-6b5f-450d-ade6-fd728dbc9b00": {
+      "type": "instagram",
+      "blocks": {
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-0": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005126.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-1": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005131.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-2": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005135.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-3": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005127.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-4": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005128.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_UYU7r9": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005134.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_zCQhkU": {
+          "type": "post",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005133.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_UDdWtW": {
+          "type": "post",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005130.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_i6nANm": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005132.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_gLp4je": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005129.png",
+            "link": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-0",
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-1",
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-2",
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-3",
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-4",
+        "post_UYU7r9",
+        "post_zCQhkU",
+        "post_UDdWtW",
+        "post_i6nANm",
+        "post_gLp4je"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "full-screen",
+        "section_spacing_top": 60,
+        "section_spacing_bottom": 30,
+        "desktop_layout": "carousel",
+        "mobile_layout": "slideshow",
+        "title": "Solefly Designed",
+        "text": "",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "img_ratio": 1,
+        "desktop_columns": 5,
+        "desktop_space_between_cards": 8,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "one_at_time",
+        "autoplay_interval": 3
+      }
+    },
+    "instagram_GNcB7m": {
+      "type": "instagram",
+      "blocks": {
+        "post_hBKizK": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_41.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_zLMn7Q": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_46.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_xWFtNM": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_45.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_tECrkb": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_43.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_yThA9X": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_44.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_wYwjgK": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_42.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_Ti6iip": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_72.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_A8W4z9": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_73.png",
+            "link": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "post_hBKizK",
+        "post_zLMn7Q",
+        "post_xWFtNM",
+        "post_tECrkb",
+        "post_yThA9X",
+        "post_wYwjgK",
+        "post_Ti6iip",
+        "post_A8W4z9"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "full-screen",
+        "section_spacing_top": 50,
+        "section_spacing_bottom": 50,
+        "desktop_layout": "carousel",
+        "mobile_layout": "slideshow",
+        "title": "CONNECT WITH US",
+        "text": "@solefly",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "img_ratio": 1,
+        "desktop_columns": 6,
+        "desktop_space_between_cards": 8,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "scrolling_text_zjpxbP": {
+      "type": "scrolling-text",
+      "blocks": {
+        "announcement_i8GbtK": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Limited Time Sale!",
+            "font_family": "body",
+            "font_style": "solid",
+            "font_size": 20,
+            "letter_spacing": 0,
+            "spacing_between_messages": 40,
+            "top_and_bottom_spacing": 12,
+            "link": "",
+            "icon": "none",
+            "icon_size": 24,
+            "scrolling_direction": "left_to_right",
+            "scrolling_speed": 69,
+            "background_color": "#ffffff",
+            "background_color_gradient": "",
+            "text_color": "#292929",
+            "text_color_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_i8GbtK"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "section_layout": "crossed",
+        "inclination_degree": 5,
+        "crossing_point_position": 0,
+        "overlay_opacity": 0
+      }
+    },
+    "countdown_banner_Dzh89p": {
+      "type": "countdown-banner",
+      "blocks": {
+        "subheading_HgBF4U": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "GRAB THE DEAL"
+          }
+        },
+        "heading_bLq8q4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Limited time sales!!",
+            "heading_size": "h0"
+          }
+        },
+        "text_CQj7EX": {
+          "type": "text",
+          "settings": {
+            "body": "Limited Time, Unlimited Style! Shop Exclusive Deals in Our Limited Time Sales. Don't Miss Out – Elevate Your Look Today.",
+            "body_size": "body3"
+          }
+        },
+        "countdown_pdGnYx": {
+          "type": "countdown",
+          "settings": {
+            "color_scheme": "white",
+            "background_type": "separate",
+            "background_style": "solid",
+            "enable_separators": true,
+            "captitalize_unit_labels": true,
+            "timer_desktop_width": 70,
+            "mode": "fixed",
+            "year": "2024",
+            "month": "january",
+            "day": "30",
+            "hour": "0",
+            "minute": "0",
+            "hide_on_complete": false,
+            "evergreen_unit": "day",
+            "evergreen_value": 6,
+            "evergreen_on_complete": "restart"
+          }
+        },
+        "buttons_jpwrGi": {
+          "type": "buttons",
+          "settings": {
+            "btn_text": "SHOP NOW",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_HgBF4U",
+        "heading_bLq8q4",
+        "text_CQj7EX",
+        "countdown_pdGnYx",
+        "buttons_jpwrGi"
+      ],
+      "settings": {
+        "color_scheme": "custom-1",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/nike-just-do-it.jpg",
+        "desktop_overlay_opacity": 40,
+        "mobile_overlay_opacity": 40,
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 704,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none"
+      }
+    },
+    "scrolling_text_xiWnWX": {
+      "type": "scrolling-text",
+      "blocks": {
+        "announcement_BePUPk": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Limited Time Sale!",
+            "font_family": "body",
+            "font_style": "solid",
+            "font_size": 20,
+            "letter_spacing": 0,
+            "spacing_between_messages": 40,
+            "top_and_bottom_spacing": 12,
+            "link": "",
+            "icon": "none",
+            "icon_size": 24,
+            "scrolling_direction": "right_to_left",
+            "scrolling_speed": 69,
+            "background_color": "#ffffff",
+            "background_color_gradient": "",
+            "text_color": "#292929",
+            "text_color_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_BePUPk"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "section_layout": "crossed",
+        "inclination_degree": 5,
+        "crossing_point_position": 0,
+        "overlay_opacity": 0
+      }
+    },
+    "17055634072e0d0d8e": {
+      "type": "apps",
+      "blocks": {
+        "reelup_shoppable_videos_reels_reelup_playlist_slider_YH8Xxp": {
+          "type": "shopify:\/\/apps\/reelup-shoppable-videos-reels\/blocks\/reelup-playlist-slider\/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "settings": {
+            "playlist_id": "",
+            "debugging_script": ""
+          }
+        }
+      },
+      "block_order": [
+        "reelup_shoppable_videos_reels_reelup_playlist_slider_YH8Xxp"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 20,
+        "custom_liquid": ""
+      }
+    },
+    "collage_diWbUz": {
+      "type": "collage",
+      "blocks": {
+        "image_FM3AhH": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-1",
+            "desktop_columns": 1,
+            "desktop_rows": 1,
+            "image": "shopify:\/\/shop_images\/AURORA_FQ3802-203_PHSYM001-2000.jpg",
+            "overlay_opacity": 30,
+            "caption": "",
+            "title": "MEN",
+            "text": "",
+            "heading_size": "h3",
+            "body_size": "body3",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/apparel",
+            "content_position": "center-center"
+          }
+        },
+        "image_34EAG3": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-1",
+            "desktop_columns": 1,
+            "desktop_rows": 1,
+            "image": "shopify:\/\/shop_images\/headwear.png",
+            "overlay_opacity": 30,
+            "caption": "",
+            "title": "WOMEN",
+            "text": "",
+            "heading_size": "h3",
+            "body_size": "body3",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/apparel",
+            "content_position": "center-center"
+          }
+        },
+        "image_dtCPXw": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-1",
+            "desktop_columns": 1,
+            "desktop_rows": 1,
+            "image": "shopify:\/\/shop_images\/sportswear-repeat-older-t-shirt-qWdb50.webp",
+            "overlay_opacity": 30,
+            "caption": "",
+            "title": "KIDS",
+            "text": "",
+            "heading_size": "h3",
+            "body_size": "body3",
+            "link_text": "",
+            "link": "shopify:\/\/collections\/apparel",
+            "content_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "image_FM3AhH",
+        "image_34EAG3",
+        "image_dtCPXw"
+      ],
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "full-screen",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 30,
+        "title": "WHOM YOU ARE SHOPPING FOR",
+        "heading_size": "h2",
+        "alignment": "left",
+        "columns": 3,
+        "desktop_row_height": 340,
+        "mobile_row_height": 500,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "mobile_layout": "carousel"
+      }
+    },
+    "store_locator_e39zCD": {
+      "type": "store-locator",
+      "blocks": {
+        "store_VbyNQL": {
+          "type": "store",
+          "settings": {
+            "store_coordinates": "25.695240, -80.299730",
+            "store_name": "SoleFly South Miami",
+            "store_details": "<p>8099 S Dixie Hwy #2, Miami, FL 33143, United States<br\/><br\/><strong>Store hours<\/strong><br\/>Sun: Closed<br\/>Mon-Sat: 11:00 - 16:00<\/p>",
+            "show_directions": true,
+            "image_1": "shopify:\/\/shop_images\/2021-09-01.jpg",
+            "image_2": "shopify:\/\/shop_images\/2019-08-20.jpg",
+            "img_ratio": 1
+          }
+        },
+        "store_MVxHnz": {
+          "type": "store",
+          "settings": {
+            "store_coordinates": "25.695240, -80.299730",
+            "store_name": "SoleFly Cutler Bay",
+            "store_details": "<p>18433 S Dixie Highway, Cutler Bay, FL 33157<\/p><p>PH. 305-800-3423<br\/><br\/><strong>Store hours<\/strong><br\/>Sun: Closed<br\/>Mon-Sat: 11:00 - 16:00<\/p>",
+            "show_directions": true,
+            "image_1": "shopify:\/\/shop_images\/2021-09-01.jpg",
+            "image_2": "shopify:\/\/shop_images\/2019-08-20.jpg",
+            "img_ratio": 1
+          }
+        }
+      },
+      "block_order": [
+        "store_VbyNQL",
+        "store_MVxHnz"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "expand_first_tab": true,
+        "section_spacing_top": 52,
+        "section_spacing_bottom": 52,
+        "subheading": "VISIT US",
+        "heading": "OUR STORE",
+        "body_richtext": "<p>Come visit us our Store and elevate your footwear game with exclusive kicks and premium styles.<\/p>",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "api_key": "",
+        "map_desktop_ratio": 1,
+        "map_mobile_ratio": 1,
+        "map_position": "right",
+        "map_style": "retro",
+        "map_custom_style": "",
+        "map_zoom": 10,
+        "map_default_image": "shopify:\/\/shop_images\/2020-08-17.jpg"
+      }
+    },
+    "multicolumn_jiDnp7": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_E6JJHc": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify:\/\/shop_images\/delivery.png",
+            "icon_size": 70,
+            "title": "FREE DELIVERY",
+            "text": "<p>Get free delivery on all orders above $150.<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_JDhFfj": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify:\/\/shop_images\/return.png",
+            "icon_size": 70,
+            "title": "EASY RETURNS & EXCHANGES",
+            "text": "<p>happily exchange or refund within 30 days of purchase<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_HfTqMb": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify:\/\/shop_images\/24-7.png",
+            "icon_size": 70,
+            "title": "24\/7 SUPPORT",
+            "text": "<p>Questions about delivery, returns, and technical issues, we are always here to help<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_E6JJHc",
+        "column_with_icon_JDhFfj",
+        "column_with_icon_HfTqMb"
+      ],
+      "settings": {
+        "color_scheme": "black",
+        "container_size": "large",
+        "section_spacing_top": 24,
+        "section_spacing_bottom": 24,
+        "desktop_layout": "grid",
+        "mobile_layout": "slideshow",
+        "title": "",
+        "text": "",
+        "heading_size": "h7",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "column_heading_size": "h6",
+        "column_body_size": "body3",
+        "column_alignment": "center",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 24,
+        "desktop_content_spacing": 24,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    }
+  },
+  "order": [
+    "35abde66-b33a-4178-b3ef-5bba319784ba",
+    "collection_list_hCa7c9",
+    "0dc71aa6-0b87-4df1-8cec-af939c55b65f",
+    "scrolling_text_WpdCB4",
+    "scrolling_text_deM9rU",
+    "collection_text_FEb4D9",
+    "featured_collection_aFBtyF",
+    "bdfcb69a-fe4c-45c6-bccc-aaec4c360dc5",
+    "collage_zDCTkk",
+    "collection_list_QHqGJC",
+    "multiple_collections_ALbKtg",
+    "logo_list_Pfj7pa",
+    "dd10bcbe-6b5f-450d-ade6-fd728dbc9b00",
+    "instagram_GNcB7m",
+    "scrolling_text_zjpxbP",
+    "countdown_banner_Dzh89p",
+    "scrolling_text_xiWnWX",
+    "17055634072e0d0d8e",
+    "collage_diWbUz",
+    "store_locator_e39zCD",
+    "multicolumn_jiDnp7"
+  ]
+}
