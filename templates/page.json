@@ -1,5 +1,57 @@
 {
   "sections": {
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96,
+        "show_heading": true
+      }
+    },
+    "rich_text_JxYkPQ": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_tc9cyr": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "heading_tWUXtH": {
+          "type": "heading",
+          "settings": {
+            "title": "About Us",
+            "heading_size": "h2"
+          }
+        },
+        "text_NxqyKj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SoleFly, established in 2010 in the vibrant city of Miami, is more than a sneaker retailer; it's a collective celebrating the genuine stories told by leading brands. With a commitment to preserving sneaker culture's authenticity, SoleFly has become a hub for enthusiasts. Beyond transactions, it curates an experience that connects people with the rich histories embedded in each pair. As a fixture in Miami's dynamic scene, SoleFly reflects the city's diversity and innovation. <\/p><p>The collective invites both seasoned sneakerheads and newcomers to join a community valuing not only brands and styles but also the unique stories and passion behind each pair. SoleFly is a dedicated space, bridging urban culture and fashion, fostering a sense of belonging for all who share a love for the art and culture of sneakers.<br\/><br\/><strong>A goal that SoleFly strives to achieve is to build a community filled with vitality. <\/strong><\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_tc9cyr",
+        "heading_tWUXtH",
+        "text_NxqyKj"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "large",
+        "section_spacing_top": 60,
+        "section_spacing_bottom": 0,
+        "content_align": "center"
+      }
+    },
     "scrolling_text_beLnGA": {
       "type": "scrolling-text",
       "blocks": {
@@ -52,11 +104,10 @@
         "announcement_bH3yrh",
         "announcement_yEQJ3n"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "container_size": "full-screen",
-        "section_spacing_top": 48,
+        "section_spacing_top": 0,
         "section_spacing_bottom": 48,
         "section_layout": "crossed",
         "inclination_degree": -5,
@@ -64,126 +115,66 @@
         "overlay_opacity": 0
       }
     },
-    "page": {
-      "type": "page",
+    "images_with_text_Fz8frR": {
+      "type": "images-with-text",
+      "blocks": {
+        "image_CHQRqA": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_gzqjhw": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_4NWCte": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "image_MLhXtx": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "image_CHQRqA",
+        "image_gzqjhw",
+        "image_4NWCte",
+        "image_MLhXtx"
+      ],
       "settings": {
         "color_scheme": "default",
         "container_size": "large",
-        "section_spacing_top": 96,
-        "section_spacing_bottom": 96,
-        "show_heading": true
-      }
-    },
-    "rich_text_JxYkPQ": {
-      "type": "rich-text",
-      "blocks": {
-        "icon_tc9cyr": {
-          "type": "icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 48
-          }
-        },
-        "caption_DVGPEX": {
-          "type": "caption",
-          "settings": {
-            "caption": "RICH TEXT"
-          }
-        },
-        "heading_tWUXtH": {
-          "type": "heading",
-          "settings": {
-            "title": "About Us",
-            "heading_size": "h2"
-          }
-        },
-        "text_NxqyKj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>SoleFly, established in 2010 in the vibrant city of Miami, is more than a sneaker retailer; it's a collective celebrating the genuine stories told by leading brands. With a commitment to preserving sneaker culture's authenticity, SoleFly has become a hub for enthusiasts. Beyond transactions, it curates an experience that connects people with the rich histories embedded in each pair. As a fixture in Miami's dynamic scene, SoleFly reflects the city's diversity and innovation. <\/p><p>The collective invites both seasoned sneakerheads and newcomers to join a community valuing not only brands and styles but also the unique stories and passion behind each pair. SoleFly is a dedicated space, bridging urban culture and fashion, fostering a sense of belonging for all who share a love for the art and culture of sneakers.<\/p>",
-            "text_2": "",
-            "text_3": "",
-            "body_size": "body3"
-          }
-        },
-        "buttons_E86Aij": {
-          "type": "buttons",
-          "settings": {
-            "btn_text": "Button label",
-            "btn_url": "",
-            "btn_style": "link",
-            "extra_btn_text": "",
-            "extra_btn_url": "",
-            "extra_btn_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "icon_tc9cyr",
-        "caption_DVGPEX",
-        "heading_tWUXtH",
-        "text_NxqyKj",
-        "buttons_E86Aij"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "enable_background_around_container": false,
-        "container_size": "page-width",
         "section_spacing_top": 0,
-        "section_spacing_bottom": 0,
-        "content_align": "center"
-      }
-    },
-    "rich_text_pwdJUw": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_dXbkNa": {
-          "type": "heading",
-          "settings": {
-            "title": "Tell about your brand",
-            "heading_size": "h5"
-          }
-        },
-        "text_xtxgKg": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements or welcome customers to your store.<\/p>",
-            "text_2": "",
-            "text_3": "",
-            "body_size": "body3"
-          }
-        },
-        "buttons_TmUAh6": {
-          "type": "buttons",
-          "settings": {
-            "btn_text": "Button label",
-            "btn_url": "",
-            "btn_style": "link",
-            "extra_btn_text": "",
-            "extra_btn_url": "",
-            "extra_btn_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "heading_dXbkNa",
-        "text_xtxgKg",
-        "buttons_TmUAh6"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "enable_background_around_container": false,
-        "container_size": "page-width",
-        "section_spacing_top": 0,
-        "section_spacing_bottom": 0,
-        "content_align": "center"
+        "section_spacing_bottom": 48,
+        "content_layout": "left",
+        "image_layout": "collage",
+        "img_ratio": 1.3,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Download Solefly's new App",
+        "body": "<p>Discover SoleFly's New App – Your Sneaker Companion! Shop the latest releases, get exclusive updates, and enjoy a seamless, personalized experience. Explore curated collections and receive real-time notifications on restocks. Elevate your sneaker game <\/p>",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 360,
+        "first_button_text": "Button label",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
       }
     }
   },
   "order": [
-    "scrolling_text_beLnGA",
     "page",
     "rich_text_JxYkPQ",
-    "rich_text_pwdJUw"
+    "scrolling_text_beLnGA",
+    "images_with_text_Fz8frR"
   ]
 }
