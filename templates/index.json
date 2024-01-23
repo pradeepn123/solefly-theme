@@ -1238,9 +1238,9 @@
         "alignment": "left",
         "columns": 3,
         "desktop_row_height": 340,
-        "mobile_row_height": 500,
+        "mobile_row_height": 280,
         "desktop_space_between_cards": 12,
-        "mobile_space_between_cards": 16,
+        "mobile_space_between_cards": 12,
         "mobile_layout": "carousel"
       }
     },
