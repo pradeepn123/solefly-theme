@@ -107,8 +107,8 @@
     "products": {
       "type": "products",
       "settings": {
-        "color_scheme": "default",
-        "container_size": "page-width",
+        "color_scheme": "primary",
+        "container_size": "full-screen",
         "section_spacing_top": 24,
         "section_spacing_bottom": 48,
         "enable_sorting": true,
@@ -129,7 +129,7 @@
         "desktop_space_between_cards": 12,
         "mobile_columns": "1",
         "mobile_space_between_cards": 8,
-        "pagination_type": "infinite-scroll"
+        "pagination_type": "classic-pagination"
       }
     }
   },
