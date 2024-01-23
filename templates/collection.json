@@ -40,7 +40,14 @@
         "collection_list": [
           "mens-apparel",
           "mens-footwear",
-          "mens-accessories"
+          "mens-accessories",
+          "a-p-c",
+          "accessories",
+          "adidas",
+          "jordan",
+          "ale-brown",
+          "all",
+          "apparel"
         ],
         "img_ratio": "landscape",
         "text_style": "on-image-center",
