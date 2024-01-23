@@ -19,9 +19,9 @@
         "mobile_overlay_opacity": 0,
         "desktop_content_position": "align-items:center;justify-content:flex-start;",
         "desktop_content_align": "left",
-        "content_max_width": 1304,
-        "content_spacing": 48,
-        "mobile_content_position": "align-items:flex-end;",
+        "content_max_width": 672,
+        "content_spacing": 40,
+        "mobile_content_position": "align-items:flex-start;",
         "mobile_content_align": "left"
       }
     },
