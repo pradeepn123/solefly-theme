@@ -21,8 +21,8 @@
         "desktop_content_align": "left",
         "content_max_width": 1304,
         "content_spacing": 48,
-        "mobile_content_position": "align-items:center;",
-        "mobile_content_align": "center"
+        "mobile_content_position": "align-items:flex-end;",
+        "mobile_content_align": "left"
       }
     },
     "collage_QfGjLD": {
@@ -98,7 +98,7 @@
         "alignment": "left",
         "columns": 3,
         "desktop_row_height": 240,
-        "mobile_row_height": 500,
+        "mobile_row_height": 240,
         "desktop_space_between_cards": 16,
         "mobile_space_between_cards": 16,
         "mobile_layout": "carousel"
