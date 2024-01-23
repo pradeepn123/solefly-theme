@@ -21,7 +21,7 @@
         "desktop_content_align": "left",
         "content_max_width": 672,
         "content_spacing": 40,
-        "mobile_content_position": "align-items:flex-start;",
+        "mobile_content_position": "align-items:flex-end;",
         "mobile_content_align": "left"
       }
     },
