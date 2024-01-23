@@ -1238,10 +1238,10 @@
         "alignment": "left",
         "columns": 3,
         "desktop_row_height": 340,
-        "mobile_row_height": 280,
+        "mobile_row_height": 250,
         "desktop_space_between_cards": 12,
         "mobile_space_between_cards": 12,
-        "mobile_layout": "carousel"
+        "mobile_layout": "one-column"
       }
     },
     "store_locator_e39zCD": {
