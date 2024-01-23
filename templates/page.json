@@ -18,7 +18,8 @@
           "type": "icon",
           "settings": {
             "icon": "none",
-            "icon_size": 48
+            "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2.png",
+            "icon_size": 118
           }
         },
         "heading_tWUXtH": {
