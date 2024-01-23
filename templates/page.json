@@ -55,6 +55,12 @@
     "rich_text_fcayxx": {
       "type": "rich-text",
       "blocks": {
+        "caption_mkLYba": {
+          "type": "caption",
+          "settings": {
+            "caption": "OUR VISION"
+          }
+        },
         "heading_HgjEQ6": {
           "type": "heading",
           "settings": {
@@ -64,6 +70,7 @@
         }
       },
       "block_order": [
+        "caption_mkLYba",
         "heading_HgjEQ6"
       ],
       "settings": {
