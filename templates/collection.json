@@ -25,94 +25,71 @@
         "mobile_content_align": "center"
       }
     },
-    "collage_qMwPqX": {
+    "collage_QfGjLD": {
       "type": "collage",
       "blocks": {
-        "collection_36nqX8": {
-          "type": "collection",
+        "image_C6r8tH": {
+          "type": "image",
           "settings": {
-            "color_scheme": "secondary",
+            "color_scheme": "white",
             "desktop_columns": 1,
             "desktop_rows": 1,
-            "collection": "mens-apparel",
-            "heading_size": "h6",
-            "show_product_count": false,
             "image": "shopify:\/\/shop_images\/men_Apparel.png",
-            "overlay_opacity": 20,
+            "overlay_opacity": 25,
+            "caption": "",
+            "title": "Mens Apparel",
+            "text": "",
+            "heading_size": "h6",
+            "body_size": "body3",
             "link_text": "",
+            "link": "",
             "content_position": "center-center"
           }
         },
-        "collection_EepEDC": {
-          "type": "collection",
+        "image_pUykrG": {
+          "type": "image",
           "settings": {
             "color_scheme": "white",
             "desktop_columns": 1,
             "desktop_rows": 1,
-            "collection": "mens-footwear",
+            "image": "shopify:\/\/shop_images\/men_Apparel.png",
+            "overlay_opacity": 25,
+            "caption": "IMAGE",
+            "title": "Image with text",
+            "text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
             "heading_size": "h6",
-            "show_product_count": false,
-            "image": "shopify:\/\/shop_images\/men_footwear.png",
-            "overlay_opacity": 20,
-            "link_text": "",
-            "content_position": "center-center"
-          }
-        },
-        "collection_WgDbwc": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "white",
-            "desktop_columns": 1,
-            "desktop_rows": 1,
-            "collection": "",
-            "heading_size": "h6",
-            "show_product_count": false,
-            "image": "shopify:\/\/shop_images\/AURORA_FD9082-106_PHSYM002-2000.jpg",
-            "overlay_opacity": 20,
-            "link_text": "",
-            "content_position": "center-center"
-          }
-        },
-        "collection_j8iXzj": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "white",
-            "desktop_columns": 1,
-            "desktop_rows": 1,
-            "collection": "",
-            "heading_size": "h6",
-            "show_product_count": true,
-            "overlay_opacity": 20,
+            "body_size": "body3",
             "link_text": "Link label",
-            "content_position": "bottom-left"
+            "link": "",
+            "content_position": "center-center"
           }
         },
-        "collection_n7aiqE": {
-          "type": "collection",
-          "disabled": true,
+        "image_yUt9B6": {
+          "type": "image",
           "settings": {
             "color_scheme": "white",
             "desktop_columns": 1,
             "desktop_rows": 1,
-            "collection": "",
+            "image": "shopify:\/\/shop_images\/men_Apparel.png",
+            "overlay_opacity": 25,
+            "caption": "IMAGE",
+            "title": "Image with text",
+            "text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
             "heading_size": "h6",
-            "show_product_count": true,
-            "overlay_opacity": 20,
+            "body_size": "body3",
             "link_text": "Link label",
-            "content_position": "bottom-left"
+            "link": "",
+            "content_position": "center-center"
           }
         }
       },
       "block_order": [
-        "collection_36nqX8",
-        "collection_EepEDC",
-        "collection_WgDbwc",
-        "collection_j8iXzj",
-        "collection_n7aiqE"
+        "image_C6r8tH",
+        "image_pUykrG",
+        "image_yUt9B6"
       ],
       "settings": {
-        "color_scheme": "primary",
+        "color_scheme": "default",
         "container_size": "full-screen",
         "section_spacing_top": 48,
         "section_spacing_bottom": 48,
@@ -120,7 +97,7 @@
         "heading_size": "h5",
         "alignment": "left",
         "columns": 3,
-        "desktop_row_height": 240,
+        "desktop_row_height": 340,
         "mobile_row_height": 500,
         "desktop_space_between_cards": 16,
         "mobile_space_between_cards": 16,
@@ -158,7 +135,7 @@
   },
   "order": [
     "collection-hero-banner",
-    "collage_qMwPqX",
+    "collage_QfGjLD",
     "products"
   ]
 }
