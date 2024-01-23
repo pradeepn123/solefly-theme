@@ -1,5 +1,66 @@
 {
   "sections": {
+    "scrolling_text_beLnGA": {
+      "type": "scrolling-text",
+      "blocks": {
+        "announcement_bH3yrh": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Make an announcement",
+            "font_family": "heading",
+            "font_style": "solid",
+            "font_size": 24,
+            "letter_spacing": 0,
+            "spacing_between_messages": 40,
+            "top_and_bottom_spacing": 20,
+            "link": "",
+            "icon": "star-solid",
+            "icon_size": 40,
+            "scrolling_direction": "right_to_left",
+            "scrolling_speed": 30,
+            "background_color": "#000000",
+            "background_color_gradient": "",
+            "text_color": "#ffffff",
+            "text_color_gradient": ""
+          }
+        },
+        "announcement_yEQJ3n": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Make an announcement",
+            "font_family": "heading",
+            "font_style": "solid",
+            "font_size": 24,
+            "letter_spacing": 0,
+            "spacing_between_messages": 40,
+            "top_and_bottom_spacing": 20,
+            "link": "",
+            "icon": "star-solid",
+            "icon_size": 40,
+            "scrolling_direction": "right_to_left",
+            "scrolling_speed": 30,
+            "background_color": "#000000",
+            "background_color_gradient": "",
+            "text_color": "#ffffff",
+            "text_color_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_bH3yrh",
+        "announcement_yEQJ3n"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "section_layout": "crossed",
+        "inclination_degree": -5,
+        "crossing_point_position": 0,
+        "overlay_opacity": 0
+      }
+    },
     "page": {
       "type": "page",
       "settings": {
@@ -12,6 +73,7 @@
     }
   },
   "order": [
+    "scrolling_text_beLnGA",
     "page"
   ]
 }
