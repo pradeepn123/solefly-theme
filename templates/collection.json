@@ -9,7 +9,7 @@
         "section_spacing_top": 0,
         "section_spacing_bottom": 0,
         "desktop_ratio": 0.2,
-        "mobile_ratio": 0.8,
+        "mobile_ratio": 0.5,
         "show_collection_image": true,
         "show_breadcrumbs": true,
         "show_collection_title": true,
@@ -81,31 +81,12 @@
             "link": "",
             "content_position": "center-center"
           }
-        },
-        "image_8dKWaN": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "white",
-            "desktop_columns": 1,
-            "desktop_rows": 1,
-            "image": "shopify:\/\/shop_images\/watches_52968c9c-7058-4e91-a501-f7de37f17c77.png",
-            "overlay_opacity": 10,
-            "caption": "",
-            "title": "Men Accessories",
-            "text": "",
-            "heading_size": "h4",
-            "body_size": "body3",
-            "link_text": "",
-            "link": "",
-            "content_position": "center-center"
-          }
         }
       },
       "block_order": [
         "image_C6r8tH",
         "image_pUykrG",
-        "image_yUt9B6",
-        "image_8dKWaN"
+        "image_yUt9B6"
       ],
       "settings": {
         "color_scheme": "default",
@@ -146,7 +127,7 @@
         "product_per_page": 12,
         "desktop_columns": "3",
         "desktop_space_between_cards": 12,
-        "mobile_columns": "1",
+        "mobile_columns": "2",
         "mobile_space_between_cards": 8,
         "pagination_type": "classic-pagination"
       }
