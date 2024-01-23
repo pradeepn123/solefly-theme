@@ -55,10 +55,13 @@
     "rich_text_fcayxx": {
       "type": "rich-text",
       "blocks": {
-        "caption_mkLYba": {
-          "type": "caption",
+        "text_3cRk49": {
+          "type": "text",
           "settings": {
-            "caption": "OUR VISION"
+            "text": "<p><strong>OUR VISION<\/strong><\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
           }
         },
         "heading_HgjEQ6": {
@@ -70,14 +73,14 @@
         }
       },
       "block_order": [
-        "caption_mkLYba",
+        "text_3cRk49",
         "heading_HgjEQ6"
       ],
       "settings": {
         "color_scheme": "default",
         "enable_background_around_container": false,
         "container_size": "large",
-        "section_spacing_top": 0,
+        "section_spacing_top": 20,
         "section_spacing_bottom": 0,
         "content_align": "center"
       }
