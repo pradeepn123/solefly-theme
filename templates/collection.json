@@ -40,7 +40,8 @@
         "collection_list": [
           "mens-apparel",
           "mens-footwear",
-          "mens-accessories"
+          "mens-accessories",
+          "kids-apparel"
         ],
         "img_ratio": "landscape",
         "text_style": "on-image-center",
