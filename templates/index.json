@@ -476,7 +476,7 @@
         "cards_to_show": 16,
         "desktop_columns": 4,
         "desktop_space_between_cards": 12,
-        "mobile_space_between_cards": 16,
+        "mobile_space_between_cards": 12,
         "show_navigation_on_hover": true,
         "collection_card_position": "after-all-items",
         "collection_card_content_position": "on-image-bottom",
@@ -578,8 +578,8 @@
         "columns": 4,
         "desktop_row_height": 340,
         "mobile_row_height": 500,
-        "desktop_space_between_cards": 16,
-        "mobile_space_between_cards": 16,
+        "desktop_space_between_cards": 12,
+        "mobile_space_between_cards": 12,
         "mobile_layout": "carousel"
       }
     },
@@ -1239,7 +1239,7 @@
         "columns": 3,
         "desktop_row_height": 340,
         "mobile_row_height": 500,
-        "desktop_space_between_cards": 16,
+        "desktop_space_between_cards": 12,
         "mobile_space_between_cards": 16,
         "mobile_layout": "carousel"
       }
