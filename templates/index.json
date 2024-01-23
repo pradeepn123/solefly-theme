@@ -178,7 +178,7 @@
         "section_spacing_top": 0,
         "section_spacing_bottom": 20,
         "desktop_ratio": 0.3,
-        "mobile_ratio": 0.4,
+        "mobile_ratio": 1.5,
         "enable_circle_navigation": true,
         "show_navigation_arrows": "on_hover",
         "arrows_style": "corner-buttons",
