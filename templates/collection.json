@@ -54,12 +54,12 @@
             "desktop_rows": 1,
             "image": "shopify:\/\/shop_images\/men_Apparel.png",
             "overlay_opacity": 25,
-            "caption": "IMAGE",
-            "title": "Image with text",
-            "text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "caption": "",
+            "title": "Mens Footwear",
+            "text": "",
             "heading_size": "h6",
             "body_size": "body3",
-            "link_text": "Link label",
+            "link_text": "",
             "link": "",
             "content_position": "center-center"
           }
