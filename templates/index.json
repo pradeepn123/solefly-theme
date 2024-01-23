@@ -202,10 +202,10 @@
         "heading_size": "h2",
         "alignment": "left",
         "collection_list": [
-          "womens-apparel",
-          "womens-footwear",
           "mens-apparel",
           "mens-footwear",
+          "womens-apparel",
+          "womens-footwear",
           "kids-apparel",
           "kids-footwear"
         ],
@@ -216,7 +216,7 @@
         "show_product_count": false,
         "collection_card_overlay_opacity": 40,
         "desktop_columns": 4,
-        "desktop_space_between_cards": 16,
+        "desktop_space_between_cards": 12,
         "mobile_space_between_cards": 16,
         "show_navigation_on_hover": true,
         "autoplay_mode": "disabled",
