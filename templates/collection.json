@@ -29,7 +29,7 @@
       "type": "collection-list",
       "settings": {
         "color_scheme": "default",
-        "container_size": "page-width",
+        "container_size": "large",
         "section_spacing_top": 24,
         "section_spacing_bottom": 24,
         "desktop_layout": "carousel",
@@ -126,6 +126,7 @@
         "image_pUykrG",
         "image_yUt9B6"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "container_size": "full-screen",

@@ -100,7 +100,7 @@
         "text_NxqyKj": {
           "type": "text",
           "settings": {
-            "text": "<p>SoleFly is a collective of unique individuals who strive to revitalize stories that are told by the most prominent brands in the industry. While also promoting the genuineness of the sneaker culture that we all are a part of. SoleFly is located in the budding city of Miami, and has been open since 2010.<\/p>",
+            "text": "<p>SoleFly, established in 2010 in the vibrant city of Miami, is more than a sneaker retailer; it's a collective celebrating the genuine stories told by leading brands. With a commitment to preserving sneaker culture's authenticity, SoleFly has become a hub for enthusiasts. Beyond transactions, it curates an experience that connects people with the rich histories embedded in each pair. As a fixture in Miami's dynamic scene, SoleFly reflects the city's diversity and innovation. <\/p><p>The collective invites both seasoned sneakerheads and newcomers to join a community valuing not only brands and styles but also the unique stories and passion behind each pair. SoleFly is a dedicated space, bridging urban culture and fashion, fostering a sense of belonging for all who share a love for the art and culture of sneakers.<\/p>",
             "text_2": "",
             "text_3": "",
             "body_size": "body3"
@@ -133,11 +133,57 @@
         "section_spacing_bottom": 0,
         "content_align": "center"
       }
+    },
+    "rich_text_pwdJUw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dXbkNa": {
+          "type": "heading",
+          "settings": {
+            "title": "Tell about your brand",
+            "heading_size": "h5"
+          }
+        },
+        "text_xtxgKg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements or welcome customers to your store.<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        },
+        "buttons_TmUAh6": {
+          "type": "buttons",
+          "settings": {
+            "btn_text": "Button label",
+            "btn_url": "",
+            "btn_style": "link",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dXbkNa",
+        "text_xtxgKg",
+        "buttons_TmUAh6"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "page-width",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "content_align": "center"
+      }
     }
   },
   "order": [
     "scrolling_text_beLnGA",
     "page",
-    "rich_text_JxYkPQ"
+    "rich_text_JxYkPQ",
+    "rich_text_pwdJUw"
   ]
 }
