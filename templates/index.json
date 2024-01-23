@@ -217,7 +217,7 @@
         "collection_card_overlay_opacity": 40,
         "desktop_columns": 4,
         "desktop_space_between_cards": 12,
-        "mobile_space_between_cards": 16,
+        "mobile_space_between_cards": 12,
         "show_navigation_on_hover": true,
         "autoplay_mode": "disabled",
         "autoplay_interval": 3
@@ -475,7 +475,7 @@
         "product_card_align": "left",
         "cards_to_show": 16,
         "desktop_columns": 4,
-        "desktop_space_between_cards": 16,
+        "desktop_space_between_cards": 12,
         "mobile_space_between_cards": 16,
         "show_navigation_on_hover": true,
         "collection_card_position": "after-all-items",
