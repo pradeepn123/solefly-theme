@@ -152,8 +152,8 @@
       "settings": {
         "color_scheme": "default",
         "container_size": "large",
-        "section_spacing_top": 0,
-        "section_spacing_bottom": 48,
+        "section_spacing_top": 20,
+        "section_spacing_bottom": 60,
         "content_layout": "left",
         "image_layout": "collage",
         "img_ratio": 1.3,
