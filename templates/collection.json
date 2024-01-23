@@ -36,10 +36,10 @@
             "desktop_rows": 1,
             "collection": "",
             "heading_size": "h6",
-            "show_product_count": true,
+            "show_product_count": false,
             "overlay_opacity": 20,
-            "link_text": "Link label",
-            "content_position": "bottom-left"
+            "link_text": "",
+            "content_position": "center-center"
           }
         },
         "collection_EepEDC": {
@@ -50,10 +50,10 @@
             "desktop_rows": 1,
             "collection": "",
             "heading_size": "h6",
-            "show_product_count": true,
+            "show_product_count": false,
             "overlay_opacity": 20,
-            "link_text": "Link label",
-            "content_position": "bottom-left"
+            "link_text": "",
+            "content_position": "center-center"
           }
         },
         "collection_WgDbwc": {
@@ -64,10 +64,10 @@
             "desktop_rows": 1,
             "collection": "",
             "heading_size": "h6",
-            "show_product_count": true,
+            "show_product_count": false,
             "overlay_opacity": 20,
-            "link_text": "Link label",
-            "content_position": "bottom-left"
+            "link_text": "",
+            "content_position": "center-center"
           }
         },
         "collection_j8iXzj": {
