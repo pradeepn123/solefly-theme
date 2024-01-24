@@ -164,18 +164,21 @@
       "blocks": {
         "image_CHQRqA": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1000005367.png"
           }
         },
         "image_gzqjhw": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group_40afa97f-7f5e-4058-9645-8fc5aa7ed752.png"
           }
         },
         "image_4NWCte": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_1000005368.png"
           }
@@ -217,82 +220,6 @@
         "second_button_link": "",
         "second_button_style": "solid"
       }
-    },
-    "hotspots_TAkBjX": {
-      "type": "hotspots",
-      "blocks": {
-        "pin_image_Ebfprt": {
-          "type": "pin_image",
-          "settings": {
-            "desktop_horizontal_position": 11,
-            "desktop_vertical_position": 51,
-            "mobile_horizontal_position": 10,
-            "mobile_vertical_position": 30,
-            "image_size": 100,
-            "image_ratio": 1,
-            "heading": "Image with text",
-            "body": "<p>Pair text with an image to focus on your chosen product and its features.<\/p>",
-            "heading_size": "h7",
-            "body_size": "body4",
-            "content_alignment": "left",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "pin_icon_zmaHTF": {
-          "type": "pin_icon",
-          "settings": {
-            "desktop_horizontal_position": 73,
-            "desktop_vertical_position": 55,
-            "mobile_horizontal_position": 25,
-            "mobile_vertical_position": 30,
-            "icon": "discount-outline",
-            "icon_size": 64,
-            "heading": "Icon with text",
-            "body": "<p>Pair text with an icon to focus on your chosen product and its features.<\/p>",
-            "heading_size": "h7",
-            "body_size": "body4",
-            "content_alignment": "center",
-            "link_text": "",
-            "link": ""
-          }
-        },
-        "pin_product_WNNbrg": {
-          "type": "pin_product",
-          "settings": {
-            "product": "",
-            "product_card_type": "horizontal",
-            "img_ratio": "default",
-            "desktop_horizontal_position": 40,
-            "desktop_vertical_position": 30,
-            "mobile_horizontal_position": 40,
-            "mobile_vertical_position": 30
-          }
-        }
-      },
-      "block_order": [
-        "pin_image_Ebfprt",
-        "pin_icon_zmaHTF",
-        "pin_product_WNNbrg"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "container_size": "small",
-        "section_spacing_top": 96,
-        "section_spacing_bottom": 96,
-        "section_layout": "image-right",
-        "trigger_for_show_pin": "hover",
-        "subheading": "INTERACTIVE",
-        "heading": "Hotspots",
-        "body_richtext": "<p>Tag images with interactive hotspots for products, features, or additional information.<\/p>",
-        "heading_size": "h2",
-        "body_size": "body3",
-        "content_alignment": "left",
-        "enable_desktop_custom_img_ratio": true,
-        "desktop_custom_image_ratio": 1,
-        "enable_custom_mobile_img_ratio": true,
-        "mobile_custom_image_ratio": 1
-      }
     }
   },
   "order": [
@@ -300,7 +227,6 @@
     "rich_text_JxYkPQ",
     "rich_text_fcayxx",
     "scrolling_text_beLnGA",
-    "images_with_text_Fz8frR",
-    "hotspots_TAkBjX"
+    "images_with_text_Fz8frR"
   ]
 }
