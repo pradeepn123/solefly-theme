@@ -46,7 +46,7 @@
             "left_video": "shopify:\/\/files\/videos\/Snapinsta.app_video_GICWmACVY4tg8YsCAIxXMGPM72gxbpR1AAAF.mp4",
             "desktop_right_img": "shopify:\/\/shop_images\/AURORA_FD9082-106_PHSYM001-2000.jpg",
             "caption": "",
-            "title": "ABOUT SOLEFLY",
+            "title": "ABOUT US",
             "text": "",
             "heading_size": "h0",
             "body_size": "body3",
@@ -94,50 +94,6 @@
         "show_heading": true
       }
     },
-    "rich_text_JxYkPQ": {
-      "type": "rich-text",
-      "blocks": {
-        "icon_tc9cyr": {
-          "type": "icon",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2.png",
-            "icon_size": 80
-          }
-        },
-        "heading_tWUXtH": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "About Us",
-            "heading_size": "h2"
-          }
-        },
-        "text_NxqyKj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>SoleFly is more than just a sneaker retailer; it's a collective of unique individuals with a shared passion for revitalizing the narratives told by the most prominent brands in the industry. Established in 2010 and situated in the vibrant city of Miami, SoleFly has become a hub for sneaker enthusiasts and a melting pot of genuine sneaker culture.<\/p><p>The collective is driven by a commitment to preserving and promoting the authenticity of sneaker culture. Beyond the shoes themselves, SoleFly aims to create a community where individuals can share and celebrate their love for sneakers. The team at SoleFly understands that each pair of sneakers carries its own story, and they strive to curate an experience that goes beyond the transaction, connecting people with the rich histories embedded in the world of sneakers.<\/p><p>As a fixture in the budding city of Miami, SoleFly serves as a testament to the intersection of urban culture and fashion. The collective's presence in this dynamic city adds to its allure, capturing the spirit of innovation and diversity that defines both Miami and the global sneaker community.<\/p><p>Whether you're a seasoned sneakerhead or just stepping into the world of sneaker culture, SoleFly invites you to be a part of a community that values not only the brands and styles but also the stories and passion that make each pair of sneakers unique. From its inception, SoleFly has remained dedicated to providing a platform that goes beyond commerce, fostering a sense of belonging for all those who share a love for the art and culture of sneakers.<\/p>",
-            "text_2": "",
-            "text_3": "",
-            "body_size": "body3"
-          }
-        }
-      },
-      "block_order": [
-        "icon_tc9cyr",
-        "heading_tWUXtH",
-        "text_NxqyKj"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "enable_background_around_container": false,
-        "container_size": "page-width",
-        "section_spacing_top": 20,
-        "section_spacing_bottom": 0,
-        "content_align": "center"
-      }
-    },
     "rich_text_fcayxx": {
       "type": "rich-text",
       "blocks": {
@@ -176,8 +132,52 @@
         "color_scheme": "default",
         "enable_background_around_container": false,
         "container_size": "medium",
-        "section_spacing_top": 20,
-        "section_spacing_bottom": 60,
+        "section_spacing_top": 30,
+        "section_spacing_bottom": 30,
+        "content_align": "center"
+      }
+    },
+    "rich_text_JxYkPQ": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_tc9cyr": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2.png",
+            "icon_size": 80
+          }
+        },
+        "heading_tWUXtH": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "About Us",
+            "heading_size": "h2"
+          }
+        },
+        "text_NxqyKj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SoleFly is more than just a sneaker retailer; it's a collective of unique individuals with a shared passion for revitalizing the narratives told by the most prominent brands in the industry. Established in 2010 and situated in the vibrant city of Miami, SoleFly has become a hub for sneaker enthusiasts and a melting pot of genuine sneaker culture.<\/p><p>The collective is driven by a commitment to preserving and promoting the authenticity of sneaker culture. Beyond the shoes themselves, SoleFly aims to create a community where individuals can share and celebrate their love for sneakers. The team at SoleFly understands that each pair of sneakers carries its own story, and they strive to curate an experience that goes beyond the transaction, connecting people with the rich histories embedded in the world of sneakers.<\/p><p>As a fixture in the budding city of Miami, SoleFly serves as a testament to the intersection of urban culture and fashion. The collective's presence in this dynamic city adds to its allure, capturing the spirit of innovation and diversity that defines both Miami and the global sneaker community.<\/p><p>Whether you're a seasoned sneakerhead or just stepping into the world of sneaker culture, SoleFly invites you to be a part of a community that values not only the brands and styles but also the stories and passion that make each pair of sneakers unique. From its inception, SoleFly has remained dedicated to providing a platform that goes beyond commerce, fostering a sense of belonging for all those who share a love for the art and culture of sneakers.<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body2"
+          }
+        }
+      },
+      "block_order": [
+        "icon_tc9cyr",
+        "heading_tWUXtH",
+        "text_NxqyKj"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "page-width",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
         "content_align": "center"
       }
     },
@@ -273,7 +273,7 @@
         "heading_size": "h2",
         "body_size": "body2",
         "content_alignment": "left",
-        "desktop_content_width": 360,
+        "desktop_content_width": 420,
         "first_button_text": "Button label",
         "first_button_link": "",
         "first_button_style": "solid",
@@ -347,8 +347,8 @@
     "image_banner_J6pHFc",
     "slideshow_MhHdUJ",
     "page",
-    "rich_text_JxYkPQ",
     "rich_text_fcayxx",
+    "rich_text_JxYkPQ",
     "scrolling_text_beLnGA",
     "images_with_text_Fz8frR",
     "rich_text_ByATFE"
