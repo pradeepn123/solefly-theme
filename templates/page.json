@@ -273,7 +273,7 @@
         "heading_size": "h2",
         "body_size": "body2",
         "content_alignment": "left",
-        "desktop_content_width": 420,
+        "desktop_content_width": 400,
         "first_button_text": "Button label",
         "first_button_link": "",
         "first_button_style": "solid",
