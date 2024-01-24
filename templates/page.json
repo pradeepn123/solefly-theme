@@ -19,7 +19,7 @@
           "settings": {
             "icon": "none",
             "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2.png",
-            "icon_size": 118
+            "icon_size": 80
           }
         },
         "heading_tWUXtH": {
@@ -48,7 +48,7 @@
         "color_scheme": "default",
         "enable_background_around_container": false,
         "container_size": "large",
-        "section_spacing_top": 60,
+        "section_spacing_top": 30,
         "section_spacing_bottom": 0,
         "content_align": "center"
       }
@@ -56,6 +56,15 @@
     "rich_text_fcayxx": {
       "type": "rich-text",
       "blocks": {
+        "icon_78QM4A": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2.png",
+            "icon_size": 90
+          }
+        },
         "text_3cRk49": {
           "type": "text",
           "settings": {
@@ -74,6 +83,7 @@
         }
       },
       "block_order": [
+        "icon_78QM4A",
         "text_3cRk49",
         "heading_HgjEQ6"
       ],
@@ -207,6 +217,82 @@
         "second_button_link": "",
         "second_button_style": "solid"
       }
+    },
+    "hotspots_TAkBjX": {
+      "type": "hotspots",
+      "blocks": {
+        "pin_image_Ebfprt": {
+          "type": "pin_image",
+          "settings": {
+            "desktop_horizontal_position": 11,
+            "desktop_vertical_position": 51,
+            "mobile_horizontal_position": 10,
+            "mobile_vertical_position": 30,
+            "image_size": 100,
+            "image_ratio": 1,
+            "heading": "Image with text",
+            "body": "<p>Pair text with an image to focus on your chosen product and its features.<\/p>",
+            "heading_size": "h7",
+            "body_size": "body4",
+            "content_alignment": "left",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "pin_icon_zmaHTF": {
+          "type": "pin_icon",
+          "settings": {
+            "desktop_horizontal_position": 73,
+            "desktop_vertical_position": 55,
+            "mobile_horizontal_position": 25,
+            "mobile_vertical_position": 30,
+            "icon": "discount-outline",
+            "icon_size": 64,
+            "heading": "Icon with text",
+            "body": "<p>Pair text with an icon to focus on your chosen product and its features.<\/p>",
+            "heading_size": "h7",
+            "body_size": "body4",
+            "content_alignment": "center",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "pin_product_WNNbrg": {
+          "type": "pin_product",
+          "settings": {
+            "product": "",
+            "product_card_type": "horizontal",
+            "img_ratio": "default",
+            "desktop_horizontal_position": 40,
+            "desktop_vertical_position": 30,
+            "mobile_horizontal_position": 40,
+            "mobile_vertical_position": 30
+          }
+        }
+      },
+      "block_order": [
+        "pin_image_Ebfprt",
+        "pin_icon_zmaHTF",
+        "pin_product_WNNbrg"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "small",
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96,
+        "section_layout": "image-right",
+        "trigger_for_show_pin": "hover",
+        "subheading": "INTERACTIVE",
+        "heading": "Hotspots",
+        "body_richtext": "<p>Tag images with interactive hotspots for products, features, or additional information.<\/p>",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "enable_desktop_custom_img_ratio": true,
+        "desktop_custom_image_ratio": 1,
+        "enable_custom_mobile_img_ratio": true,
+        "mobile_custom_image_ratio": 1
+      }
     }
   },
   "order": [
@@ -214,6 +300,7 @@
     "rich_text_JxYkPQ",
     "rich_text_fcayxx",
     "scrolling_text_beLnGA",
-    "images_with_text_Fz8frR"
+    "images_with_text_Fz8frR",
+    "hotspots_TAkBjX"
   ]
 }
