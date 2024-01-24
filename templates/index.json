@@ -209,7 +209,7 @@
           "kids-apparel",
           "kids-footwear"
         ],
-        "img_ratio": "fit-portrait",
+        "img_ratio": "portrait",
         "text_style": "under-image-with-background",
         "collection_card_content_align": "center",
         "collection_card_heading_size": "h6",
