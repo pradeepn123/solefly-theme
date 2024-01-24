@@ -250,7 +250,7 @@
         "image_CHQRqA": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/App_image_copy.webp"
+            "image": "shopify:\/\/shop_images\/Option_1.png"
           }
         }
       },
@@ -271,7 +271,7 @@
         "heading": "Download Solefly's new App",
         "body": "<p>Discover SoleFly's New App – Your Sneaker Companion! Shop the latest releases, get exclusive updates, and enjoy a seamless, personalized experience. Explore curated collections and receive real-time notifications on restocks. Elevate your sneaker game <\/p>",
         "heading_size": "h2",
-        "body_size": "body3",
+        "body_size": "body2",
         "content_alignment": "left",
         "desktop_content_width": 360,
         "first_button_text": "Button label",
@@ -280,6 +280,66 @@
         "second_button_text": "Button label",
         "second_button_link": "",
         "second_button_style": "solid"
+      }
+    },
+    "rich_text_ByATFE": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_GAdNLc": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_6FCQP9": {
+          "type": "caption",
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_KaWHPc": {
+          "type": "heading",
+          "settings": {
+            "title": "Tell about your brand",
+            "heading_size": "h5"
+          }
+        },
+        "text_xA3DUd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements or welcome customers to your store.<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        },
+        "buttons_A3EKeL": {
+          "type": "buttons",
+          "settings": {
+            "btn_text": "Button label",
+            "btn_url": "",
+            "btn_style": "link",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "icon_GAdNLc",
+        "caption_6FCQP9",
+        "heading_KaWHPc",
+        "text_xA3DUd",
+        "buttons_A3EKeL"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "page-width",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "content_align": "center"
       }
     }
   },
@@ -290,6 +350,7 @@
     "rich_text_JxYkPQ",
     "rich_text_fcayxx",
     "scrolling_text_beLnGA",
-    "images_with_text_Fz8frR"
+    "images_with_text_Fz8frR",
+    "rich_text_ByATFE"
   ]
 }
