@@ -165,33 +165,12 @@
         "image_CHQRqA": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1000005367.png"
-          }
-        },
-        "image_gzqjhw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_40afa97f-7f5e-4058-9645-8fc5aa7ed752.png"
-          }
-        },
-        "image_4NWCte": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1000005368.png"
-          }
-        },
-        "image_MLhXtx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1000005369.png"
+            "image": "shopify:\/\/shop_images\/App_image_copy.webp"
           }
         }
       },
       "block_order": [
-        "image_CHQRqA",
-        "image_gzqjhw",
-        "image_4NWCte",
-        "image_MLhXtx"
+        "image_CHQRqA"
       ],
       "settings": {
         "color_scheme": "default",
