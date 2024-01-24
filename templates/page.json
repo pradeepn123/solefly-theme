@@ -1,5 +1,88 @@
 {
   "sections": {
+    "image_banner_J6pHFc": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "white",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "",
+        "title": "ABOUT SOLEFLY",
+        "text": "",
+        "heading_size": "h0",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid"
+      }
+    },
+    "slideshow_MhHdUJ": {
+      "type": "slideshow",
+      "blocks": {
+        "split_image_banner_LzWepQ": {
+          "type": "split-image-banner",
+          "settings": {
+            "color_scheme": "custom-1",
+            "image_proportion": 50,
+            "content_wrapper_width": 30,
+            "left_video": "shopify:\/\/files\/videos\/Snapinsta.app_video_GICWmACVY4tg8YsCAIxXMGPM72gxbpR1AAAF.mp4",
+            "desktop_right_img": "shopify:\/\/shop_images\/AURORA_FD9082-106_PHSYM001-2000.jpg",
+            "caption": "",
+            "title": "ABOUT SOLEFLY",
+            "text": "",
+            "heading_size": "h0",
+            "body_size": "body3",
+            "content_max_width": 424,
+            "desktop_content_align": "center",
+            "mobile_content_align": "left",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "split_image_banner_LzWepQ"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "enable_circle_navigation": true,
+        "show_navigation_arrows": "on_hover",
+        "arrows_style": "corner-buttons",
+        "transition_style": "swipe",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "show_button_for_autoplay": true,
+        "accessibility_alt_text": "Slideshow about our brand"
+      }
+    },
     "page": {
       "type": "page",
       "disabled": true,
@@ -16,6 +99,7 @@
       "blocks": {
         "icon_tc9cyr": {
           "type": "icon",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2.png",
@@ -24,6 +108,7 @@
         },
         "heading_tWUXtH": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "About Us",
             "heading_size": "h2"
@@ -32,7 +117,7 @@
         "text_NxqyKj": {
           "type": "text",
           "settings": {
-            "text": "<p>SoleFly, established in 2010 in the vibrant city of Miami, is more than a sneaker retailer; it's a collective celebrating the genuine stories told by leading brands. With a commitment to preserving sneaker culture's authenticity, SoleFly has become a hub for enthusiasts. Beyond transactions, it curates an experience that connects people with the rich histories embedded in each pair. As a fixture in Miami's dynamic scene, SoleFly reflects the city's diversity and innovation. <\/p><p>The collective invites both seasoned sneakerheads and newcomers to join a community valuing not only brands and styles but also the unique stories and passion behind each pair. SoleFly is a dedicated space, bridging urban culture and fashion, fostering a sense of belonging for all who share a love for the art and culture of sneakers.<\/p>",
+            "text": "<p>SoleFly is more than just a sneaker retailer; it's a collective of unique individuals with a shared passion for revitalizing the narratives told by the most prominent brands in the industry. Established in 2010 and situated in the vibrant city of Miami, SoleFly has become a hub for sneaker enthusiasts and a melting pot of genuine sneaker culture.<\/p><p>The collective is driven by a commitment to preserving and promoting the authenticity of sneaker culture. Beyond the shoes themselves, SoleFly aims to create a community where individuals can share and celebrate their love for sneakers. The team at SoleFly understands that each pair of sneakers carries its own story, and they strive to curate an experience that goes beyond the transaction, connecting people with the rich histories embedded in the world of sneakers.<\/p><p>As a fixture in the budding city of Miami, SoleFly serves as a testament to the intersection of urban culture and fashion. The collective's presence in this dynamic city adds to its allure, capturing the spirit of innovation and diversity that defines both Miami and the global sneaker community.<\/p><p>Whether you're a seasoned sneakerhead or just stepping into the world of sneaker culture, SoleFly invites you to be a part of a community that values not only the brands and styles but also the stories and passion that make each pair of sneakers unique. From its inception, SoleFly has remained dedicated to providing a platform that goes beyond commerce, fostering a sense of belonging for all those who share a love for the art and culture of sneakers.<\/p>",
             "text_2": "",
             "text_3": "",
             "body_size": "body3"
@@ -47,8 +132,8 @@
       "settings": {
         "color_scheme": "default",
         "enable_background_around_container": false,
-        "container_size": "large",
-        "section_spacing_top": 30,
+        "container_size": "page-width",
+        "section_spacing_top": 20,
         "section_spacing_bottom": 0,
         "content_align": "center"
       }
@@ -90,9 +175,9 @@
       "settings": {
         "color_scheme": "default",
         "enable_background_around_container": false,
-        "container_size": "large",
+        "container_size": "medium",
         "section_spacing_top": 20,
-        "section_spacing_bottom": 0,
+        "section_spacing_bottom": 60,
         "content_align": "center"
       }
     },
@@ -174,7 +259,7 @@
       ],
       "settings": {
         "color_scheme": "default",
-        "container_size": "large",
+        "container_size": "page-width",
         "section_spacing_top": 20,
         "section_spacing_bottom": 60,
         "content_layout": "left",
@@ -199,6 +284,8 @@
     }
   },
   "order": [
+    "image_banner_J6pHFc",
+    "slideshow_MhHdUJ",
     "page",
     "rich_text_JxYkPQ",
     "rich_text_fcayxx",
