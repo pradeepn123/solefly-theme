@@ -440,16 +440,6 @@
             "mobile_vertical_position": 74
           }
         },
-        "pin_product_W4EDd6": {
-          "type": "pin_product",
-          "settings": {
-            "product": "nike-sportswear-womens-sweat-pants",
-            "desktop_horizontal_position": 28,
-            "desktop_vertical_position": 75,
-            "mobile_horizontal_position": 49,
-            "mobile_vertical_position": 30
-          }
-        },
         "pin_product_JqgNqf": {
           "type": "pin_product",
           "settings": {
@@ -457,6 +447,16 @@
             "desktop_horizontal_position": 28,
             "desktop_vertical_position": 33,
             "mobile_horizontal_position": 40,
+            "mobile_vertical_position": 30
+          }
+        },
+        "pin_product_W4EDd6": {
+          "type": "pin_product",
+          "settings": {
+            "product": "nike-sportswear-womens-sweat-pants",
+            "desktop_horizontal_position": 28,
+            "desktop_vertical_position": 75,
+            "mobile_horizontal_position": 49,
             "mobile_vertical_position": 30
           }
         },
@@ -473,8 +473,8 @@
       },
       "block_order": [
         "pin_product_6haCUz",
-        "pin_product_W4EDd6",
         "pin_product_JqgNqf",
+        "pin_product_W4EDd6",
         "pin_product_JY8CRY"
       ],
       "settings": {
