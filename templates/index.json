@@ -1407,6 +1407,7 @@
         },
         "pin_product_JY8CRY": {
           "type": "pin_product",
+          "disabled": true,
           "settings": {
             "product": "jordan-dri-fit-air-mens-fleece-pants",
             "desktop_horizontal_position": 80,
@@ -1418,9 +1419,9 @@
         "pin_product_JqgNqf": {
           "type": "pin_product",
           "settings": {
-            "product": "",
-            "desktop_horizontal_position": 40,
-            "desktop_vertical_position": 30,
+            "product": "oakley-encoder-polished",
+            "desktop_horizontal_position": 73,
+            "desktop_vertical_position": 41,
             "mobile_horizontal_position": 40,
             "mobile_vertical_position": 30
           }
