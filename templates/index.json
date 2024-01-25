@@ -352,7 +352,7 @@
         "announcement_kNUJWb": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "",
+            "announcement_text": "\\",
             "font_family": "heading",
             "font_style": "solid",
             "font_size": 44,
