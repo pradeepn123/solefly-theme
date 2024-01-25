@@ -191,3 +191,12 @@
     display: none;
   }
 }
+:root {
+  --gsc-landscape-sm-image-ratio:calc((1/2)*100%);
+}
+.shape--landscape-sm {
+  padding-bottom: var(--gsc-landscape-sm-image-ratio);
+}
+.collection-hero__carousel-container {
+  height: 0;
+}

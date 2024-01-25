@@ -273,43 +273,85 @@
   </div>
 {% endcapture %}
 
-<div class='collection-list__desktop-content'>
-  <div class='collection-list section collection-list--section section-{{ section.id }} color-{{ color_scheme }}'>
-    <div class='collection-list__container container container--{{ container_size }} section-spacing'>
-      {%- if title != blank -%}
-        <div class='collection-list__header {% if alignment == 'center' %}collection-list__header--center{% endif %}'>
-          <h5 class='{{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h5>
+{% if template.name contains 'collection' %}
+  {% if collection.metafields.custom.show_collection_grid_blocks %}
+    <div class='collection-list__desktop-content'>
+      <div class='collection-list section collection-list--section section-{{ section.id }} color-{{ color_scheme }}'>
+        <div class='collection-list__container container container--{{ container_size }} section-spacing'>
+          {%- if title != blank -%}
+            <div class='collection-list__header {% if alignment == 'center' %}collection-list__header--center{% endif %}'>
+              <h5 class='{{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h5>
+            </div>
+          {%- endif -%}
+    
+          {% if section_layout contains 'carousel' %}
+            {{ desktop_carousel }}
+          {% else %}
+            {{ desktop_grid }}
+          {% endif %}
         </div>
-      {%- endif -%}
-
-      {% if section_layout contains 'carousel' %}
-        {{ desktop_carousel }}
-      {% else %}
-        {{ desktop_grid }}
-      {% endif %}
+      </div>
+    </div>
+    
+    <div class='collection-list__mobile-content'>
+      <div class='collection-list section collection-list--section section-{{ section.id }} color-{{ color_scheme }}'>
+        <div class='collection-list__container container container--{{ container_size }} section-spacing'>
+          {%- if title != blank -%}
+            <div class='collection-list__header {% if alignment == 'center' %}collection-list__header--center{% endif %}'>
+              <h5 class='{{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h5>
+            </div>
+          {%- endif -%}
+    
+          {% if mobile_layout contains 'column' %}
+            {{ mobile_grid }}
+          {% else %}
+            {{ mobile_carousel }}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    
+    {% render 'save-section-data-in-global-scope', section: section %}
+  {% endif %}
+{% else %}
+  <div class='collection-list__desktop-content'>
+    <div class='collection-list section collection-list--section section-{{ section.id }} color-{{ color_scheme }}'>
+      <div class='collection-list__container container container--{{ container_size }} section-spacing'>
+        {%- if title != blank -%}
+          <div class='collection-list__header {% if alignment == 'center' %}collection-list__header--center{% endif %}'>
+            <h5 class='{{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h5>
+          </div>
+        {%- endif -%}
+  
+        {% if section_layout contains 'carousel' %}
+          {{ desktop_carousel }}
+        {% else %}
+          {{ desktop_grid }}
+        {% endif %}
+      </div>
     </div>
   </div>
-</div>
-
-<div class='collection-list__mobile-content'>
-  <div class='collection-list section collection-list--section section-{{ section.id }} color-{{ color_scheme }}'>
-    <div class='collection-list__container container container--{{ container_size }} section-spacing'>
-      {%- if title != blank -%}
-        <div class='collection-list__header {% if alignment == 'center' %}collection-list__header--center{% endif %}'>
-          <h5 class='{{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h5>
-        </div>
-      {%- endif -%}
-
-      {% if mobile_layout contains 'column' %}
-        {{ mobile_grid }}
-      {% else %}
-        {{ mobile_carousel }}
-      {% endif %}
+  
+  <div class='collection-list__mobile-content'>
+    <div class='collection-list section collection-list--section section-{{ section.id }} color-{{ color_scheme }}'>
+      <div class='collection-list__container container container--{{ container_size }} section-spacing'>
+        {%- if title != blank -%}
+          <div class='collection-list__header {% if alignment == 'center' %}collection-list__header--center{% endif %}'>
+            <h5 class='{{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h5>
+          </div>
+        {%- endif -%}
+  
+        {% if mobile_layout contains 'column' %}
+          {{ mobile_grid }}
+        {% else %}
+          {{ mobile_carousel }}
+        {% endif %}
+      </div>
     </div>
   </div>
-</div>
-
-{% render 'save-section-data-in-global-scope', section: section %}
+  
+  {% render 'save-section-data-in-global-scope', section: section %}
+{% endif %}
 
 {% schema %}
 {
@@ -579,6 +621,10 @@
         {
           "value": "landscape",
           "label": "t:sections.general_section_settings.img_ratio_option_fill_landscape_label"
+        },
+        {
+          "value": "landscape-sm",
+          "label": "t:sections.general_section_settings.img_ratio_option_fill_landscape_sm_label"
         },
         {
           "value": "fit-square",
