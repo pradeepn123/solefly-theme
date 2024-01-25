@@ -1404,12 +1404,34 @@
             "mobile_horizontal_position": 66,
             "mobile_vertical_position": 74
           }
+        },
+        "pin_product_JY8CRY": {
+          "type": "pin_product",
+          "settings": {
+            "product": "",
+            "desktop_horizontal_position": 40,
+            "desktop_vertical_position": 30,
+            "mobile_horizontal_position": 40,
+            "mobile_vertical_position": 30
+          }
+        },
+        "pin_product_JqgNqf": {
+          "type": "pin_product",
+          "settings": {
+            "product": "",
+            "desktop_horizontal_position": 40,
+            "desktop_vertical_position": 30,
+            "mobile_horizontal_position": 40,
+            "mobile_vertical_position": 30
+          }
         }
       },
       "block_order": [
         "pin_product_L9Aiaz",
         "pin_product_W4EDd6",
-        "pin_product_6haCUz"
+        "pin_product_6haCUz",
+        "pin_product_JY8CRY",
+        "pin_product_JqgNqf"
       ],
       "settings": {
         "color_scheme": "default",
@@ -1422,18 +1444,19 @@
         "heading_size": "h2",
         "body_size": "body3",
         "heading_content_alignment": "left",
+        "desktop_image": "shopify:\/\/shop_images\/344791172_261515729657621_2893657576970152402_n.jpg",
         "enable_desktop_custom_img_ratio": true,
-        "desktop_custom_image_ratio": 1.2,
+        "desktop_custom_image_ratio": 1.1,
         "enable_custom_mobile_img_ratio": true,
-        "mobile_custom_image_ratio": 1,
+        "mobile_custom_image_ratio": 0.4,
         "desktop_position": "right_top",
         "desktop_layout": "grid_2_column",
         "mobile_layout": "grid",
         "product_card_img_ratio": "portrait",
         "product_card_content_alignment": "left",
-        "desktop_gap": 20,
-        "desktop_space_between_cards": 24,
-        "mobile_space_between_cards": 20
+        "desktop_gap": 12,
+        "desktop_space_between_cards": 12,
+        "mobile_space_between_cards": 12
       }
     }
   },
