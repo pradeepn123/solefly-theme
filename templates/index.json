@@ -430,16 +430,6 @@
     "lookbook_UN3KN8": {
       "type": "lookbook",
       "blocks": {
-        "pin_product_6haCUz": {
-          "type": "pin_product",
-          "settings": {
-            "product": "play-og-t-shirt",
-            "desktop_horizontal_position": 73,
-            "desktop_vertical_position": 59,
-            "mobile_horizontal_position": 66,
-            "mobile_vertical_position": 74
-          }
-        },
         "pin_product_JqgNqf": {
           "type": "pin_product",
           "settings": {
@@ -448,6 +438,16 @@
             "desktop_vertical_position": 33,
             "mobile_horizontal_position": 40,
             "mobile_vertical_position": 30
+          }
+        },
+        "pin_product_6haCUz": {
+          "type": "pin_product",
+          "settings": {
+            "product": "play-og-t-shirt",
+            "desktop_horizontal_position": 73,
+            "desktop_vertical_position": 59,
+            "mobile_horizontal_position": 66,
+            "mobile_vertical_position": 74
           }
         },
         "pin_product_W4EDd6": {
@@ -472,8 +472,8 @@
         }
       },
       "block_order": [
-        "pin_product_6haCUz",
         "pin_product_JqgNqf",
+        "pin_product_6haCUz",
         "pin_product_W4EDd6",
         "pin_product_JY8CRY"
       ],
