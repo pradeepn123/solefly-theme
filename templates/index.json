@@ -479,7 +479,7 @@
       ],
       "settings": {
         "color_scheme": "default",
-        "container_size": "page-width",
+        "container_size": "large",
         "section_spacing_top": 20,
         "section_spacing_bottom": 20,
         "enable_pins": false,
