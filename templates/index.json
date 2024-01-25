@@ -352,7 +352,7 @@
         "announcement_kNUJWb": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "Solefly",
+            "announcement_text": "",
             "font_family": "heading",
             "font_style": "solid",
             "font_size": 44,
@@ -361,7 +361,7 @@
             "top_and_bottom_spacing": 12,
             "link": "",
             "icon": "shipping-box",
-            "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2.png",
+            "custom_icon_image": "shopify:\/\/shop_images\/SCROLLING_TEXT_01.svg",
             "icon_size": 80,
             "scrolling_direction": "right_to_left",
             "scrolling_speed": 50,
