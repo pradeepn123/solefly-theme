@@ -388,6 +388,82 @@
         "overlay_opacity": 0
       }
     },
+    "lookbook_UN3KN8": {
+      "type": "lookbook",
+      "blocks": {
+        "pin_product_6haCUz": {
+          "type": "pin_product",
+          "settings": {
+            "product": "autodrome-tee",
+            "desktop_horizontal_position": 73,
+            "desktop_vertical_position": 59,
+            "mobile_horizontal_position": 66,
+            "mobile_vertical_position": 74
+          }
+        },
+        "pin_product_W4EDd6": {
+          "type": "pin_product",
+          "settings": {
+            "product": "nike-sportswear-womens-sweat-pants",
+            "desktop_horizontal_position": 28,
+            "desktop_vertical_position": 75,
+            "mobile_horizontal_position": 49,
+            "mobile_vertical_position": 30
+          }
+        },
+        "pin_product_JqgNqf": {
+          "type": "pin_product",
+          "settings": {
+            "product": "oakley-encoder-polished",
+            "desktop_horizontal_position": 28,
+            "desktop_vertical_position": 33,
+            "mobile_horizontal_position": 40,
+            "mobile_vertical_position": 30
+          }
+        },
+        "pin_product_JY8CRY": {
+          "type": "pin_product",
+          "settings": {
+            "product": "jordan-dri-fit-air-mens-fleece-pants",
+            "desktop_horizontal_position": 80,
+            "desktop_vertical_position": 76,
+            "mobile_horizontal_position": 40,
+            "mobile_vertical_position": 30
+          }
+        }
+      },
+      "block_order": [
+        "pin_product_6haCUz",
+        "pin_product_W4EDd6",
+        "pin_product_JqgNqf",
+        "pin_product_JY8CRY"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "section_spacing_top": 50,
+        "section_spacing_bottom": 50,
+        "enable_pins": true,
+        "heading": "SHOP THE LOOK",
+        "body_richtext": "<p>Elevate your style effortlessly with our curated ensemble – a trendy tee, tailored pants, and chic eyewear.<\/p><p>Explore our 'Shop by Look' collection for the perfect blend of comfort and sophistication. From graphic tee to<br\/>stylish eyewear, achieve a standout look with ease.<\/p>",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "heading_content_alignment": "left",
+        "desktop_image": "shopify:\/\/shop_images\/344791172_261515729657621_2893657576970152402_n.jpg",
+        "enable_desktop_custom_img_ratio": true,
+        "desktop_custom_image_ratio": 1.1,
+        "enable_custom_mobile_img_ratio": true,
+        "mobile_custom_image_ratio": 0.4,
+        "desktop_position": "left_top",
+        "desktop_layout": "carousel_2_column",
+        "mobile_layout": "grid",
+        "product_card_img_ratio": "portrait",
+        "product_card_content_alignment": "left",
+        "desktop_gap": 12,
+        "desktop_space_between_cards": 12,
+        "mobile_space_between_cards": 12
+      }
+    },
     "collection_text_FEb4D9": {
       "type": "collection-text",
       "settings": {
@@ -1371,82 +1447,6 @@
         "autoplay_mode": "disabled",
         "autoplay_interval": 3
       }
-    },
-    "lookbook_UN3KN8": {
-      "type": "lookbook",
-      "blocks": {
-        "pin_product_6haCUz": {
-          "type": "pin_product",
-          "settings": {
-            "product": "autodrome-tee",
-            "desktop_horizontal_position": 73,
-            "desktop_vertical_position": 59,
-            "mobile_horizontal_position": 66,
-            "mobile_vertical_position": 74
-          }
-        },
-        "pin_product_W4EDd6": {
-          "type": "pin_product",
-          "settings": {
-            "product": "nike-sportswear-womens-sweat-pants",
-            "desktop_horizontal_position": 28,
-            "desktop_vertical_position": 75,
-            "mobile_horizontal_position": 49,
-            "mobile_vertical_position": 30
-          }
-        },
-        "pin_product_JqgNqf": {
-          "type": "pin_product",
-          "settings": {
-            "product": "oakley-encoder-polished",
-            "desktop_horizontal_position": 28,
-            "desktop_vertical_position": 33,
-            "mobile_horizontal_position": 40,
-            "mobile_vertical_position": 30
-          }
-        },
-        "pin_product_JY8CRY": {
-          "type": "pin_product",
-          "settings": {
-            "product": "jordan-dri-fit-air-mens-fleece-pants",
-            "desktop_horizontal_position": 80,
-            "desktop_vertical_position": 76,
-            "mobile_horizontal_position": 40,
-            "mobile_vertical_position": 30
-          }
-        }
-      },
-      "block_order": [
-        "pin_product_6haCUz",
-        "pin_product_W4EDd6",
-        "pin_product_JqgNqf",
-        "pin_product_JY8CRY"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "container_size": "page-width",
-        "section_spacing_top": 50,
-        "section_spacing_bottom": 50,
-        "enable_pins": true,
-        "heading": "SHOP THE LOOK",
-        "body_richtext": "<p>Elevate your style effortlessly with our curated ensemble – a trendy tee, tailored pants, and chic eyewear.<\/p><p>Explore our 'Shop by Look' collection for the perfect blend of comfort and sophistication. From graphic tee to<br\/>stylish eyewear, achieve a standout look with ease.<\/p>",
-        "heading_size": "h2",
-        "body_size": "body3",
-        "heading_content_alignment": "left",
-        "desktop_image": "shopify:\/\/shop_images\/344791172_261515729657621_2893657576970152402_n.jpg",
-        "enable_desktop_custom_img_ratio": true,
-        "desktop_custom_image_ratio": 1.1,
-        "enable_custom_mobile_img_ratio": true,
-        "mobile_custom_image_ratio": 0.4,
-        "desktop_position": "left_top",
-        "desktop_layout": "carousel_2_column",
-        "mobile_layout": "grid",
-        "product_card_img_ratio": "portrait",
-        "product_card_content_alignment": "left",
-        "desktop_gap": 12,
-        "desktop_space_between_cards": 12,
-        "mobile_space_between_cards": 12
-      }
     }
   },
   "order": [
@@ -1455,6 +1455,7 @@
     "0dc71aa6-0b87-4df1-8cec-af939c55b65f",
     "scrolling_text_WpdCB4",
     "scrolling_text_deM9rU",
+    "lookbook_UN3KN8",
     "collection_text_FEb4D9",
     "featured_collection_aFBtyF",
     "bdfcb69a-fe4c-45c6-bccc-aaec4c360dc5",
@@ -1470,7 +1471,6 @@
     "17055634072e0d0d8e",
     "collage_diWbUz",
     "store_locator_e39zCD",
-    "multicolumn_jiDnp7",
-    "lookbook_UN3KN8"
+    "multicolumn_jiDnp7"
   ]
 }
