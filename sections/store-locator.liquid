@@ -10,7 +10,9 @@
   assign heading = options.heading
   assign body_richtext = options.body_richtext
   assign heading_size = options.heading_size
+  assign heading_size_mobile = options.heading_size_mobile
   assign body_size = options.body_size
+  assign body_size_mobile = options.body_size_mobile
   assign content_alignment = options.content_alignment
 
   assign map_position = options.map_position
@@ -77,10 +79,10 @@
             <span class='caption map__caption'>{{ subheading }}</span>
           {%- endif -%}
           {%- if heading != blank -%}
-            <h2 class='{{ heading_size }}'>{{ heading }}</h2>
+            <h2 class='{{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ heading }}</h2>
           {%- endif -%}
           {%- if body_richtext != blank -%}
-            <div class='{{ body_size }} map__subtitle'>{{ body_richtext }}</div>
+            <div class='{{ body_size }} mobile--{{ body_size_mobile }} map__subtitle'>{{ body_richtext }}</div>
           {%- endif -%}
         </div>
       {%- endif -%}
@@ -606,8 +608,85 @@
     },
     {
       "type": "select",
+      "id": "heading_size_mobile",
+      "label": "Heading size(Mobile)",
+      "options": [
+        {
+          "value": "h0",
+          "label": "t:sections.general_section_settings.heading_size_0_option"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.general_section_settings.heading_size_1_option"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.general_section_settings.heading_size_2_option"
+        },
+        {
+          "value": "h3",
+          "label": "t:sections.general_section_settings.heading_size_3_option"
+        },
+        {
+          "value": "h4",
+          "label": "t:sections.general_section_settings.heading_size_4_option"
+        },
+        {
+          "value": "h5",
+          "label": "t:sections.general_section_settings.heading_size_5_option"
+        },
+        {
+          "value": "h6",
+          "label": "t:sections.general_section_settings.heading_size_6_option"
+        },
+        {
+          "value": "h7",
+          "label": "t:sections.general_section_settings.heading_size_7_option"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "select",
       "id": "body_size",
       "label": "t:sections.general_section_settings.label_for_body_size_setting",
+      "options": [
+        {
+          "value": "body0",
+          "label": "t:sections.general_section_settings.body_size_0_option"
+        },
+        {
+          "value": "body1",
+          "label": "t:sections.general_section_settings.body_size_1_option"
+        },
+        {
+          "value": "body2",
+          "label": "t:sections.general_section_settings.body_size_2_option"
+        },
+        {
+          "value": "body3",
+          "label": "t:sections.general_section_settings.body_size_3_option"
+        },
+        {
+          "value": "body4",
+          "label": "t:sections.general_section_settings.body_size_4_option"
+        },
+        {
+          "value": "body5",
+          "label": "t:sections.general_section_settings.body_size_5_option"
+        },
+        {
+          "value": "body6",
+          "label": "t:sections.general_section_settings.body_size_6_option"
+        }
+      ],
+      "default": "body3",
+      "info": "t:sections.store_locator.content.body_size.info"
+    },
+    {
+      "type": "select",
+      "id": "body_size_mobile",
+      "label": "Body size(Mobile)",
       "options": [
         {
           "value": "body0",

@@ -12,6 +12,7 @@
   assign title = options.title
   assign alignment = options.alignment
   assign heading_size = options.heading_size
+  assign heading_size_mobile = options.heading_size_mobile
   assign columns = options.columns
 
   assign mobile_layout = options.mobile_layout
@@ -168,7 +169,7 @@
   <div class='collage__container container container--{{ container_size }} section-spacing'>
     {%- if title != blank -%}
       <div class='collage__header {% if alignment == 'center' %}collage__header--center{% endif %}'>
-        <h5 class='collage__title {{ heading_size }}'>{{ title }}</h5>
+        <h5 class='collage__title {{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h5>
       </div>
     {%- endif -%}
 
@@ -296,6 +297,46 @@
       "type": "select",
       "id": "heading_size",
       "label": "t:sections.general_section_settings.label_for_heading_size_setting",
+      "options": [
+        {
+          "value": "h0",
+          "label": "t:sections.general_section_settings.heading_size_0_option"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.general_section_settings.heading_size_1_option"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.general_section_settings.heading_size_2_option"
+        },
+        {
+          "value": "h3",
+          "label": "t:sections.general_section_settings.heading_size_3_option"
+        },
+        {
+          "value": "h4",
+          "label": "t:sections.general_section_settings.heading_size_4_option"
+        },
+        {
+          "value": "h5",
+          "label": "t:sections.general_section_settings.heading_size_5_option"
+        },
+        {
+          "value": "h6",
+          "label": "t:sections.general_section_settings.heading_size_6_option"
+        },
+        {
+          "value": "h7",
+          "label": "t:sections.general_section_settings.heading_size_7_option"
+        }
+      ],
+      "default": "h5"
+    },
+    {
+      "type": "select",
+      "id": "heading_size_mobile",
+      "label": "Heading size(Mobile)",
       "options": [
         {
           "value": "h0",

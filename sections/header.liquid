@@ -357,7 +357,7 @@
                                     {%- else -%}
                                       <a
                                         href='{{ childlink.url }}'
-                                        class='header__menu-item header__menu-item--medium {% if childlink.active %} active{% endif %}'
+                                        class='header__menu-item header__menu-item--medium{% if childlink.title == 'SHOP BY' %} header__menu-item--header{% endif %}{% if childlink.active %} active{% endif %}'
                                         data-focus-trap-target
                                         aria-label='{{ childlink.title }}'
                                       >

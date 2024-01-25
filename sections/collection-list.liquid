@@ -27,6 +27,7 @@
   assign container_size = options.container_size
   assign collection_card_heading_size = options.collection_card_heading_size
   assign heading_size = options.heading_size
+  assign heading_size_mobile = options.heading_size_mobile
 
   assign autoplay_mode = options.autoplay_mode
   assign autoplay_interval = options.autoplay_interval
@@ -277,7 +278,7 @@
     <div class='collection-list__container container container--{{ container_size }} section-spacing'>
       {%- if title != blank -%}
         <div class='collection-list__header {% if alignment == 'center' %}collection-list__header--center{% endif %}'>
-          <h5 class='{{ heading_size }}'>{{ title }}</h5>
+          <h5 class='{{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h5>
         </div>
       {%- endif -%}
 
@@ -295,7 +296,7 @@
     <div class='collection-list__container container container--{{ container_size }} section-spacing'>
       {%- if title != blank -%}
         <div class='collection-list__header {% if alignment == 'center' %}collection-list__header--center{% endif %}'>
-          <h5 class='{{ heading_size }}'>{{ title }}</h5>
+          <h5 class='{{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h5>
         </div>
       {%- endif -%}
 
@@ -489,6 +490,46 @@
         }
       ],
       "default": "h5"
+    },
+    {
+      "type": "select",
+      "id": "heading_size_mobile",
+      "label": "Heading size(Mobile)",
+      "options": [
+        {
+          "value": "h0",
+          "label": "t:sections.general_section_settings.heading_size_0_option"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.general_section_settings.heading_size_1_option"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.general_section_settings.heading_size_2_option"
+        },
+        {
+          "value": "h3",
+          "label": "t:sections.general_section_settings.heading_size_3_option"
+        },
+        {
+          "value": "h4",
+          "label": "t:sections.general_section_settings.heading_size_4_option"
+        },
+        {
+          "value": "h5",
+          "label": "t:sections.general_section_settings.heading_size_5_option"
+        },
+        {
+          "value": "h6",
+          "label": "t:sections.general_section_settings.heading_size_6_option"
+        },
+        {
+          "value": "h7",
+          "label": "t:sections.general_section_settings.heading_size_7_option"
+        }
+      ],
+      "default": "h2"
     },
     {
       "type": "select",
