@@ -484,7 +484,7 @@
         "section_spacing_bottom": 20,
         "enable_pins": true,
         "heading": "SHOP THE LOOK",
-        "body_richtext": "<p>Elevate your style effortlessly with our curated ensemble – a trendy tee, tailored pants, and chic<br\/>eyewear. Explore our 'Shop by Look' collection for the perfect blend of comfort and sophistication. From<br\/>graphic tee to stylish eyewear, achieve a standout look with ease.<\/p>",
+        "body_richtext": "<p>Elevate your style effortlessly with our curated ensemble – a trendy tee, tailored pants, and chic<br\/>eyewear. Explore our 'Shop by Look' collection for the perfect blend of comfort and sophistication.<br\/>From graphic tee to stylish eyewear, achieve a standout look with ease.<\/p>",
         "heading_size": "h2",
         "body_size": "body3",
         "heading_content_alignment": "left",
