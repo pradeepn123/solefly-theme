@@ -314,6 +314,7 @@
         "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-2",
         "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-4"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "primary",
         "enable_background_around_container": true,
@@ -504,6 +505,7 @@
     },
     "collection_text_FEb4D9": {
       "type": "collection-text",
+      "disabled": true,
       "settings": {
         "color_scheme": "primary",
         "container_size": "page-width",
