@@ -114,7 +114,7 @@
     "primary_size_for_product_cards": 5,
     "primary_shape_for_product_pages": "portrait",
     "primary_size_for_product_pages": 4,
-    "primary_shape_for_filters": "square",
+    "primary_shape_for_filters": "round",
     "primary_size_for_filters": 1,
     "secondary_shape_for_product_pages": "square",
     "secondary_size_for_product_pages": 4,
