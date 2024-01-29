@@ -62,51 +62,8 @@
 
 <div class='section-{{ section.id }} {% if enable_background_around_container %} section color-{{ color_scheme }}  {% endif %}'>
   <div class='container container--{{ container_size }} section-spacing collection-hero__outer-container {% if container_size == 'full-screen' %} collection-hero__outer-container--full-screen{% endif %}'>
-    <div class='collection-hero {% unless enable_background_around_container %} section color-{{ color_scheme }} {% endunless %}'>
-      {%- if show_collection_image -%}
-        <div class='overlay'></div>
-        {%- if video != blank -%}
-          {% render 'video-with-alt',
-            video: video,
-            class: 'image collection-hero__image',
-            autoplay: true,
-            loop: true,
-            muted: true,
-            controls: false,
-            loading: 'lazy'
-          %}
-        {%- elsif image != blank -%}
-          <img
-            {% render 'image-attributes', image: image, class: 'image collection-hero__image' %}
-          >
-        {%- else -%}
-          <carousel-component
-            class='carousel collection-hero__carousel'
-            data-animation='fade'
-            data-autoplay-interval='3'
-            data-animation-type="one_at_time"
-            with-stop-on-hover
-            data-draggable
-            data-align='start'
-            data-axis='x'
-            data-contain-scroll='trimSnaps'
-          >
-            <div class='carousel__viewport collection-hero__carousel-viewport embla' data-carousel-viewport>
-              <div class='carousel__container collection-hero__carousel-container' data-carousel-container>
-                {%- for collection in collections -%}
-                  {%- if collection.image != blank -%}
-                    <div class='carousel__slide'>
-                      <img
-                        {% render 'image-attributes', image: collection.image, class: 'image' %}
-                      >
-                    </div>
-                  {%- endif -%}
-                {%- endfor -%}
-              </div>
-            </div>
-          </carousel-component>
-        {%- endif -%}
-      {%- endif -%}
+    
+    {% if collection.metafields.custom.hide_collection_banner_image %}
       <div class='collection-hero__content-wrap'>
         <div class='collection-hero__content'>
           {%- if show_breadcrumbs -%}
@@ -125,14 +82,87 @@
             </div>
           {%- endif -%}
           {%- if show_collection_title and title != blank -%}
-            <h1 class='collection-hero__title h5'>{{ title }}</h1>
+            <h1 class='collection-hero__title h0'>{{ title }}</h1>
           {%- endif -%}
           {%- if show_collection_description and description != blank -%}
             <div class='collection-hero__description body-font-weight-from-global-settings'>{{ description }}</div>
           {%- endif -%}
         </div>
       </div>
-    </div>
+    {% else %}
+      <div class='collection-hero {% unless enable_background_around_container %} section color-{{ color_scheme }} {% endunless %}'>
+        {%- if show_collection_image -%}
+          <div class='overlay'></div>
+          {%- if video != blank -%}
+            {% render 'video-with-alt',
+              video: video,
+              class: 'image collection-hero__image',
+              autoplay: true,
+              loop: true,
+              muted: true,
+              controls: false,
+              loading: 'lazy'
+            %}
+          {%- elsif image != blank -%}
+            <img
+              {% render 'image-attributes', image: image, class: 'image collection-hero__image' %}
+            >
+          {%- else -%}
+            <carousel-component
+              class='carousel collection-hero__carousel'
+              data-animation='fade'
+              data-autoplay-interval='3'
+              data-animation-type="one_at_time"
+              with-stop-on-hover
+              data-draggable
+              data-align='start'
+              data-axis='x'
+              data-contain-scroll='trimSnaps'
+            >
+              <div class='carousel__viewport collection-hero__carousel-viewport embla' data-carousel-viewport>
+                <div class='carousel__container collection-hero__carousel-container' data-carousel-container>
+                  {%- for collection in collections -%}
+                    {%- if collection.image != blank -%}
+                      <div class='carousel__slide'>
+                        <img
+                          {% render 'image-attributes', image: collection.image, class: 'image' %}
+                        >
+                      </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
+              </div>
+            </carousel-component>
+          {%- endif -%}
+        {%- endif -%}
+        <div class='collection-hero__content-wrap'>
+          <div class='collection-hero__content'>
+            {%- if show_breadcrumbs -%}
+              <div class='breadcrumbs collection-hero__breadcrumbs'>
+                <a
+                  class='breadcrumbs__item'
+                  href='/collections/'
+                  aria-label='{{ 'collection_hero_banner.screen_reader.breadcrumb_collections_link' | t }}'
+                >
+                  {{ 'collection_hero_banner.store_front.breadcrumb_collections_link' | t }}
+                </a>
+                <span class='breadcrumbs__divider'>/</span>
+                <a class='breadcrumbs__item' href='{{ collection.url }}' aria-label='{{ collection.title }}'>
+                  {{- collection.title -}}
+                </a>
+              </div>
+            {%- endif -%}
+            {%- if show_collection_title and title != blank -%}
+              <h1 class='collection-hero__title h0'>{{ title }}</h1>
+            {%- endif -%}
+            {%- if show_collection_description and description != blank -%}
+              <div class='collection-hero__description body-font-weight-from-global-settings'>{{ description }}</div>
+            {%- endif -%}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
   </div>
 </div>
 

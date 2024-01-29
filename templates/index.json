@@ -211,6 +211,7 @@
         "mobile_layout": "carousel",
         "title": "WHAT'S TRENDING",
         "heading_size": "h2",
+        "heading_size_mobile": "h5",
         "alignment": "left",
         "collection_list": [
           "footwear",
@@ -339,7 +340,9 @@
         "announcement_jRkzcm": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "SOLEFLY SELECT",
+            "announcement_text_1": "SOLEFLY",
+            "announcement_text_2": "SELECT",
+            "show_second_announcement_text": true,
             "font_family": "heading",
             "font_style": "solid",
             "font_size": 44,
@@ -348,7 +351,8 @@
             "top_and_bottom_spacing": 12,
             "link": "",
             "icon": "shipping-box",
-            "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2_copy.png",
+            "custom_icon_image_1": "shopify:\/\/shop_images\/Artboard_2_copy.png",
+            "custom_icon_image_2": "shopify:\/\/shop_images\/Artboard_2_copy.png",
             "icon_size": 80,
             "scrolling_direction": "right_to_left",
             "scrolling_speed": 30,
@@ -361,7 +365,9 @@
         "announcement_kNUJWb": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "SOLEFLY SELECT",
+            "announcement_text_1": "SOLEFLY",
+            "announcement_text_2": "SELECT",
+            "show_second_announcement_text": true,
             "font_family": "heading",
             "font_style": "solid",
             "font_size": 44,
@@ -370,7 +376,8 @@
             "top_and_bottom_spacing": 12,
             "link": "",
             "icon": "shipping-box",
-            "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2.png",
+            "custom_icon_image_1": "shopify:\/\/shop_images\/Artboard_2.png",
+            "custom_icon_image_2": "shopify:\/\/shop_images\/Artboard_2.png",
             "icon_size": 80,
             "scrolling_direction": "right_to_left",
             "scrolling_speed": 50,
@@ -402,7 +409,9 @@
         "announcement_qpzRji": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "Solefly X Jorden",
+            "announcement_text_1": "Make an announcement",
+            "announcement_text_2": "Make an announcement",
+            "show_second_announcement_text": false,
             "font_family": "body",
             "font_style": "solid",
             "font_size": 20,
@@ -761,6 +770,126 @@
         "autoplay_interval": 3
       }
     },
+    "hover_image_change_TEiRVY": {
+      "type": "hover-image-change",
+      "blocks": {
+        "image_hYMydA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Adidas_4d64de7c-2e8b-4703-8176-7cf6353c49c7.png",
+            "title": "Adidas",
+            "link": ""
+          }
+        },
+        "image_xmq9y4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Crocs.png",
+            "title": "Crocs",
+            "link": ""
+          }
+        },
+        "image_cFWE8E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jordan_e764dbeb-a85e-4f4d-96e9-76ac422ea4c3.png",
+            "title": "Jordan",
+            "link": ""
+          }
+        },
+        "image_pxFLVN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/G-shock.png",
+            "title": "G-Shock",
+            "link": ""
+          }
+        },
+        "image_yJbdAD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nike_870f01bb-7f4f-430b-ae6d-f24577cae090.png",
+            "title": "Nike",
+            "link": ""
+          }
+        },
+        "image_4UqRhA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Oakley_48824e56-cd1d-4b9b-891a-2f2ba169b73a.png",
+            "title": "Oakley",
+            "link": ""
+          }
+        },
+        "image_a84VQC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vans_c17d9ae2-c90e-4648-93ef-31c94ea99ee6.png",
+            "title": "Vans",
+            "link": ""
+          }
+        },
+        "image_tg6KFG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sUICOKE.png",
+            "title": "Suicoke",
+            "link": ""
+          }
+        },
+        "image_akCY7z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New_era_08c4cd8b-ac9f-4e4b-a7c9-cb3261f9b615.png",
+            "title": "New Era",
+            "link": ""
+          }
+        },
+        "image_f6iMHa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/herschel.png",
+            "title": "Herschel Supply",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_hYMydA",
+        "image_xmq9y4",
+        "image_cFWE8E",
+        "image_pxFLVN",
+        "image_yJbdAD",
+        "image_4UqRhA",
+        "image_a84VQC",
+        "image_tg6KFG",
+        "image_akCY7z",
+        "image_f6iMHa"
+      ],
+      "settings": {
+        "container_size": "full-screen",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "title": "SHOP BY BRANDS",
+        "heading_size": "h2",
+        "heading_size_mobile": "h5",
+        "alignment": "left",
+        "section_bg_color": "#ffffff",
+        "link_container_bg_color": "#ffffff",
+        "image_container_bg_color": "#f4f4f4",
+        "view_all_text": "View all brands",
+        "view_all_link": "",
+        "view_all_text_size": "body3",
+        "link_text_size": "h5",
+        "link_text_size_mobile": "h5",
+        "block_title_font_weight": 700,
+        "show_all_btn": true,
+        "redirection_new_tab": false,
+        "mobile_swipe": true,
+        "section_bg_color_mobile": "#ffffff",
+        "image_container_bg_color_mobile": "#f4f4f4"
+      }
+    },
     "countdown_banner_Dzh89p": {
       "type": "countdown-banner",
       "blocks": {
@@ -993,6 +1122,7 @@
         "heading_size": "h2",
         "heading_size_mobile": "h4",
         "body_size": "body3",
+        "body_size_mobile": "body3",
         "content_alignment": "left",
         "api_key": "",
         "map_desktop_ratio": 1,
@@ -1090,6 +1220,7 @@
     "collection_text_FEb4D9",
     "collage_zDCTkk",
     "dd10bcbe-6b5f-450d-ade6-fd728dbc9b00",
+    "hover_image_change_TEiRVY",
     "countdown_banner_Dzh89p",
     "17055634072e0d0d8e",
     "collage_diWbUz",

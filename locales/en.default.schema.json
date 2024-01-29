@@ -768,8 +768,14 @@
       "blocks": {
         "announcement": {
           "name": "Scrolling line",
-          "announcement_text": {
-            "label": "Announcement"
+          "announcement_text_1": {
+            "label": "Announcement text 1"
+          },
+          "announcement_text_2": {
+            "label": "Announcement text 2"
+          },
+          "show_second_announcement_text": {
+            "label": "Show second announcement text"
           },
           "font_family": {
             "label": "Font family",
@@ -2228,9 +2234,11 @@
       "subscribe_block_customer_settings_paragraph": "Each email subscription creates a [customer account](https:\/\/help.shopify.com\/en\/manual\/customers)",
       "subscribe_block_title_label": "Heading",
       "subscribe_block_text_label": "Body",
+      "enable_custom_round_btn": "Enable round button",
       "subscribe_block_input_style_label": "Input style",
       "subscribe_block_input_style_option_1_label": "Solid",
       "subscribe_block_input_style_option_2_label": "Outline",
+      "subscribe_block_input_style_option_3_label": "Custom",
       "social_media_block_name": "Social media",
       "social_media_block_title_label": "Heading",
       "social_media_block_text_label": "Body",

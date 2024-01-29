@@ -154,7 +154,7 @@
                           id='ContactFooter-ContactEmailInput-{{ form.id }}'
                         >
                         <button
-                          class='btn btn--solid btn--lg input-btn'
+                          class='btn btn--solid btn--lg input-btn{% if block.settings.enable_custom_round_btn %} rounded_btn{% endif %}'
                           name='commit'
                           type='submit'
                           aria-label='{{ 'forms.newsletter.screen_reader.subscribe_button_label' | t }}'
@@ -704,6 +704,12 @@
           "default": "<p>Invite customers to join your mailing list.</p>"
         },
         {
+          "type": "checkbox",
+          "id": "enable_custom_round_btn",
+          "default": false,
+          "label": "t:sections.footer.enable_custom_round_btn"
+        },
+        {
           "type": "select",
           "id": "input_style",
           "options": [
@@ -714,6 +720,10 @@
             {
               "value": "outline",
               "label": "t:sections.footer.subscribe_block_input_style_option_2_label"
+            },
+            {
+              "value": "custom",
+              "label": "t:sections.footer.subscribe_block_input_style_option_3_label"
             }
           ],
           "default": "solid",
