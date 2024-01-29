@@ -21,7 +21,7 @@
     padding: 1rem 0;
   }
   .header__grid {
-      min-height: 5rem;
+    min-height: 5rem;
   }
   .header__item {
     padding: 0 2rem 1rem;
@@ -30,6 +30,16 @@
 
 .header__nav {
   padding-top: 1rem;
+}
+
+.header__logo {
+  padding: 1rem 0;
+}
+
+.header__grid {
+  min-height: 5rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
