@@ -121,8 +121,11 @@
         {% when 'landscape' %}
           --gsc-default-card-image-ratio: var(--gsc-landscape-image-ratio);
           --gsc-default-shape-fill-mode: cover;
-        {% when 'fit-landscape' %}
-          --gsc-default-card-image-ratio: var(--gsc-landscape-image-ratio);
+        {% when 'landscape-sm' %}
+          --gsc-default-card-image-ratio: var(--gsc-landscape-sm-image-ratio);
+          --gsc-default-shape-fill-mode: contain;
+        {% when 'landscape-sm' %}
+          --gsc-default-card-image-ratio: var(--gsc-landscape-sm-image-ratio);
           --gsc-default-shape-fill-mode: contain;
       {% endcase %}
     }

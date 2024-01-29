@@ -25,10 +25,10 @@
         <div class='caption split-image-banner__caption'>{{ caption }}</div>
       {%- endif -%}
       {%- if title != blank -%}
-        <h2 class='split-image-banner__title {{ heading_size }}'>{{ title }}</h2>
+        <h2 class='split-image-banner__title {{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h2>
       {%- endif -%}
       {%- if text != blank -%}
-        <div class='rte {{ body_size }} split-image-banner__text body-font-weight-from-global-settings'>
+        <div class='rte {{ body_size }} mobile--{{ body_size_mobile }} split-image-banner__text body-font-weight-from-global-settings'>
           {{ text }}
         </div>
       {%- endif -%}

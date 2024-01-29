@@ -117,73 +117,100 @@
                 </div>
               {%- when 'subscribe' -%}
                 <div class='footer__block block-{{ block.id }}' {{ block.shopify_attributes }}>
-                  {%- if block.settings.title != blank -%}
-                    <div class='footer__title'>{{ block.settings.title }}</div>
-                  {%- endif -%}
+                  <div class='footer__block_wrapper--1'>
+                    {%- if block.settings.title != blank -%}
+                      <div class='footer__title'>{{ block.settings.title }}</div>
+                    {%- endif -%}
 
-                  {%- if block.settings.text != blank -%}
-                    <div class='rte footer__text body-font-weight-from-global-settings'>
-                      {{ block.settings.text }}
-                    </div>
-                  {%- endif -%}
+                    {%- if block.settings.text != blank -%}
+                      <div class='rte footer__text body-font-weight-from-global-settings'>
+                        {{ block.settings.text }}
+                      </div>
+                    {%- endif -%}
 
-                  {%- form 'customer', id: 'ContactFooter', class: 'newsletter footer__newsletter' -%}
-                    <input
-                      name='contact[tags]'
-                      type='hidden'
-                      value='newsletter'
-                      id='ContactFooter-ContactTagsInput-{{ form.id }}'
-                    >
-
-                    <div class='field'>
-                      <label class='visually-hidden' for='ContactFooter-ContactEmailInput-{{ form.id }}'>
-                        {{- 'forms.newsletter.screen_reader.email_input_label' | t -}}
-                      </label>
+                    {%- form 'customer', id: 'ContactFooter', class: 'newsletter footer__newsletter' -%}
                       <input
-                        type='email'
-                        name='contact[email]'
-                        class='input input--large input--{{ block.settings.input_style }}'
-                        value='{{ form.email }}'
-                        aria-required='true'
-                        autocorrect='off'
-                        autocapitalize='off'
-                        autocomplete='email'
-                        placeholder='{{ 'forms.newsletter.store_front.email_input_placeholder' | t }}'
-                        required
-                        id='ContactFooter-ContactEmailInput-{{ form.id }}'
+                        name='contact[tags]'
+                        type='hidden'
+                        value='newsletter'
+                        id='ContactFooter-ContactTagsInput-{{ form.id }}'
                       >
-                      <button
-                        class='btn btn--solid btn--lg input-btn'
-                        name='commit'
-                        type='submit'
-                        aria-label='{{ 'forms.newsletter.screen_reader.subscribe_button_label' | t }}'
-                      >
-                        {% render 'icon', icon_name: 'arrow', class: 'newsletter__arrow' %}
-                      </button>
+
+                      <div class='field'>
+                        <label class='visually-hidden' for='ContactFooter-ContactEmailInput-{{ form.id }}'>
+                          {{- 'forms.newsletter.screen_reader.email_input_label' | t -}}
+                        </label>
+                        <input
+                          type='email'
+                          name='contact[email]'
+                          class='input input--large input--{{ block.settings.input_style }}'
+                          value='{{ form.email }}'
+                          aria-required='true'
+                          autocorrect='off'
+                          autocapitalize='off'
+                          autocomplete='email'
+                          placeholder='{{ 'forms.newsletter.store_front.email_input_placeholder' | t }}'
+                          required
+                          id='ContactFooter-ContactEmailInput-{{ form.id }}'
+                        >
+                        <button
+                          class='btn btn--solid btn--lg input-btn'
+                          name='commit'
+                          type='submit'
+                          aria-label='{{ 'forms.newsletter.screen_reader.subscribe_button_label' | t }}'
+                        >
+                          {% render 'icon', icon_name: 'arrow', class: 'newsletter__arrow' %}
+                        </button>
+                      </div>
+
+                      {%- if form.errors -%}
+                        {% assign error = form.errors.translated_fields.email
+                          | capitalize
+                          | append: ' '
+                          | append: form.errors.messages.email
+                        %}
+                        <script>
+                          window.addEventListener('load', () => {
+                            window.bodyElement.notification.show('{{ error }}', 'warning')
+                          })
+                        </script>
+                      {%- endif -%}
+
+                      {%- if form.posted_successfully? -%}
+                        {% assign success_message = 'forms.newsletter.store_front.success' | t %}
+                        <script>
+                          window.addEventListener('load', () => {
+                            window.bodyElement.notification.show('{{ success_message }}', 'success')
+                          })
+                        </script>
+                      {%- endif -%}
+                    {%- endform -%}
+                  </div>
+                  {%- if block.settings.show_download_apps -%}
+                    <div class='footer__block_wrapper--2'>
+                      {%- if block.settings.download_app_title != blank -%}
+                        <div class='footer__title'>{{ block.settings.download_app_title }}</div>
+                      {%- endif -%}
+                      <div class="footer__block_svg__wrapper">
+                        {%- if block.settings.download_app_svg_icon_1 != blank -%}
+                          <div class="svg_icon">
+                            <a href="{{ block.settings.download_app_link_1 }}" target='_blank'> 
+                            <span class="desktop_svg">{{ block.settings.download_app_svg_icon_1 }}</span> 
+                            <span class="mobile_svg">{{ block.settings.download_app_svg_icon_1_mobile }}</span> 
+                          </a>
+                          </div>
+                        {%- endif -%}
+                        {%- if block.settings.download_app_svg_icon_2 != blank -%}
+                          <div class="svg_icon">
+                            <a href="{{ block.settings.download_app_link_2 }}" target='_blank'> 
+                            <span class="desktop_svg">{{ block.settings.download_app_svg_icon_2 }} </span> 
+                            <span class="mobile_svg">{{ block.settings.download_app_svg_icon_2_mobile }}</span> 
+                            </a>
+                          </div>
+                        {%- endif -%}
+                      </div>
                     </div>
-
-                    {%- if form.errors -%}
-                      {% assign error = form.errors.translated_fields.email
-                        | capitalize
-                        | append: ' '
-                        | append: form.errors.messages.email
-                      %}
-                      <script>
-                        window.addEventListener('load', () => {
-                          window.bodyElement.notification.show('{{ error }}', 'warning')
-                        })
-                      </script>
-                    {%- endif -%}
-
-                    {%- if form.posted_successfully? -%}
-                      {% assign success_message = 'forms.newsletter.store_front.success' | t %}
-                      <script>
-                        window.addEventListener('load', () => {
-                          window.bodyElement.notification.show('{{ success_message }}', 'success')
-                        })
-                      </script>
-                    {%- endif -%}
-                  {%- endform -%}
+                  {%- endif -%}
                 </div>
               {%- when 'social_media' -%}
                 <div class='footer__block block-{{ block.id }}' {{ block.shopify_attributes }}>
@@ -691,6 +718,51 @@
           ],
           "default": "solid",
           "label": "t:sections.footer.subscribe_block_input_style_label"
+        },
+        {
+          "type": "header",
+          "content": "Download app section"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_download_apps",
+          "default": false,
+          "label": "Show download app link"
+        },
+        {
+          "type": "text",
+          "id": "download_app_title",
+          "label": "Download app heading"
+        },
+        {
+          "type": "html",
+          "id": "download_app_svg_icon_1",
+          "label": "Download app SVG Icon - 1"
+        },
+        {
+          "type": "html",
+          "id": "download_app_svg_icon_1_mobile",
+          "label": "Download app SVG Icon - 1 (Mobile)"
+        },
+        {
+          "type": "url",
+          "id": "download_app_link_1",
+          "label": "Redirection link for SVG - 1"
+        },
+        {
+          "type": "html",
+          "id": "download_app_svg_icon_2",
+          "label": "Download app SVG Icon - 2"
+        },
+        {
+          "type": "html",
+          "id": "download_app_svg_icon_2_mobile",
+          "label": "Download app SVG Icon - 2 (Mobile)"
+        },
+        {
+          "type": "url",
+          "id": "download_app_link_2",
+          "label": "Redirection link for SVG - 2"
         }
       ]
     },

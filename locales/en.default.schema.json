@@ -1531,6 +1531,7 @@
       "img_ratio_option_fill_portrait_label": "Portrait (3:4) - Fill",
       "img_ratio_option_fill_portrait_xl_label": "Portrait large (2:3) - Fill",
       "img_ratio_option_fill_landscape_label": "Landscape (4:3) - Fill",
+      "img_ratio_option_fill_landscape_sm_label": "Landscape (2:1) - Fill",
       "img_ratio_option_square_label": "Square (1:1)",
       "img_ratio_option_portrait_label": "Portrait (3:4)",
       "img_ratio_option_portrait_xl_label": "Portrait large (2:3)",

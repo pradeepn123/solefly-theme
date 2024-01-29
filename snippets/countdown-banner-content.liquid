@@ -3,17 +3,19 @@
     assign options = block.settings
     assign heading = options.heading
     assign heading_size = options.heading_size
+    assign heading_size_mobile = options.heading_size_mobile
     assign subheading = options.subheading
     assign body = options.body
     assign body_size = options.body_size
+    assign body_size_mobile = options.body_size_mobile
   %}
   {%- case block.type -%}
     {% when 'heading' %}
-      <h2 class='countdown-banner__heading {{ heading_size }}' {{ block.shopify_attributes }}>{{ heading }}</h2>
+      <h2 class='countdown-banner__heading {{ heading_size }} mobile--{{ heading_size_mobile }}' {{ block.shopify_attributes }}>{{ heading }}</h2>
     {% when 'subheading' %}
       <div class='caption countdown-banner__caption' {{ block.shopify_attributes }}>{{ subheading }}</div>
     {% when 'text' %}
-      <div class='rte countdown-banner__body {{body_size}} body-font-weight-from-global-settings'>
+      <div class='rte countdown-banner__body {{ body_size }} mobile--{{ body_size_mobile }} body-font-weight-from-global-settings'>
         {{ body }}
       </div>
     {% when 'buttons' %}

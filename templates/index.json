@@ -16,6 +16,8 @@
             "text": "<p>Discover the Origins and Legacy of the JORDAN 1 RETRO HIGH OG<\/p>",
             "heading_size": "h0",
             "body_size": "body2",
+            "heading_size_mobile": "h5",
+            "body_size_mobile": "body4",
             "desktop_content_position": "align-items:center;justify-content:flex-start;",
             "desktop_content_align": "left",
             "content_max_width": 528,
@@ -44,6 +46,8 @@
             "text": "<p>Experience the Unbeatable Comfort and Style of Jorden Shoes.<\/p>",
             "heading_size": "h0",
             "body_size": "body2",
+            "heading_size_mobile": "h5",
+            "body_size_mobile": "body4",
             "desktop_content_position": "align-items:center;justify-content:flex-start;",
             "desktop_content_align": "left",
             "content_max_width": 528,
@@ -72,6 +76,8 @@
             "text": "<p>Discover the NASA Collection of G-Shock Watches - a perfect blend of style and functionality.<\/p>",
             "heading_size": "h0",
             "body_size": "body2",
+            "heading_size_mobile": "h5",
+            "body_size_mobile": "body4",
             "desktop_content_position": "align-items:center;justify-content:flex-start;",
             "desktop_content_align": "left",
             "content_max_width": 600,
@@ -123,6 +129,8 @@
             "text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
             "heading_size": "h2",
             "body_size": "body3",
+            "heading_size_mobile": "h2",
+            "body_size_mobile": "body3",
             "desktop_content_position": "align-items:center;justify-content:flex-start;",
             "desktop_content_align": "left",
             "content_max_width": 560,
@@ -178,7 +186,7 @@
         "section_spacing_top": 0,
         "section_spacing_bottom": 20,
         "desktop_ratio": 0.3,
-        "mobile_ratio": 1.5,
+        "mobile_ratio": 1.4,
         "enable_circle_navigation": true,
         "show_navigation_arrows": "on_hover",
         "arrows_style": "corner-buttons",
@@ -238,6 +246,7 @@
         "mobile_layout": "carousel",
         "title": "SHOP BY CATEGORY",
         "heading_size": "h2",
+        "heading_size_mobile": "h4",
         "alignment": "left",
         "collection_list": [
           "mens-apparel",
@@ -518,6 +527,7 @@
         "title": "EXCLUSIVE COLLECTION",
         "text": "",
         "heading_size": "h2",
+        "heading_size_mobile": "h4",
         "body_size": "body4",
         "link_text": "Explore Collection",
         "link_url": "",
@@ -618,6 +628,7 @@
         "section_spacing_bottom": 30,
         "title": "",
         "heading_size": "h5",
+        "heading_size_mobile": "h5",
         "alignment": "left",
         "columns": 4,
         "desktop_row_height": 340,
@@ -763,14 +774,16 @@
           "type": "heading",
           "settings": {
             "heading": "Limited time sales!!",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "heading_size_mobile": "h1"
           }
         },
         "text_CQj7EX": {
           "type": "text",
           "settings": {
             "body": "Limited Time, Unlimited Style! Shop Exclusive Deals in Our Limited Time Sales. Don't Miss Out – Elevate Your Look Today.",
-            "body_size": "body3"
+            "body_size": "body2",
+            "body_size_mobile": "body3"
           }
         },
         "countdown_pdGnYx": {
@@ -926,6 +939,7 @@
         "section_spacing_bottom": 30,
         "title": "WHOM YOU ARE SHOPPING FOR",
         "heading_size": "h2",
+        "heading_size_mobile": "h4",
         "alignment": "left",
         "columns": 3,
         "desktop_row_height": 340,
@@ -977,6 +991,7 @@
         "heading": "OUR STORE",
         "body_richtext": "<p>Come visit us our Store and elevate your footwear game with exclusive kicks and premium styles.<\/p>",
         "heading_size": "h2",
+        "heading_size_mobile": "h4",
         "body_size": "body3",
         "content_alignment": "left",
         "api_key": "",

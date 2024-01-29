@@ -562,6 +562,10 @@
             "label": "t:sections.general_section_settings.img_ratio_option_fill_landscape_label"
           },
           {
+            "value": "landscape-sm",
+            "label": "t:sections.general_section_settings.img_ratio_option_fill_landscape_sm_label"
+          },
+          {
             "value": "fit-square",
             "label": "t:sections.general_section_settings.img_ratio_option_fit_square_label"
           },
