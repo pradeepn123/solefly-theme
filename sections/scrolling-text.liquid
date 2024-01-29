@@ -108,7 +108,7 @@
         {% capture y1 %}{% if gradient_degree > 0 and gradient_degree < 90 or gradient_degree > 315 and gradient_degree < 360 %}1{% else %}0{% endif %}{% endcapture %}
         {% capture y2 %}{% if gradient_degree > 90 and gradient_degree < 230 %}1{% else %}0{% endif %}{% endcapture %}
 
-        {% if block.settings.announcement_text != blank %}
+        {% if block.settings.announcement_text_1 != blank %}
           <scrolling-text-line class='block-{{ block.id }} block-wrapper {% if section.settings.container_size == 'full-screen' %} block-wrapper--full-screen {% endif %} {% if section.settings.section_layout == "crossed" and section.settings.inclination_degree != 0 and section.blocks.size > 1 %} block-wrapper--crossed {% endif %}'
             {% if block.settings.font_style == 'mixed' %} with-font-mixed {% endif %}
           >
@@ -116,9 +116,9 @@
               class='scrolling-text scrolling-text--with-{{ block.settings.font_family }}-font'
               data-scrolling-text-line
             >
-              {%- if block.settings.custom_icon_image != blank -%}
+              {%- if block.settings.custom_icon_image_1 != blank -%}
                 <img
-                  {% render 'image-attributes', image: block.settings.custom_icon_image, size: 'small', class: 'scrolling-text__icon' %}
+                  {% render 'image-attributes', image: block.settings.custom_icon_image_1, size: 'small', class: 'scrolling-text__icon' %}
                 >
               {%- elsif block.settings.icon != 'none' -%}
                 <div class='icon-container'>
@@ -151,8 +151,18 @@
               {%- endif -%}
 
               <p class='scrolling-text__text {% if block.settings.font_style == 'outline' %} scrolling-text__text--font-outline {% endif %} {% if block.settings.text_color_gradient != blank %} scrolling-text__text--color-gradient {% endif %}'>
-                {{ block.settings.announcement_text }}
+                {{ block.settings.announcement_text_1 }}
               </p>
+
+              {% if block.settings.show_second_announcement_text %}
+                <img
+                  {% render 'image-attributes', image: block.settings.custom_icon_image_2, size: 'small', class: 'scrolling-text__icon' %}
+                >
+                <p class='scrolling-text__text {% if block.settings.font_style == 'outline' %} scrolling-text__text--font-outline {% endif %} {% if block.settings.text_color_gradient != blank %} scrolling-text__text--color-gradient {% endif %}'>
+                  {{ block.settings.announcement_text_2 }}
+                </p>
+            {% endif %}
+
             </div>
 
             {% if block.settings.link %}
@@ -328,9 +338,21 @@
       "settings": [
         {
           "type": "text",
-          "id": "announcement_text",
-          "label": "t:sections.scrolling-text.blocks.announcement.announcement_text.label",
+          "id": "announcement_text_1",
+          "label": "t:sections.scrolling-text.blocks.announcement.announcement_text_1.label",
           "default": "Make an announcement"
+        },
+        {
+          "type": "text",
+          "id": "announcement_text_2",
+          "label": "t:sections.scrolling-text.blocks.announcement.announcement_text_2.label",
+          "default": "Make an announcement"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_second_announcement_text",
+          "default": false,
+          "label": "t:sections.scrolling-text.blocks.announcement.show_second_announcement_text.label"
         },
         {
           "type": "select",
@@ -934,7 +956,12 @@
         },
         {
           "type": "image_picker",
-          "id": "custom_icon_image",
+          "id": "custom_icon_image_1",
+          "label": "t:sections.general_section_settings.custom_icon_image.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_icon_image_2",
           "label": "t:sections.general_section_settings.custom_icon_image.label"
         },
         {
