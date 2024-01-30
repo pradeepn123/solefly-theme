@@ -248,7 +248,7 @@
         "featured_products": [
 
         ],
-        "img_ratio": "portrait",
+        "img_ratio": "fit-portrait",
         "product_card_align": "center",
         "cards_to_show": 18,
         "desktop_columns": 4,
