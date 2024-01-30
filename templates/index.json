@@ -340,6 +340,8 @@
         "announcement_jRkzcm": {
           "type": "announcement",
           "settings": {
+            "mobile_specific_bg_class": true,
+            "mobile_specific_textColor_class": false,
             "announcement_text_1": "SOLEFLY",
             "announcement_text_2": "SELECT",
             "show_second_announcement_text": true,
@@ -365,6 +367,8 @@
         "announcement_kNUJWb": {
           "type": "announcement",
           "settings": {
+            "mobile_specific_bg_class": false,
+            "mobile_specific_textColor_class": true,
             "announcement_text_1": "SOLEFLY",
             "announcement_text_2": "SELECT",
             "show_second_announcement_text": true,
@@ -409,6 +413,8 @@
         "announcement_qpzRji": {
           "type": "announcement",
           "settings": {
+            "mobile_specific_bg_class": false,
+            "mobile_specific_textColor_class": false,
             "announcement_text_1": "Make an announcement",
             "announcement_text_2": "Make an announcement",
             "show_second_announcement_text": false,
