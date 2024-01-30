@@ -82,7 +82,7 @@
             <div class='hover_image__link'>
                 <div class='hover_image__link_wrapper'>
                     {% for block in section.blocks %}
-                    <div class="hover_image__link--link{% if forloop.index == 1 %} active{% endif %} {{ link_text_size }} mobile--{{ link_text_size_mobile }}" data-img-src="{{ block.settings.image | image_url: master }}" data-link="">
+                    <div class="hover_image__link--link{% if forloop.index == 1 %} active{% endif %} {{ link_text_size }} mobile--{{ link_text_size_mobile }}" data-img-src="{{ block.settings.image | image_url: master }}" data-link="" data-img-alt="{{ block.settings.image.alt }}">
                         <a {% if block.settings.link != blank %}href="{{ block.settings.link }}"{% endif %} {% if redirection_new_tab %}target="_blank"{% endif %} class="hover_image__link--link_text">{{ block.settings.title }}</a>
                         <img
                         src="{{- 'arrow.svg' | asset_url | image_url: 'master' -}}"
@@ -152,6 +152,7 @@
     const updateImage = link => {
         if (link !== activeLink) {
             const imgSrc = link.getAttribute('data-img-src');
+            const imgAlt = link.getAttribute('data-img-alt');
             const img = new Image();
 
             img.onload = () => {
@@ -161,6 +162,7 @@
             };
 
             img.src = imgSrc;
+            img.alt = imgAlt;
 
             activeLink.classList.remove('active');
             link.classList.add('active');
