@@ -1,10 +1,10 @@
 /* Sale--menu item--color red */
 .header__item.header__item--sale .underline-text__label {
-  color: #FF0000;
+  color: #ED0000;
 }
 
 .header__item.header__item--sale .underline-text__label:before {
-  background: #FF0000;
+  background: #ED0000;
 }
 
 /* Reducing Menu height */
