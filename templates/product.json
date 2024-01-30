@@ -21,7 +21,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_size": "h5"
+            "heading_size": "h4"
           }
         },
         "price": {
@@ -123,6 +123,7 @@
         },
         "c9188b10-e29c-4c63-b385-a3faa860d64a": {
           "type": "information_tag",
+          "disabled": true,
           "settings": {
             "tag_style": "solid",
             "heading": "Information tag",
