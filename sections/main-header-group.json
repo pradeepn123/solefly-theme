@@ -135,7 +135,7 @@
             "columns": 6,
             "desktop_space_between_cards": 12,
             "mobile_space_between_cards": 12,
-            "heading_size": "h5",
+            "heading_size": "h4",
             "body_size": "body3",
             "content_position": "bottom-left",
             "enable_vertical_text": true,
