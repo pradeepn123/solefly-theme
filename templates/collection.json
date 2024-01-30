@@ -14,7 +14,6 @@
         "show_breadcrumbs": true,
         "show_collection_title": true,
         "show_collection_description": false,
-        "image": "shopify:\/\/shop_images\/Men_main_collection_banner_copy.webp",
         "desktop_overlay_opacity": 0,
         "mobile_overlay_opacity": 0,
         "desktop_content_position": "align-items:center;justify-content:flex-start;",
