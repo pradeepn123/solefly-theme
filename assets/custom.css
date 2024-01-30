@@ -1,10 +1,10 @@
 /* Sale--menu item--color red */
 .header__item.header__item--sale .underline-text__label {
-  color: #FF0000;
+  color: #ED0000;
 }
 
 .header__item.header__item--sale .underline-text__label:before {
-  background: #FF0000;
+  background: #ED0000;
 }
 
 /* Reducing Menu height */
@@ -229,14 +229,25 @@
   right: 2%;
 }
 
-
 .product-variant-picker__list div:not([option-picker-name="Size"]),
-.product-variant-picker__list div:not([option-picker-name="Color"]){
+.product-variant-picker__list div:not([option-picker-name="Color"]) {
   order: 3;
 }
+
 .product-variant-picker__list div[option-picker-name="Size"] {
   order: 2;
 }
-.product-variant-picker__list div[option-picker-name="Color"]{
+
+.product-variant-picker__list div[option-picker-name="Color"] {
   order: 1;
+
+}
+/* Colors Mobile */
+@media screen and (max-width: 550px){
+  .mobile_specific_bg_class{
+    background-color: #C94238;
+  }
+  .mobile_specific_textColor_class .scrolling-text__text{
+    color: #C94238;
+  }
 }

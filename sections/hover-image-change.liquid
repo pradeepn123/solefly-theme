@@ -66,7 +66,7 @@
 <div class='hover_image-change__container container section section-{{ section.id }} container--{{ container_size }} section-spacing'>
     {%- if title != blank -%}
       <div class='hover_image-change__header{% if alignment == 'center' %} hover_image-change__header--center{% endif %}'>
-        <h5 class='hover_image-change__title {{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h5>
+        <h2 class='hover_image-change__title {{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h2>
       </div>
     {%- endif -%}
 
@@ -82,7 +82,7 @@
             <div class='hover_image__link'>
                 <div class='hover_image__link_wrapper'>
                     {% for block in section.blocks %}
-                    <div class="hover_image__link--link{% if forloop.index == 1 %} active{% endif %} {{ link_text_size }} mobile--{{ link_text_size_mobile }}" data-img-src="{{ block.settings.image | image_url: master }}" data-link="">
+                    <div class="hover_image__link--link{% if forloop.index == 1 %} active{% endif %} {{ link_text_size }} mobile--{{ link_text_size_mobile }}" data-img-src="{{ block.settings.image | image_url: master }}" data-link="" data-img-alt="{{ block.settings.image.alt }}">
                         <a {% if block.settings.link != blank %}href="{{ block.settings.link }}"{% endif %} {% if redirection_new_tab %}target="_blank"{% endif %} class="hover_image__link--link_text">{{ block.settings.title }}</a>
                         <img
                         src="{{- 'arrow.svg' | asset_url | image_url: 'master' -}}"
@@ -152,15 +152,18 @@
     const updateImage = link => {
         if (link !== activeLink) {
             const imgSrc = link.getAttribute('data-img-src');
+            const imgAlt = link.getAttribute('data-img-alt');
             const img = new Image();
 
             img.onload = () => {
                 imageContainer.innerHTML = '';
                 imageContainer.appendChild(img);
                 img.classList.add('loaded');
+                img.setAttribute('alt', imgAlt);
             };
 
             img.src = imgSrc;
+            img.alt = imgAlt;
 
             activeLink.classList.remove('active');
             link.classList.add('active');
@@ -168,7 +171,7 @@
         }
     };
 
-    imageContainer.innerHTML = `<img src="${activeLink.getAttribute('data-img-src')}" class="loaded">`;
+    imageContainer.innerHTML = `<img src="${activeLink.getAttribute('data-img-src')}" alt="${activeLink.getAttribute('data-img-alt')}" class="loaded">`;
 
     document.querySelectorAll('.hover_image__link--link').forEach(link => {
         link.addEventListener('mouseenter', () => updateImage(link));

@@ -194,7 +194,7 @@
                       <div class="footer__block_svg__wrapper">
                         {%- if block.settings.download_app_svg_icon_1 != blank -%}
                           <div class="svg_icon">
-                            <a href="{{ block.settings.download_app_link_1 }}" target='_blank'> 
+                            <a href="{{ block.settings.download_app_link_1 }}" target='_blank' aria-label="App Store Link">
                             <span class="desktop_svg">{{ block.settings.download_app_svg_icon_1 }}</span> 
                             <span class="mobile_svg">{{ block.settings.download_app_svg_icon_1_mobile }}</span> 
                           </a>
@@ -202,7 +202,7 @@
                         {%- endif -%}
                         {%- if block.settings.download_app_svg_icon_2 != blank -%}
                           <div class="svg_icon">
-                            <a href="{{ block.settings.download_app_link_2 }}" target='_blank'> 
+                            <a href="{{ block.settings.download_app_link_2 }}" target='_blank' aria-label="Play Store Link">
                             <span class="desktop_svg">{{ block.settings.download_app_svg_icon_2 }} </span> 
                             <span class="mobile_svg">{{ block.settings.download_app_svg_icon_2_mobile }}</span> 
                             </a>
