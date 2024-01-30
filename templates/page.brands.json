@@ -2,12 +2,273 @@
   "sections": {
     "page": {
       "type": "page",
-      "disabled": true,
       "settings": {
+        "color_scheme": "primary",
+        "container_size": "page-width",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "heading_size": "h0",
+        "heading_size_mobile": "h3",
+        "text_transform": "uppercase",
+        "content_alignment": "left",
+        "show_heading": true
+      }
+    },
+    "featured_brands_QVhmFP": {
+      "type": "featured-brands",
+      "blocks": {
+        "post_k6A4Dp": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Adidas_4d64de7c-2e8b-4703-8176-7cf6353c49c7.png",
+            "block_title": "Adidas",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_wKcyyU": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nike_870f01bb-7f4f-430b-ae6d-f24577cae090.png",
+            "block_title": "Nike",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_mCPDjV": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Crocs.png",
+            "block_title": "Crocs",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_injhxh": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New_era_08c4cd8b-ac9f-4e4b-a7c9-cb3261f9b615.png",
+            "block_title": "New Era",
+            "link": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "post_k6A4Dp",
+        "post_wKcyyU",
+        "post_mCPDjV",
+        "post_injhxh"
+      ],
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "page-width",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "FEATURED BRANDS",
+        "text": "",
+        "heading_size": "h2",
+        "heading_size_mobile": "h4",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 12,
+        "mobile_space_between_cards": 12,
+        "image_width": 80,
+        "show_arrows_on_hover": true,
+        "block_title_size": "h5",
+        "block_title_size_mobile": "h5",
+        "img_bg_color": "#f4f4f4",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "multicolumn_hDND4t": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_PULCt8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/herschel.png",
+            "desktop_image_width": 50,
+            "mobile_image_width": 50,
+            "image_ratio": 1,
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_Jge3Th": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Oakley_48824e56-cd1d-4b9b-891a-2f2ba169b73a.png",
+            "desktop_image_width": 50,
+            "mobile_image_width": 50,
+            "image_ratio": 1,
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_YKDAiG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New_era_08c4cd8b-ac9f-4e4b-a7c9-cb3261f9b615.png",
+            "desktop_image_width": 50,
+            "mobile_image_width": 50,
+            "image_ratio": 1,
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_98CFJj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vans_c17d9ae2-c90e-4648-93ef-31c94ea99ee6.png",
+            "desktop_image_width": 50,
+            "mobile_image_width": 50,
+            "image_ratio": 1,
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_VAEpFt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nike_870f01bb-7f4f-430b-ae6d-f24577cae090.png",
+            "desktop_image_width": 50,
+            "mobile_image_width": 50,
+            "image_ratio": 1,
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_AVB4Lt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jordan_e764dbeb-a85e-4f4d-96e9-76ac422ea4c3.png",
+            "desktop_image_width": 50,
+            "mobile_image_width": 50,
+            "image_ratio": 1,
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_aQwWLT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sUICOKE.png",
+            "desktop_image_width": 50,
+            "mobile_image_width": 50,
+            "image_ratio": 1,
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_d8B8Hz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mitchell_and_ness.png",
+            "desktop_image_width": 50,
+            "mobile_image_width": 50,
+            "image_ratio": 1,
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_qy4C6p": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Crocs.png",
+            "desktop_image_width": 50,
+            "mobile_image_width": 50,
+            "image_ratio": 1,
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_WDnxTA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Adidas_4d64de7c-2e8b-4703-8176-7cf6353c49c7.png",
+            "desktop_image_width": 50,
+            "mobile_image_width": 50,
+            "image_ratio": 1,
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_PULCt8",
+        "column_Jge3Th",
+        "column_YKDAiG",
+        "column_98CFJj",
+        "column_VAEpFt",
+        "column_AVB4Lt",
+        "column_aQwWLT",
+        "column_d8B8Hz",
+        "column_qy4C6p",
+        "column_WDnxTA"
+      ],
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "page-width",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "ALL BRANDS",
+        "text": "",
+        "heading_size": "h2",
+        "heading_size_mobile": "h4",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "column_heading_size": "h7",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 5,
+        "desktop_space_between_cards": 0,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 0,
+        "mobile_content_spacing": 0,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
       }
     }
   },
   "order": [
-    "page"
+    "page",
+    "featured_brands_QVhmFP",
+    "multicolumn_hDND4t"
   ]
 }

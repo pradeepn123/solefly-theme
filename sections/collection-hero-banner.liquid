@@ -64,7 +64,7 @@
   <div class='container container--{{ container_size }} section-spacing collection-hero__outer-container {% if container_size == 'full-screen' %} collection-hero__outer-container--full-screen{% endif %}'>
     
     {% if collection.metafields.custom.hide_collection_banner_image %}
-      <div class='collection-hero__content-wrap'>
+      <div class='collection-hero__content-wrap collection-hero__without-banner'>
         <div class='collection-hero__content'>
           {%- if show_breadcrumbs -%}
             <div class='breadcrumbs collection-hero__breadcrumbs'>
@@ -107,7 +107,7 @@
             <img
               {% render 'image-attributes', image: image, class: 'image collection-hero__image' %}
             >
-          {%- else -%}
+          {% comment %} {%- else -%}
             <carousel-component
               class='carousel collection-hero__carousel'
               data-animation='fade'
@@ -132,7 +132,7 @@
                   {%- endfor -%}
                 </div>
               </div>
-            </carousel-component>
+            </carousel-component> {% endcomment %}
           {%- endif -%}
         {%- endif -%}
         <div class='collection-hero__content-wrap'>

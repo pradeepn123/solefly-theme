@@ -136,7 +136,10 @@
                             {% assign image = block.settings.image %}
                             <img class="block_image__image" data-sizes="auto" src="{{- image | image_url: master -}}" width="100" height="100" alt="{{ image.alt | escape }}" loading="lazy"/>
                         </div>
-                        <a {% if block.settings.link != blank %}href="{{ block.settings.link }}"{% endif %} {% if redirection_new_tab %}target="_blank"{% endif %} class="hover_image__link--link_text">{{ block.settings.title }}</a>
+                        <span class="hover_image__link--link_text">{{ block.settings.title }}</span>
+                        {% if block.settings.link != blank %}
+                          <a class="hover_image__link__link" href="{{ block.settings.link }}" {% if redirection_new_tab %}target="_blank"{% endif %}></a>
+                        {% endif %}
                     </div>
                 {% endfor %}
             </div>
