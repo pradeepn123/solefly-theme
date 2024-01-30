@@ -794,7 +794,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Jordan_e764dbeb-a85e-4f4d-96e9-76ac422ea4c3.png",
             "title": "Jordan",
-            "link": ""
+            "link": "shopify:\/\/collections\/jordan-1"
           }
         },
         "image_pxFLVN": {
@@ -802,7 +802,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/G-shock.png",
             "title": "G-Shock",
-            "link": ""
+            "link": "shopify:\/\/collections\/g-shock"
           }
         },
         "image_yJbdAD": {
@@ -810,7 +810,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Nike_870f01bb-7f4f-430b-ae6d-f24577cae090.png",
             "title": "Nike",
-            "link": ""
+            "link": "shopify:\/\/collections\/nike"
           }
         },
         "image_4UqRhA": {
@@ -818,7 +818,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Oakley_48824e56-cd1d-4b9b-891a-2f2ba169b73a.png",
             "title": "Oakley",
-            "link": ""
+            "link": "shopify:\/\/collections\/oakley"
           }
         },
         "image_a84VQC": {
@@ -826,7 +826,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Vans_c17d9ae2-c90e-4648-93ef-31c94ea99ee6.png",
             "title": "Vans",
-            "link": ""
+            "link": "shopify:\/\/collections\/vans"
           }
         },
         "image_tg6KFG": {
@@ -834,7 +834,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sUICOKE.png",
             "title": "Suicoke",
-            "link": ""
+            "link": "shopify:\/\/collections\/suicoke"
           }
         },
         "image_akCY7z": {
@@ -842,7 +842,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/New_era_08c4cd8b-ac9f-4e4b-a7c9-cb3261f9b615.png",
             "title": "New Era",
-            "link": ""
+            "link": "shopify:\/\/collections\/new-era"
           }
         },
         "image_f6iMHa": {
@@ -850,7 +850,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/herschel.png",
             "title": "Herschel Supply",
-            "link": ""
+            "link": "shopify:\/\/collections\/herschel-supply-company-ltd"
           }
         }
       },
