@@ -73,7 +73,7 @@
     "product_card_badges_position": "on-image",
     "product_card_show_sale_amount_badge": true,
     "product_card_highlight_sale_price": true,
-    "product_card_sold_out_badge_color": "#a3a3a3",
+    "product_card_sold_out_badge_color": "#6b6b6b",
     "product_sale_badge_variant": "variant_1",
     "product_sale_badge_bg": "#9d2226",
     "product_sale_badge_color": "#ffffff",
