@@ -229,6 +229,19 @@
   right: 2%;
 }
 
+.product-variant-picker__list div:not([option-picker-name="Size"]),
+.product-variant-picker__list div:not([option-picker-name="Color"]) {
+  order: 3;
+}
+
+.product-variant-picker__list div[option-picker-name="Size"] {
+  order: 2;
+}
+
+.product-variant-picker__list div[option-picker-name="Color"] {
+  order: 1;
+
+}
 /* Colors Mobile */
 @media screen and (max-width: 550px){
   .mobile_specific_bg_class{
