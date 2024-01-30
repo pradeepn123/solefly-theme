@@ -109,7 +109,8 @@
         {% capture y2 %}{% if gradient_degree > 90 and gradient_degree < 230 %}1{% else %}0{% endif %}{% endcapture %}
 
         {% if block.settings.announcement_text_1 != blank %}
-          <scrolling-text-line class='block-{{ block.id }} block-wrapper {% if section.settings.container_size == 'full-screen' %} block-wrapper--full-screen {% endif %} {% if section.settings.section_layout == "crossed" and section.settings.inclination_degree != 0 and section.blocks.size > 1 %} block-wrapper--crossed {% endif %}'
+          <scrolling-text-line class='block-{{ block.id }} block-wrapper {% if section.settings.container_size == 'full-screen' %} block-wrapper--full-screen {% endif %} {% if block.settings.mobile_specific_bg_class == true %} mobile_specific_bg_class {% endif %}
+          {% if block.settings.mobile_specific_textColor_class == true %} mobile_specific_textColor_class {% endif %} {% if section.settings.section_layout == "crossed" and section.settings.inclination_degree != 0 and section.blocks.size > 1 %} block-wrapper--crossed {% endif %}'
             {% if block.settings.font_style == 'mixed' %} with-font-mixed {% endif %}
           >
             <div
@@ -336,6 +337,20 @@
       "name": "t:sections.scrolling-text.blocks.announcement.name",
       "limit": 2,
       "settings": [
+        {
+          "type": "checkbox",
+          "id": "mobile_specific_bg_class",
+          "label": "Background Color Class for Mobile",
+          "default": false,
+          "info": "True/False , Enable this to add seperate class to target for mobile"
+        },
+        {
+          "type": "checkbox",
+          "id": "mobile_specific_textColor_class",
+          "label": "Text Color Class for Mobile",
+          "default": false,
+          "info": "True/False , Enable this to add seperate class to target for mobile"
+        },
         {
           "type": "text",
           "id": "announcement_text_1",

@@ -228,3 +228,13 @@
   top: 13%;
   right: 2%;
 }
+
+/* Colors Mobile */
+@media screen and (max-width: 550px){
+  .mobile_specific_bg_class{
+    background-color: #C94238;
+  }
+  .mobile_specific_textColor_class .scrolling-text__text{
+    color: #C94238;
+  }
+}
