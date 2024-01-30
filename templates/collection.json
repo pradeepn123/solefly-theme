@@ -10,7 +10,7 @@
         "section_spacing_bottom": 0,
         "desktop_ratio": 0.2,
         "mobile_ratio": 0.7,
-        "show_collection_image": false,
+        "show_collection_image": true,
         "show_breadcrumbs": true,
         "show_collection_title": true,
         "show_collection_description": false,
