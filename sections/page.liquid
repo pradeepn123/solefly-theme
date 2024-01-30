@@ -8,6 +8,7 @@
   assign heading_size = options.heading_size
   assign heading_size_mobile = options.heading_size_mobile
   assign content_alignment = options.content_alignment
+  assign text_transform = options.text_transform
 -%}
 
 {% capture css %}
@@ -16,14 +17,20 @@
         --gsc-section-spacing-top: {{ section_spacing_top }}px;
         --gsc-section-spacing-bottom: {{ section_spacing_bottom }}px;
     }
-    .page__title {
-      text-transform: uppercase;
-    }
     .page_title-left {
       text-align: left;
     }
     .page_title-center {
       text-align: center;
+    }
+    .page_title-text_transform-uppercase {
+      text-transform: uppercase;
+    }
+    .page_title-text_transform-capitalize {
+      text-transform: capitalize;
+    }
+    .page_title-text_transform-lowercase {
+      text-transform: lowercase;
     }
   {% endstyle %}
 {% endcapture %}
@@ -33,7 +40,7 @@
 <div class='section section-{{ section.id }} color-{{ color_scheme }}'>
   <div class='container container--{{ container_size }} section-spacing'>
     {%- if page.title != blank and show_heading -%}
-      <h5 class='page__title {{ heading_size }} mobile--{{ heading_size_mobile }} page_title-{{ content_alignment }}'>{{ page.title }}</h5>
+      <h5 class='page__title {{ heading_size }} mobile--{{ heading_size_mobile }} page_title-{{ content_alignment }} page_title-text_transform-{{ text_transform }}'>{{ page.title }}</h5>
     {%- endif -%}
     {%- if page.content != blank -%}
       <div class='page__content rte rte--page'>
@@ -218,6 +225,26 @@
         }
       ],
       "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "text_transform",
+      "label": "Title text transform",
+      "options": [
+        {
+          "value": "lowercase",
+          "label": "Lowercase"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalize"
+        },
+        {
+          "value": "uppercase",
+          "label": "Uppercase"
+        }
+      ],
+      "default": "capitalize"
     },
     {
       "type": "select",

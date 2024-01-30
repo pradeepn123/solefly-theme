@@ -9,6 +9,7 @@
         "section_spacing_bottom": 48,
         "heading_size": "h0",
         "heading_size_mobile": "h3",
+        "text_transform": "uppercase",
         "content_alignment": "left",
         "show_heading": true
       }

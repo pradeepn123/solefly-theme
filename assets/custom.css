@@ -204,9 +204,6 @@
 .shape--landscape-sm {
   padding-bottom: var(--gsc-landscape-sm-image-ratio);
 }
-.collection-hero__carousel-container {
-  height: 0;
-}
 
 .input--custom {
   background-color: #fff;
@@ -284,3 +281,16 @@
   }
 }
 
+/* collection-hero-banner */
+.collection-hero__carousel-container {
+  height: 0;
+}
+@media screen and (max-width: 425px) {
+  .collection-hero__content-wrap {
+    justify-content: flex-start;
+    padding: 0;
+  }
+  .collection-hero__without-banner .collection-hero__content {
+    padding: 2.4rem 0;
+  }
+}
