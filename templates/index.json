@@ -940,7 +940,7 @@
           "type": "buttons",
           "settings": {
             "btn_text": "SHOP NOW",
-            "btn_url": "",
+            "btn_url": "shopify:\/\/collections\/sale",
             "btn_style": "solid",
             "extra_btn_text": "",
             "extra_btn_url": "",
@@ -1065,7 +1065,7 @@
         "color_scheme": "primary",
         "container_size": "full-screen",
         "section_spacing_top": 48,
-        "section_spacing_bottom": 30,
+        "section_spacing_bottom": 40,
         "title": "WHOM YOU ARE SHOPPING FOR",
         "heading_size": "h2",
         "heading_size_mobile": "h4",
