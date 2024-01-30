@@ -16,6 +16,7 @@
   assign container_size = options.container_size
   assign body_size = options.body_size
   assign heading_size = options.heading_size
+  assign heading_size_mobile = options.heading_size_mobile
   assign column_body_size = options.column_body_size
   assign column_heading_size = options.column_heading_size
 
@@ -41,7 +42,7 @@
   {% style %}
     .section-{{section.id}}{
         --gsc-space-between-cards: {{mobile_space_between_cards}}rem;
-        --gsc-columns: 1;
+        --gsc-columns: 2;
         --gsc-content-spacing: {{ mobile_content_spacing }}rem;
         --gsc-section-spacing-top: {{ section_spacing_top }}px;
         --gsc-section-spacing-bottom: {{ section_spacing_bottom }}px;
@@ -101,7 +102,7 @@
       <div class='multicolumn__content-wrap multicolumn__content-wrap--align-{{ content_alignment }}'>
         <div class='multicolumn__content'>
           {%- if title != blank -%}
-            <h5 class='{{ heading_size }}'>{{ title }}</h5>
+            <h5 class='{{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h5>
           {%- endif -%}
           {%- if text != blank -%}
             <div class='rte multicolumn__text body-font-weight-from-global-settings {{ body_size }}'>
@@ -863,7 +864,7 @@
         },
         {
           "value": "one-column-grid",
-          "label": "t:sections.multicolumn.mobile_layout.options.option_3"
+          "label": "2 columns"
         }
       ],
       "default": "one-column-grid",
@@ -889,6 +890,46 @@
       "type": "select",
       "id": "heading_size",
       "label": "t:sections.general_section_settings.label_for_heading_size_setting",
+      "options": [
+        {
+          "value": "h0",
+          "label": "t:sections.general_section_settings.heading_size_0_option"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.general_section_settings.heading_size_1_option"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.general_section_settings.heading_size_2_option"
+        },
+        {
+          "value": "h3",
+          "label": "t:sections.general_section_settings.heading_size_3_option"
+        },
+        {
+          "value": "h4",
+          "label": "t:sections.general_section_settings.heading_size_4_option"
+        },
+        {
+          "value": "h5",
+          "label": "t:sections.general_section_settings.heading_size_5_option"
+        },
+        {
+          "value": "h6",
+          "label": "t:sections.general_section_settings.heading_size_6_option"
+        },
+        {
+          "value": "h7",
+          "label": "t:sections.general_section_settings.heading_size_7_option"
+        }
+      ],
+      "default": "h5"
+    },
+    {
+      "type": "select",
+      "id": "heading_size_mobile",
+      "label": "Heading size(Mobile)",
       "options": [
         {
           "value": "h0",

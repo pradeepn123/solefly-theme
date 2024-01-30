@@ -197,6 +197,15 @@
     overflow: hidden;
     flex-direction: column;
     row-gap: 10px;
+    position: relative;
+}
+
+.mobile-content__block .hover_image__link__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .block_image__container {

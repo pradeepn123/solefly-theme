@@ -251,3 +251,36 @@
     color: #C94238;
   }
 }
+
+/* featured-brands--section */
+.featured-brands__image img {
+  object-fit: contain;
+}
+.featured-products__desktop .instagram__link-overlay {
+  background: transparent;
+}
+.instagram__image-title {
+  padding: 20px 0;
+}
+.featured-products__desktop .instagram__image {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+.featured-products__mobile .instagram__link-overlay {
+  background: transparent;
+}
+.featured-products__mobile .instagram__image {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .featured-brands__image.shape--nature {
+    padding-bottom: 80%;
+  }
+}
+
