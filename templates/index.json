@@ -880,7 +880,7 @@
         "view_all_text": "View all brands",
         "view_all_link": "",
         "view_all_text_size": "body3",
-        "link_text_size": "h2",
+        "link_text_size": "h5",
         "link_text_size_mobile": "h5",
         "block_title_font_weight": 700,
         "show_all_btn": true,
