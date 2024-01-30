@@ -78,7 +78,7 @@
           {{- 'cards.collection_card.store_front.product_count' | t: count: all_products_count -}}
         </div>
       {%- endif -%}
-      <h6 class='collection-card__title {{ heading_size }}'>{{ title }}</h6>
+      <h5 class='collection-card__title {{ heading_size }}'>{{ title }}</h5>
       {%- if link_text != blank -%}
         <a
           class='link {% if text_style == 'on-image-bottom-vertical' %} link--vertical {% endif %}'
