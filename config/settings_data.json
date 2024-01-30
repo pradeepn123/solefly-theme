@@ -94,6 +94,7 @@
     "cart_free_shipping_bar_threshold": 300,
     "cart_free_shipping_bar_bg": "#141416",
     "cart_free_shipping_bar_color": "#141416",
+    "favicon": "shopify:\/\/shop_images\/Group_1000005370.svg",
     "search_type": "modal_and_page",
     "back_to_top_button_position": "bottom-left",
     "social_icon_style": "solid",
