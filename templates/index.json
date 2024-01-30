@@ -365,9 +365,9 @@
         "announcement_kNUJWb": {
           "type": "announcement",
           "settings": {
-            "announcement_text_1": "SOLEFLY",
-            "announcement_text_2": "SELECT",
-            "show_second_announcement_text": true,
+            "announcement_text_1": "Make an announcement",
+            "announcement_text_2": "Make an announcement",
+            "show_second_announcement_text": false,
             "font_family": "heading",
             "font_style": "solid",
             "font_size": 44,
@@ -376,8 +376,6 @@
             "top_and_bottom_spacing": 12,
             "link": "",
             "icon": "shipping-box",
-            "custom_icon_image_1": "shopify:\/\/shop_images\/Artboard_2.png",
-            "custom_icon_image_2": "shopify:\/\/shop_images\/Artboard_2.png",
             "icon_size": 80,
             "scrolling_direction": "right_to_left",
             "scrolling_speed": 50,
