@@ -44,12 +44,40 @@
             "btn_url": "",
             "btn_style": "solid"
           }
+        },
+        "countdown_gHEUn6": {
+          "type": "countdown",
+          "settings": {
+            "hide_for_empty_cart": true,
+            "color_scheme": "secondary",
+            "show_background": true,
+            "heading": "Countdown timer",
+            "heading_size": "h6",
+            "body": "Create urgency around sales and special offers",
+            "content_alignment": "center",
+            "background_type": "separate",
+            "background_style": "solid",
+            "enable_separators": true,
+            "captitalize_unit_labels": true,
+            "timer_desktop_width": 100,
+            "mode": "fixed",
+            "year": "2024",
+            "month": "january",
+            "day": "1",
+            "hour": "0",
+            "minute": "0",
+            "hide_on_complete": true,
+            "evergreen_unit": "day",
+            "evergreen_value": 1,
+            "evergreen_on_complete": "restart"
+          }
         }
       },
       "block_order": [
         "items",
         "8af29191-dec1-42b5-9036-192e1b749009",
-        "726aa933-7826-412d-a292-9f29cba62205"
+        "726aa933-7826-412d-a292-9f29cba62205",
+        "countdown_gHEUn6"
       ],
       "settings": {
         "color_scheme": "black",
