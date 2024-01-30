@@ -116,6 +116,7 @@
     "primary_size_for_product_pages": 4,
     "primary_shape_for_filters": "round",
     "primary_size_for_filters": 1,
+    "primary_custom_colors_and_patterns": "Ultramarine::#0437F2\nCherry blossom::#FFB7C5\nSunny day::yellow\/green\/blue\/\nSummertime::#F9FAFB\/#0F9D58\/#4285F4\nPink wash\/violet frost-white::#CFABBF\/#DAC9C1\nPure platinum\/light carbon::AURORA_FJ4170-001_PHSRH000-2000.jpg\nWHITE\/INDUSTRIAL BLUE-WHITE-BLACK::AURORA_FV3622-141_PHSRH000-2000.jpg\nPHANTOM\/PHANTOM-SAIL-GUM LIGHT BROWN::AURORA_DZ2708-001_PHSRH000-2000.jpg\nDARK TEAM RED\/BLACK-SUMMIT WHITE::AURORA_FZ4352-600_PHSRH000-2000.jpg\nWOLF GREY\/IRON GREY-WHITE::AURORA_DD9315-006_PHSRH000-2000.jpg\nCEMENT GREY\/FIRE RED-BLACK-WHITE::j1.jpg\nPHANTOM\/ALE BROWN-SAIL::AURORA_FJ2260-001_PHSRH000-2000.jpg",
     "secondary_shape_for_product_pages": "square",
     "secondary_size_for_product_pages": 4,
     "secondary_shape_for_filters": "square",
