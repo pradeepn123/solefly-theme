@@ -38,7 +38,7 @@
         "heading_size_mobile": "h2",
         "alignment": "center",
         "collection_list": "{{ collection.metafields.custom.collection_custom_list.value }}",
-        "img_ratio": "landscape-sm",
+        "img_ratio": "square",
         "text_style": "on-image-center",
         "collection_card_content_align": "center",
         "collection_card_heading_size": "h4",
