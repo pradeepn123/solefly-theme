@@ -5,6 +5,9 @@
   assign color_scheme = options.color_scheme
   assign container_size = options.container_size
   assign show_heading = options.show_heading
+  assign heading_size = options.heading_size
+  assign heading_size_mobile = options.heading_size_mobile
+  assign content_alignment = options.content_alignment
 -%}
 
 {% capture css %}
@@ -12,6 +15,15 @@
     .section-{{section.id}} {
         --gsc-section-spacing-top: {{ section_spacing_top }}px;
         --gsc-section-spacing-bottom: {{ section_spacing_bottom }}px;
+    }
+    .page__title {
+      text-transform: uppercase;
+    }
+    .page_title-left {
+      text-align: left;
+    }
+    .page_title-center {
+      text-align: center;
     }
   {% endstyle %}
 {% endcapture %}
@@ -21,7 +33,7 @@
 <div class='section section-{{ section.id }} color-{{ color_scheme }}'>
   <div class='container container--{{ container_size }} section-spacing'>
     {%- if page.title != blank and show_heading -%}
-      <h5 class='page__title'>{{ page.title }}</h5>
+      <h5 class='page__title {{ heading_size }} mobile--{{ heading_size_mobile }} page_title-{{ content_alignment }}'>{{ page.title }}</h5>
     {%- endif -%}
     {%- if page.content != blank -%}
       <div class='page__content rte rte--page'>
@@ -126,6 +138,102 @@
       "default": 96,
       "unit": "t:sections.general_section_settings.section_spacing_bottom.unit",
       "label": "t:sections.general_section_settings.section_spacing_bottom.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "t:sections.general_section_settings.label_for_heading_size_setting",
+      "options": [
+        {
+          "value": "h0",
+          "label": "t:sections.general_section_settings.heading_size_0_option"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.general_section_settings.heading_size_1_option"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.general_section_settings.heading_size_2_option"
+        },
+        {
+          "value": "h3",
+          "label": "t:sections.general_section_settings.heading_size_3_option"
+        },
+        {
+          "value": "h4",
+          "label": "t:sections.general_section_settings.heading_size_4_option"
+        },
+        {
+          "value": "h5",
+          "label": "t:sections.general_section_settings.heading_size_5_option"
+        },
+        {
+          "value": "h6",
+          "label": "t:sections.general_section_settings.heading_size_6_option"
+        },
+        {
+          "value": "h7",
+          "label": "t:sections.general_section_settings.heading_size_7_option"
+        }
+      ],
+      "default": "h5"
+    },
+    {
+      "type": "select",
+      "id": "heading_size_mobile",
+      "label": "Heading size(Mobile)",
+      "options": [
+        {
+          "value": "h0",
+          "label": "t:sections.general_section_settings.heading_size_0_option"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.general_section_settings.heading_size_1_option"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.general_section_settings.heading_size_2_option"
+        },
+        {
+          "value": "h3",
+          "label": "t:sections.general_section_settings.heading_size_3_option"
+        },
+        {
+          "value": "h4",
+          "label": "t:sections.general_section_settings.heading_size_4_option"
+        },
+        {
+          "value": "h5",
+          "label": "t:sections.general_section_settings.heading_size_5_option"
+        },
+        {
+          "value": "h6",
+          "label": "t:sections.general_section_settings.heading_size_6_option"
+        },
+        {
+          "value": "h7",
+          "label": "t:sections.general_section_settings.heading_size_7_option"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "label": "t:sections.general_section_settings.content_alignment_label",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.general_section_settings.alignment_option_left_label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.general_section_settings.alignment_option_center_label"
+        }
+      ],
+      "default": "left"
     },
     {
       "type": "checkbox",

@@ -91,6 +91,27 @@
         }
       }
     {% endif %}
+    {% if page.template_suffix contains 'brands' %}
+      .multicolumn__column-media--image,
+      .multicolumn__details {
+        padding: 0px;
+      }
+      .multicolumn__column.card-grid__item {
+        border: 0.548px solid #e2e2e2;
+        flex-direction: row;
+        height: fit-content;
+        transition: border-color 0.3s ease-in-out;
+      }
+      .multicolumn__column.card-grid__item:hover {
+        border: 1px solid #f44336;
+        cursor: pointer;
+      }
+      @media screen and (min-width: 768px) {
+        .multicolumn__card-grid--with-additional-between-row-space {
+          row-gap: calc(var(--gsc-space-between-cards));
+        }
+      }
+    {% endif %}
   {% endstyle %}
 {% endcapture %}
 
