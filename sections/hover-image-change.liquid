@@ -159,6 +159,7 @@
                 imageContainer.innerHTML = '';
                 imageContainer.appendChild(img);
                 img.classList.add('loaded');
+                img.setAttribute('alt', imgAlt);
             };
 
             img.src = imgSrc;
@@ -170,7 +171,7 @@
         }
     };
 
-    imageContainer.innerHTML = `<img src="${activeLink.getAttribute('data-img-src')}" class="loaded">`;
+    imageContainer.innerHTML = `<img src="${activeLink.getAttribute('data-img-src')}" alt="${activeLink.getAttribute('data-img-alt')}" class="loaded">`;
 
     document.querySelectorAll('.hover_image__link--link').forEach(link => {
         link.addEventListener('mouseenter', () => updateImage(link));
