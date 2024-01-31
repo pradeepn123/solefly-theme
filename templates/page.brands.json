@@ -8,7 +8,7 @@
         "section_spacing_top": 48,
         "section_spacing_bottom": 48,
         "heading_size": "h0",
-        "heading_size_mobile": "h3",
+        "heading_size_mobile": "h2",
         "text_transform": "uppercase",
         "content_alignment": "left",
         "show_heading": true
@@ -245,7 +245,7 @@
         "title": "ALL BRANDS",
         "text": "",
         "heading_size": "h2",
-        "heading_size_mobile": "h4",
+        "heading_size_mobile": "h5",
         "body_size": "body3",
         "content_alignment": "left",
         "column_heading_size": "h7",
