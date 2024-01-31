@@ -91,6 +91,10 @@
         "container_size": "large",
         "section_spacing_top": 96,
         "section_spacing_bottom": 96,
+        "heading_size": "h5",
+        "heading_size_mobile": "h2",
+        "text_transform": "capitalize",
+        "content_alignment": "left",
         "show_heading": true
       }
     },
@@ -187,7 +191,11 @@
         "announcement_bH3yrh": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "Solefly",
+            "mobile_specific_bg_class": false,
+            "mobile_specific_textColor_class": false,
+            "announcement_text_1": "SOLEFLY",
+            "announcement_text_2": "SELECT",
+            "show_second_announcement_text": true,
             "font_family": "heading",
             "font_style": "solid",
             "font_size": 44,
@@ -196,7 +204,8 @@
             "top_and_bottom_spacing": 12,
             "link": "",
             "icon": "star-solid",
-            "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2_copy.png",
+            "custom_icon_image_1": "shopify:\/\/shop_images\/Artboard_2_copy.png",
+            "custom_icon_image_2": "shopify:\/\/shop_images\/Artboard_2_copy.png",
             "icon_size": 80,
             "scrolling_direction": "right_to_left",
             "scrolling_speed": 30,
@@ -209,7 +218,11 @@
         "announcement_yEQJ3n": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "Solefly",
+            "mobile_specific_bg_class": false,
+            "mobile_specific_textColor_class": false,
+            "announcement_text_1": "SOLEFLY",
+            "announcement_text_2": "SELECT",
+            "show_second_announcement_text": true,
             "font_family": "heading",
             "font_style": "solid",
             "font_size": 40,
@@ -218,7 +231,8 @@
             "top_and_bottom_spacing": 12,
             "link": "",
             "icon": "star-solid",
-            "custom_icon_image": "shopify:\/\/shop_images\/Artboard_2.png",
+            "custom_icon_image_1": "shopify:\/\/shop_images\/Artboard_2.png",
+            "custom_icon_image_2": "shopify:\/\/shop_images\/Artboard_2.png",
             "icon_size": 80,
             "scrolling_direction": "right_to_left",
             "scrolling_speed": 30,
