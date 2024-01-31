@@ -68,7 +68,7 @@
     flex-wrap: wrap;
 }
 
-.hover_image__link_wrapper div {
+.hover_image__link--link__main_wrapper {
     width: 48%;
 }
 
@@ -81,6 +81,7 @@
     column-gap: 7px;
     cursor: pointer;
     align-items: center;
+    width: fit-content;
 }
 
 .hover_image__link--link_text {
@@ -120,7 +121,6 @@
 
 .hover_image__link--link_img {
     visibility: hidden;
-    margin-bottom: 15px;
     transition : visibility 0.3s;
 }
 
