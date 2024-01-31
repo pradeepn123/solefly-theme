@@ -594,6 +594,12 @@
             </a>
           {%- endif -%}
 
+          {%- if show_vendor -%}
+            <a class='product-card__vendor unstyled-link' href='/collections/all?filter.p.vendor={{ product.vendor }}'>
+              {{- product.vendor -}}
+            </a>
+          {%- endif -%}
+
           <a
             class='product-card__title unstyled-link'
             href='{{ product.url }}'

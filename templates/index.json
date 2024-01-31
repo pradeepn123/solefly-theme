@@ -450,6 +450,129 @@
         "block_height_mobile": "small"
       }
     },
+    "dd10bcbe-6b5f-450d-ade6-fd728dbc9b00": {
+      "type": "instagram",
+      "blocks": {
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-0": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005126.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-1": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005131.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-2": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005135.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-3": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005127.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-4": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005128.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_UYU7r9": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005134.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_zCQhkU": {
+          "type": "post",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005133.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_UDdWtW": {
+          "type": "post",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005130.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_i6nANm": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005132.png",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "post_gLp4je": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_1000005129.png",
+            "link": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-0",
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-1",
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-2",
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-3",
+        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-4",
+        "post_UYU7r9",
+        "post_zCQhkU",
+        "post_UDdWtW",
+        "post_i6nANm",
+        "post_gLp4je"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "full-screen",
+        "section_spacing_top": 60,
+        "section_spacing_bottom": 30,
+        "desktop_layout": "carousel",
+        "mobile_layout": "slideshow",
+        "title": "Solefly Designed",
+        "text": "",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "img_ratio": 1,
+        "desktop_columns": 5,
+        "desktop_space_between_cards": 8,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "one_at_time",
+        "autoplay_interval": 3
+      }
+    },
     "hover_image_change_TEiRVY": {
       "type": "hover-image-change",
       "blocks": {

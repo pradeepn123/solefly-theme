@@ -70,7 +70,7 @@
     "color_swatches_what_to_show": "colors-and-patterns",
     "show_quick_view": true,
     "show_add_to_cart": false,
-    "desktop_button_style": "with_labels",
+    "desktop_button_style": "without_labels",
     "show_button_on_hover": true,
     "product_card_badges_position": "on-image",
     "product_card_show_sale_amount_badge": true,
