@@ -54,7 +54,7 @@
     "white_text_button_background_color": "#292929",
     "white_text_button_text_color": "#ffffff",
     "black_text_text_color": "#000000",
-    "black_text_background_color": "#d9d9d9",
+    "black_text_background_color": "#f3f3f3",
     "black_text_foreground_color": "#f3f3f3",
     "black_text_button_text_color": "#ffffff",
     "default_img_ratio": "fit-portrait",
