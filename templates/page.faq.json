@@ -2,12 +2,15 @@
   "sections": {
     "page": {
       "type": "page",
-      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "container_size": "large",
         "section_spacing_top": 96,
         "section_spacing_bottom": 96,
+        "heading_size": "h5",
+        "heading_size_mobile": "h2",
+        "text_transform": "capitalize",
+        "content_alignment": "center",
         "show_heading": true
       }
     },
@@ -18,6 +21,7 @@
           "type": "category",
           "settings": {
             "title": "Category",
+            "category_heading_size": "h7",
             "icon": "none"
           }
         },
@@ -55,6 +59,7 @@
           "type": "category",
           "settings": {
             "title": "Category",
+            "category_heading_size": "h7",
             "icon": "none"
           }
         },
@@ -102,6 +107,7 @@
           "type": "category",
           "settings": {
             "title": "Category",
+            "category_heading_size": "h7",
             "icon": "none"
           }
         },
@@ -140,12 +146,16 @@
         "question8",
         "question9"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "default",
+        "enable_background_around_container": false,
+        "color_tabs": "none",
         "container_size": "xsmall",
         "section_spacing_top": 96,
         "section_spacing_bottom": 96,
         "section_layout": "bottom-tabs",
+        "expand_first_tab": false,
         "title": "FAQ",
         "text": "Answers to most common questions about products, orders, shipments, and payments.",
         "heading_size": "h5",

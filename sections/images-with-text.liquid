@@ -25,6 +25,14 @@
   assign second_button_link = options.second_button_link
   assign second_button_style = options.second_button_style
 
+  assign download_app_svg_icon_1 = options.download_app_svg_icon_1
+  assign download_app_link_1 = options.download_app_link_1
+  assign download_app_svg_icon_1_mobile = options.download_app_svg_icon_1_mobile
+
+  assign download_app_svg_icon_2 = options.download_app_svg_icon_2
+  assign download_app_link_2 = options.download_app_link_2
+  assign download_app_svg_icon_2_mobile = options.download_app_svg_icon_2_mobile
+
   assign rotate_images = options.rotate_images
   assign img_ratio = options.img_ratio
   assign image_layout = options.image_layout
@@ -141,6 +149,28 @@
         {%- endif -%}
       </div>
     {%- endif -%}
+
+    {%- if download_app_svg_icon_1 != blank or download_app_svg_icon_2 != blank -%}
+      <div class="image-with-text_svg__wrapper">
+        {%- if download_app_svg_icon_1 != blank -%}
+          <div class="img-svg_icon">
+            <a href="{{ download_app_link_1 }}" target='_blank' aria-label="App Store Link">
+            <span class="img-desktop_svg">{{ download_app_svg_icon_1 }}</span> 
+            <span class="img-mobile_svg">{{ download_app_svg_icon_1_mobile }}</span> 
+          </a>
+          </div>
+        {%- endif -%}
+        {%- if download_app_svg_icon_2 != blank -%}
+          <div class="img-svg_icon">
+            <a href="{{ download_app_link_2 }}" target='_blank' aria-label="Play Store Link">
+            <span class="img-desktop_svg">{{ download_app_svg_icon_2 }} </span> 
+            <span class="img-mobile_svg">{{ download_app_svg_icon_2_mobile }}</span> 
+            </a>
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
   </div>
 {% endcapture %}
 
@@ -1057,6 +1087,40 @@
       ],
       "default": "solid",
       "label": "t:sections.images_with_text.second_button_style.label"
+    },
+    {
+      "type": "header",
+      "content": "SVG section"
+    },
+    {
+      "type": "html",
+      "id": "download_app_svg_icon_1",
+      "label": "Download app SVG Icon - 1"
+    },
+    {
+      "type": "html",
+      "id": "download_app_svg_icon_1_mobile",
+      "label": "Download app SVG Icon - 1 (Mobile)"
+    },
+    {
+      "type": "url",
+      "id": "download_app_link_1",
+      "label": "Redirection link for SVG - 1"
+    },
+    {
+      "type": "html",
+      "id": "download_app_svg_icon_2",
+      "label": "Download app SVG Icon - 2"
+    },
+    {
+      "type": "html",
+      "id": "download_app_svg_icon_2_mobile",
+      "label": "Download app SVG Icon - 2 (Mobile)"
+    },
+    {
+      "type": "url",
+      "id": "download_app_link_2",
+      "label": "Redirection link for SVG - 2"
     }
   ],
   "blocks": [

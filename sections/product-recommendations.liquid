@@ -17,6 +17,7 @@
   assign product_recommendations_type = options.product_recommendations_type
   assign cards_to_show = options.cards_to_show
   assign heading_size = options.heading_size
+  assign heading_size_mobile = options.heading_size_mobile
 
   assign desktop_columns = options.desktop_columns
   assign laptop_columns = desktop_columns | minus: 1
@@ -27,6 +28,7 @@
 
   assign desktop_layout = options.desktop_layout
   assign mobile_layout = options.mobile_layout
+  assign carousel_columns = options.carousel_columns
 
   if desktop_layout == 'carousel-overflow'
     assign half_desktop_slide_width = desktop_carousel_percent_width | divided_by: desktop_columns | times: 0.33
@@ -93,6 +95,11 @@
         }
       }
     {% endif %}
+    @media screen and (max-width: 768px) {
+      .card-carousel__slide.carousel_two_columns {
+        min-width: 48%;
+      }
+    }
   {% endstyle %}
 {% endcapture %}
 
@@ -143,7 +150,7 @@
     >
       <div class='card-carousel__container' data-carousel-container>
         {%- for product in products -%}
-          <div class='card-carousel__slide'>
+          <div class='card-carousel__slide{% if carousel_columns == 'carousel-2-column' %} carousel_two_columns{% endif %}'>
             {% render 'product-card',
               product: product,
               img_ratio: img_ratio,
@@ -210,7 +217,7 @@
     >
       <div class='card-carousel__container' data-carousel-container>
         {%- for product in products -%}
-          <div class='card-carousel__slide'>
+          <div class='card-carousel__slide{% if carousel_columns == 'carousel-2-column' %} carousel_two_columns{% endif %}'>
             {% render 'product-card',
               product: product,
               img_ratio: img_ratio,
@@ -228,7 +235,7 @@
 {%- if title != blank -%}
   {% capture heading %}
     <div class='product-recommendations__header {% if alignment == 'center' %}product-recommendations__header--center{% endif %}'>
-      <h5 class='product-recommendations__title {{ heading_size }}'>{{ title }}</h5>
+      <h5 class='product-recommendations__title {{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ title }}</h5>
     </div>
   {% endcapture %}
 {%- endif -%}
@@ -481,6 +488,22 @@
       "label": "t:sections.general_section_settings.mobile_layout.label"
     },
     {
+      "type": "select",
+      "id": "carousel_columns",
+      "options": [
+        {
+          "value": "carousel-1-column",
+          "label": "1 column"
+        },
+        {
+          "value": "carousel-2-column",
+          "label": "2 columns"
+        }
+      ],
+      "default": "carousel-1-column",
+      "label": "Number of cards to display (only for carousel--mobile)"
+    },
+    {
       "type": "header",
       "content": "t:sections.product_recommendations.recommendations_settings_header"
     },
@@ -494,6 +517,46 @@
       "type": "select",
       "id": "heading_size",
       "label": "t:sections.general_section_settings.label_for_heading_size_setting",
+      "options": [
+        {
+          "value": "h0",
+          "label": "t:sections.general_section_settings.heading_size_0_option"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.general_section_settings.heading_size_1_option"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.general_section_settings.heading_size_2_option"
+        },
+        {
+          "value": "h3",
+          "label": "t:sections.general_section_settings.heading_size_3_option"
+        },
+        {
+          "value": "h4",
+          "label": "t:sections.general_section_settings.heading_size_4_option"
+        },
+        {
+          "value": "h5",
+          "label": "t:sections.general_section_settings.heading_size_5_option"
+        },
+        {
+          "value": "h6",
+          "label": "t:sections.general_section_settings.heading_size_6_option"
+        },
+        {
+          "value": "h7",
+          "label": "t:sections.general_section_settings.heading_size_7_option"
+        }
+      ],
+      "default": "h5"
+    },
+    {
+      "type": "select",
+      "id": "heading_size_mobile",
+      "label": "Heading size(Mobile)",
       "options": [
         {
           "value": "h0",

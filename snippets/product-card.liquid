@@ -588,6 +588,12 @@
             </div>
           {% endif %}
 
+          {%- if show_vendor -%}
+            <a class='product-card__vendor unstyled-link' href='/collections/all?filter.p.vendor={{ product.vendor }}'>
+              {{- product.vendor -}}
+            </a>
+          {%- endif -%}
+
           <a
             class='product-card__title unstyled-link'
             href='{{ product.url }}'
@@ -595,11 +601,6 @@
           >
             {{- product.title -}}
           </a>
-          {%- if show_vendor -%}
-            <a class='product-card__vendor unstyled-link' href='/collections/all?filter.p.vendor={{ product.vendor }}'>
-              {{- product.vendor -}}
-            </a>
-          {%- endif -%}
 
           {%- if product_card_rating_style != 'none' -%}
             {% liquid
@@ -748,17 +749,19 @@
     <div class='product-card__details {% if with_bottom_spacing %}product-card__details--bottom-spacing{% endif %}'>
       <div class='product-card__details-inner' data-product-details-inner>
         <div class='product-card__info'>
+
+          {%- if show_vendor -%}
+            <a class='product-card__vendor unstyled-link'>
+              {{- 'cards.product_card.store_front.default_vendor' | t -}}
+            </a>
+          {%- endif -%}
+          
           <a
             class='product-card__title unstyled-link'
             aria-label='{{ product.title }}'
           >
             {{- 'cards.product_card.store_front.default_title' | t -}}
           </a>
-          {%- if show_vendor -%}
-            <a class='product-card__vendor unstyled-link'>
-              {{- 'cards.product_card.store_front.default_vendor' | t -}}
-            </a>
-          {%- endif -%}
 
           {%- if product_card_rating_style != 'none' -%}
             {% liquid
