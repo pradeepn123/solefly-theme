@@ -25,6 +25,7 @@
 
   assign heading = options.heading
   assign heading_size = options.heading_size
+  assign heading_size_mobile = options.heading_size_mobile
   assign body_richtext = options.body_richtext
   assign body_size = options.body_size
   assign section_spacing_top = options.section_spacing_top
@@ -110,7 +111,7 @@
   {% capture content %}
     <div class="lookbook__content">
       {% if heading != blank %}
-        <h2 class='{{ heading_size }} lookbook__title'>{{heading}}</h2> 
+        <h2 class='{{ heading_size }} mobile--{{ heading_size_mobile }} lookbook__title'>{{heading}}</h2> 
       {% endif %}
       
       {% if body_richtext != blank %}
@@ -582,6 +583,46 @@
         }
       ],
       "default": "h2"
+    },
+    {
+      "type": "select",
+      "id": "heading_size_mobile",
+      "label": "Heading size(Mobile)",
+      "options": [
+        {
+          "value": "h0",
+          "label": "t:sections.general_section_settings.heading_size_0_option"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.general_section_settings.heading_size_1_option"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.general_section_settings.heading_size_2_option"
+        },
+        {
+          "value": "h3",
+          "label": "t:sections.general_section_settings.heading_size_3_option"
+        },
+        {
+          "value": "h4",
+          "label": "t:sections.general_section_settings.heading_size_4_option"
+        },
+        {
+          "value": "h5",
+          "label": "t:sections.general_section_settings.heading_size_5_option"
+        },
+        {
+          "value": "h6",
+          "label": "t:sections.general_section_settings.heading_size_6_option"
+        },
+        {
+          "value": "h7",
+          "label": "t:sections.general_section_settings.heading_size_7_option"
+        }
+      ],
+      "default": "h5"
     },
     {
       "type": "select",

@@ -197,6 +197,20 @@
   .mobile_svg {
     display: none;
   }
+  .svg_icon:first-child .mobile_svg svg {
+    width: 104px;
+    height: 35px;
+  }
+  .svg_icon .mobile_svg svg {
+    width: 118px;
+    height: 35px;
+  }
+  .svg_icon:hover .desktop_svg {
+    display: none;
+  }
+  .svg_icon:hover .mobile_svg {
+    display: block;
+  }
 }
 :root {
   --gsc-landscape-sm-image-ratio:calc((1/2)*100%);
