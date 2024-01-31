@@ -25,7 +25,7 @@
 <collection-card class='collection-card link-parent-for-hover zoom-parent-for-hover {{ class }} {% if enable_background %} collection-card--with-background {% endif %}'>
   <a
     class='collection-card__link'
-    aria-label='{{ collection.title }}'
+    aria-label='{{ collection.title | escape }}'
     {% if collection.url != blank %}
       href='{{ collection.url }}'
     {% endif %}
