@@ -180,7 +180,6 @@
 }
 .footer__block_svg__wrapper .svg_icon {
   cursor: pointer;
-  transition: display 0.3s ease;
 }
 .footer__block_wrapper--2 {
   margin-top: 40px;
