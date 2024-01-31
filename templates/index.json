@@ -657,7 +657,7 @@
         "mobile_space_between_cards": 12,
         "mobile_layout": "carousel",
         "carousel_columns": "carousel-2-column",
-        "block_height_mobile": "medium"
+        "block_height_mobile": "small"
       }
     },
     "dd10bcbe-6b5f-450d-ade6-fd728dbc9b00": {
