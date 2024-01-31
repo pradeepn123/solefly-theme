@@ -2,6 +2,7 @@
   "sections": {
     "split_image_banner": {
       "type": "split-image-banner",
+      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "enable_background_around_container": false,
@@ -22,6 +23,7 @@
         "btn_text": "Button label",
         "btn_url": "",
         "btn_style": "solid",
+        "extra_btn_text": "",
         "extra_btn_url": "",
         "extra_btn_style": "solid"
       }
@@ -34,6 +36,10 @@
         "container_size": "large",
         "section_spacing_top": 96,
         "section_spacing_bottom": 96,
+        "heading_size": "h5",
+        "heading_size_mobile": "h2",
+        "text_transform": "capitalize",
+        "content_alignment": "left",
         "show_heading": true
       }
     },
