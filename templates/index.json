@@ -8,7 +8,7 @@
           "settings": {
             "color_scheme": "secondary",
             "desktop_img": "shopify:\/\/shop_images\/Artboard_3_copy_5.jpg",
-            "mobile_img": "shopify:\/\/shop_images\/hero_banner_01.webp",
+            "mobile_img": "shopify:\/\/shop_images\/hero_banner_01_a.webp",
             "desktop_overlay_opacity": 0,
             "mobile_overlay_opacity": 0,
             "caption": "NIKE AIR",
@@ -70,7 +70,7 @@
           "settings": {
             "color_scheme": "secondary",
             "desktop_img": "shopify:\/\/shop_images\/Artboard_3_copy_7.jpg",
-            "mobile_img": "shopify:\/\/shop_images\/hero_banner_02.webp",
+            "mobile_img": "shopify:\/\/shop_images\/hero_banner_02_a.webp",
             "desktop_overlay_opacity": 0,
             "mobile_overlay_opacity": 0,
             "caption": "G-SHOCK",
