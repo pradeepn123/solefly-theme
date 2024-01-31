@@ -82,16 +82,18 @@
             <div class='hover_image__link'>
                 <div class='hover_image__link_wrapper'>
                     {% for block in section.blocks %}
-                    <div class="hover_image__link--link{% if forloop.index == 1 %} active{% endif %} {{ link_text_size }} mobile--{{ link_text_size_mobile }}" data-img-src="{{ block.settings.image | image_url: master }}" data-link="" data-img-alt="{{ block.settings.image.alt }}">
-                        <a {% if block.settings.link != blank %}href="{{ block.settings.link }}"{% endif %} {% if redirection_new_tab %}target="_blank"{% endif %} class="hover_image__link--link_text">{{ block.settings.title }}</a>
-                        <img
-                        src="{{- 'arrow.svg' | asset_url | image_url: 'master' -}}"
-                        alt=""
-                        class="hover_image__link--link_img"
-                        height="17"
-                        width="17"
-                        loading="lazy"
-                        >
+                    <div class="hover_image__link--link__main_wrapper">
+                      <div class="hover_image__link--link{% if forloop.index == 1 %} active{% endif %} {{ link_text_size }} mobile--{{ link_text_size_mobile }}" data-img-src="{{ block.settings.image | image_url: master }}" data-link="" data-img-alt="{{ block.settings.image.alt }}">
+                          <a {% if block.settings.link != blank %}href="{{ block.settings.link }}"{% endif %} {% if redirection_new_tab %}target="_blank"{% endif %} class="hover_image__link--link_text">{{ block.settings.title }}</a>
+                          <img
+                          src="{{- 'arrow.svg' | asset_url | image_url: 'master' -}}"
+                          alt=""
+                          class="hover_image__link--link_img"
+                          height="17"
+                          width="17"
+                          loading="lazy"
+                          >
+                      </div>
                     </div>
                     {% endfor %}
                 </div>
