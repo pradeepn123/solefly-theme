@@ -30,9 +30,9 @@
   >
     {%- if recommendations.performed and recommendations.products_count > 0 -%}
       {% if title != blank %}
-        <h6 class='product-related-products-block__title {{ heading_size }} {% if alignment == 'left' %} product-related-products-block__title--align-left {% elsif alignment == 'center' %} product-related-products-block__title--align-center {% endif %}'>
+        <h2 class='product-related-products-block__title {{ heading_size }} {% if alignment == 'left' %} product-related-products-block__title--align-left {% elsif alignment == 'center' %} product-related-products-block__title--align-center {% endif %}'>
           {{ title }}
-        </h6>
+        </h2>
       {% endif %}
 
       {% if block_layout contains 'carousel' %}
@@ -177,9 +177,9 @@
     is-ready
   >
     {% if title != blank %}
-      <h6 class='product-related-products-block__title {{ heading_size }} {% if alignment == 'left' %} product-related-products-block__title--align-left {% elsif alignment == 'center' %} product-related-products-block__title--align-center {% endif %}'>
+      <h2 class='product-related-products-block__title {{ heading_size }} {% if alignment == 'left' %} product-related-products-block__title--align-left {% elsif alignment == 'center' %} product-related-products-block__title--align-center {% endif %}'>
         {{ title }}
-      </h6>
+      </h2>
     {% endif %}
 
     {% if block_layout contains 'carousel' %}
