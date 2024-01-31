@@ -180,6 +180,7 @@
 }
 .footer__block_svg__wrapper .svg_icon {
   cursor: pointer;
+  transition: display 0.3s ease;
 }
 .footer__block_wrapper--2 {
   margin-top: 40px;
@@ -196,6 +197,20 @@
   }
   .mobile_svg {
     display: none;
+  }
+  .svg_icon:first-child .mobile_svg svg {
+    width: 104px;
+    height: 35px;
+  }
+  .svg_icon .mobile_svg svg {
+    width: 118px;
+    height: 35px;
+  }
+  .svg_icon:hover .desktop_svg {
+    display: none;
+  }
+  .svg_icon:hover .mobile_svg {
+    display: block;
   }
 }
 :root {
