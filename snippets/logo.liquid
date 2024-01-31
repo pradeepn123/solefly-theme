@@ -2,7 +2,7 @@
   <a
     class='unstyled-link {{ class }}'
     href='{{ routes.root_url }}'
-    aria-label='{{ 'general.logo.screen_reader.aria_label' | t }}'
+    aria-label='{% if image.alt != blank %}{{ image.alt }}{% else %}{{ shop.name }}{% endif %}'
   >
     <img
       {{ attrs }}
@@ -13,7 +13,7 @@
   <a
     class='logo-text {{ class }}'
     href='{{ routes.root_url }}'
-    aria-label='{{ 'general.logo.screen_reader.aria_label' | t }}'
+    aria-label='{% if image.alt != blank %}{{ image.alt }}{% else %}{{ shop.name }}{% endif %}'
   >
     {{- shop.name -}}
   </a>
