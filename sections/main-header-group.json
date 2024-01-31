@@ -18,7 +18,7 @@
         "announcement_1"
       ],
       "settings": {
-        "show_only_on_homepage": true,
+        "show_only_on_homepage": false,
         "color_scheme": "custom-1",
         "container_size": "full-screen",
         "show_navigation_arrows": true,
