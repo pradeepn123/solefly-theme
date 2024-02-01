@@ -11,8 +11,10 @@
 >
   <div class='cart-item__body' data-cart-item-body>
     <div class='cart-item__grid'>
-      <cart-remove-button class='cart-item__remove-button' data-index='{{ item.index }}' tabindex='0'>
-        {% render 'icon', icon_name: 'trash', class: 'cart-item__remove-button-icon' %}
+      <cart-remove-button class='cart-item__remove-button' data-index='{{ item.index }}'>
+        <button aria-label="Remove Product {{ item.product.title }} from Cart" class="button__without__styles">
+          {% render 'icon', icon_name: 'trash', class: 'cart-item__remove-button-icon' %}
+        </button>
       </cart-remove-button>
 
       <div class='cart-item__details'>
@@ -45,7 +47,7 @@
         {% endif %}
 
         <div class='cart-item__info cart-item__info--hide-mobile'>
-          <a href='{{ item.url }}' class='cart-item__name' aria-label='{{ item.product.title }}'>
+          <a href='{{ item.url }}' class='cart-item__name' aria-label='Product Title is {{ item.product.title }}'>
             <span class='cart-item__name-label'>{{ item.product.title | escape }}</span>
           </a>
           {%- if item.product.has_only_default_variant == false
@@ -167,9 +169,10 @@
               data-action='minus'
               type='button'
               disabled
-              tabindex='0'
             >
+            <button aria-label="Decrease Quantity by 1 for product {{ item.product.title | escape }}" class="button__without__styles">
               {% render 'icon', icon_name: 'minus', class: 'cart-item-quantity__button-icon' %}
+            </button>
             </quantity-btn>
             <input
               class='cart-item-quantity__input'
@@ -180,15 +183,17 @@
               value='{{ item.quantity }}'
               data-quantity-input
               id='QuantityInput-CartItem-{{ item.index }}'
+              aria-label="{{ item.quantity }} of {{ item.product.title }} is added to the cart"
             >
             <quantity-btn
               class='cart-item-quantity__button'
               name='plus'
               data-action='plus'
               type='button'
-              tabindex='0'
             >
+            <button aria-label="Increase Quantity by 1 for product {{ item.product.title | escape }}" class="button__without__styles">
               {% render 'icon', icon_name: 'plus', class: 'cart-item-quantity__button-icon' %}
+            </button>
             </quantity-btn>
           </quantity-component>
 

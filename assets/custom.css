@@ -526,3 +526,10 @@
 .product-thumbnail-carousel-mobile__container {
   padding-bottom: 2px;
 }
+
+.button__without__styles{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
