@@ -656,7 +656,7 @@
         "desktop_space_between_cards": 12,
         "mobile_space_between_cards": 12,
         "mobile_layout": "carousel",
-        "carousel_columns": "carousel-1-column",
+        "carousel_columns": "carousel-2-column",
         "block_height_mobile": "small"
       }
     },
