@@ -118,7 +118,7 @@
           <a
             class='product-card__link'
             href='{{ product.url }}'
-            aria-label='{{ product.title }}'
+            aria-label='Product Image is for {{ product.title }}{%if show_sale_badge == true%} and is on Sale{%endif%}'
           ></a>
           {%- if show_mobile_carousel == true and images.size > 1 -%}
             <carousel-component
@@ -586,10 +586,10 @@
                 {%- endif -%}
               {%- endfor -%}
             </div>
-          {% endif %}
+          {% endif %}          
 
           {%- if show_vendor -%}
-            <a class='product-card__vendor unstyled-link' href='/collections/all?filter.p.vendor={{ product.vendor }}'>
+            <a class='product-card__vendor unstyled-link' href='/collections/all?filter.p.vendor={{ product.vendor }}' aria-label="Product Vendor is {{ product.vendor }}">
               {{- product.vendor -}}
             </a>
           {%- endif -%}
@@ -597,10 +597,10 @@
           <a
             class='product-card__title unstyled-link'
             href='{{ product.url }}'
-            aria-label='{{ product.title }}'
+            aria-label='Product Title is {{ product.title }}'
           >
             {{- product.title -}}
-          </a>
+          </a>          
 
           {%- if product_card_rating_style != 'none' -%}
             {% liquid
@@ -758,7 +758,7 @@
           
           <a
             class='product-card__title unstyled-link'
-            aria-label='{{ product.title }}'
+            aria-label='Product is {{ product.title }}'
           >
             {{- 'cards.product_card.store_front.default_title' | t -}}
           </a>
