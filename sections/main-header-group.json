@@ -32,29 +32,6 @@
     "header": {
       "type": "header",
       "blocks": {
-        "menu_3_KCYWwJ": {
-          "type": "menu-3",
-          "disabled": true,
-          "settings": {
-            "mega_nav_item_name": "Accessories",
-            "add_spacing": false,
-            "block_layout": "carousel",
-            "collection_list": [
-
-            ],
-            "img_ratio": "fit-portrait",
-            "text_style": "on-image-bottom",
-            "collection_card_content_align": "center",
-            "heading_size": "h6",
-            "show_product_count": true,
-            "collection_card_overlay_opacity": 15,
-            "columns": 5,
-            "desktop_space_between_cards": 12,
-            "mobile_space_between_cards": 12,
-            "autoplay_mode": "disabled",
-            "autoplay_interval": 4
-          }
-        },
         "menu_2_pp9dWA": {
           "type": "menu-2",
           "settings": {
@@ -263,7 +240,6 @@
         }
       },
       "block_order": [
-        "menu_3_KCYWwJ",
         "menu_2_pp9dWA",
         "menu_2_k7CPfY",
         "menu_2_fgMnK6",
