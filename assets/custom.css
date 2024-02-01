@@ -416,8 +416,10 @@
   margin: 4rem 0 0;
 }
 
-.img-svg_icon:last-child {
-  margin-left: 2rem;
+@media screen and (min-width: 380px) {
+  .img-svg_icon:last-child {
+    margin-left: 2rem;
+  }
 }
 
 .img-desktop_svg {
