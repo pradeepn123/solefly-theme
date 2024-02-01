@@ -37,9 +37,11 @@
           "settings": {
             "mega_nav_item_name": "MEN",
             "add_spacing": true,
-            "collection": "1997",
+            "collection": "",
             "featured_products": [
-
+              "black-pants",
+              "solefly-x-jordan-xx3-fm2-thumbprint-tee",
+              "w-nike-dunk-low-prm-1"
             ],
             "img_ratio": "default",
             "product_card_align": "left",
