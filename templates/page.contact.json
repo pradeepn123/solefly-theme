@@ -59,11 +59,52 @@
         "show_phone": false,
         "show_captcha": true
       }
+    },
+    "store_locator_yUQtHF": {
+      "type": "store-locator",
+      "blocks": {
+        "store_yDxfif": {
+          "type": "store",
+          "settings": {
+            "store_coordinates": "48.85846067584112, 2.294469693037938",
+            "store_name": "Store name",
+            "store_details": "<p>345 Main Street<\/br>Your City, ZIP code 345345<\/br><\/br><strong>Store hours<\/strong><\/br>Sun: Closed<\/br>Mon-Sat: 10:00 - 16:00<\/p>",
+            "show_directions": false,
+            "img_ratio": 1
+          }
+        }
+      },
+      "block_order": [
+        "store_yDxfif"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "expand_first_tab": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96,
+        "subheading": "FIND US",
+        "heading": "Store locations",
+        "body_richtext": "<p>Add locations of your points of sale on the map, provide store details like opening hours, interior photos, and more.<\/p>",
+        "heading_size": "h2",
+        "heading_size_mobile": "h2",
+        "body_size": "body3",
+        "body_size_mobile": "body3",
+        "content_alignment": "left",
+        "api_key": "",
+        "map_desktop_ratio": 1,
+        "map_mobile_ratio": 1,
+        "map_position": "right",
+        "map_style": "standard",
+        "map_custom_style": "",
+        "map_zoom": 10
+      }
     }
   },
   "order": [
     "split_image_banner",
     "page",
-    "contact-form"
+    "contact-form",
+    "store_locator_yUQtHF"
   ]
 }
