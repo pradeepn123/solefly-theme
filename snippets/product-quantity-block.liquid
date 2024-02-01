@@ -14,8 +14,11 @@
       class='quantity product-quantity__quantity'
       data-stock='{% if product.selected_or_first_available_variant.inventory_policy == 'deny' %}{% if available == true %}{% if product.selected_or_first_available_variant.inventory_quantity > 0 %}{{ product.selected_or_first_available_variant.inventory_quantity }}{% else %}1{% endif %}{% else %}0{% endif %}{% else %}9999{% endif %}'
     >
-      <quantity-btn class='quantity__btn' name='minus' data-action='minus' type='button' disabled tabindex='0'>
-        {%- render 'icon', icon_name: 'minus', class: 'quantity__btn-icon' -%}
+      <quantity-btn class='quantity__btn' name='minus' data-action='minus' type='button' disabled>
+        <button class="button__without__styles">
+          <span class="hidden__span">Decrease Quantity by 1 for {{ product.title }}</span>
+          {%- render 'icon', icon_name: 'minus', class: 'quantity__btn-icon' -%}
+        </button>
       </quantity-btn>
       <input
         class='quantity__input'
@@ -29,6 +32,7 @@
         {% if available == false %}
           disabled
         {% endif %}
+        aria-label="{% if available %}1 item of {{ product.title }} is selected {% endif %}"
       >
       <quantity-btn
         class='quantity__btn'
@@ -38,9 +42,11 @@
         {% if available == false %}
           disabled
         {% endif %}
-        tabindex='0'
       >
-        {%- render 'icon', icon_name: 'plus', class: 'quantity__btn-icon' -%}
+        <button class="button__without__styles">
+          <span class="hidden__span">Increase Quantity by 1 for {{ product.title }}</span>
+          {%- render 'icon', icon_name: 'plus', class: 'quantity__btn-icon' -%}
+        </button>
       </quantity-btn>
     </quantity-component>
   </div>

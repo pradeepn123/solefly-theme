@@ -527,9 +527,23 @@
   padding-bottom: 2px;
 }
 
+.product-quantity__quantity .quantity__btn .button__without__styles{
+  height: inherit;
+  vertical-align: middle;
+}
+
 .button__without__styles{
   margin: 0;
   padding: 0;
   border: 0;
   background-color: transparent;
+  font-size: 0px;
+}
+
+.button__without__styles .hidden__span{
+  display: none;
+}
+
+.product-thumbnail-carousel__container{
+  padding: 5px 0 15px 0;
 }

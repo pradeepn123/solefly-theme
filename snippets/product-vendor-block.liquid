@@ -2,6 +2,7 @@
   <a
     class='unstyled-link product-general-info-block__vendor'
     href='/collections/all?filter.p.vendor={{ product.vendor }}'
+    aria-label="Product Vendor is {{ product.vendor }}"
   >
     {%- if product != blank -%}
       {{ product.vendor }}
