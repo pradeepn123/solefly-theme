@@ -232,25 +232,21 @@
             "item_9_link": ""
           }
         },
-        "menu_3_qKWkDU": {
-          "type": "menu-3",
+        "menu_2_Ug3fyH": {
+          "type": "menu-2",
           "settings": {
             "mega_nav_item_name": "kids",
-            "add_spacing": false,
-            "block_layout": "carousel",
-            "collection_list": [
-              "kids-1",
-              "kids-accessories",
-              "kids-apparel",
-              "kids-footwear"
+            "add_spacing": true,
+            "collection": "",
+            "featured_products": [
+              "air-force-1-lv8-4-gs",
+              "air-jordan-1-low-gs-5",
+              "jordan-12-retro-td-8",
+              "jordan-1-mid-ps-8"
             ],
             "img_ratio": "default",
-            "text_style": "on-image-bottom",
-            "collection_card_content_align": "center",
-            "heading_size": "h6",
-            "show_product_count": true,
-            "collection_card_overlay_opacity": 15,
-            "columns": 5,
+            "product_card_align": "left",
+            "columns": 4,
             "desktop_space_between_cards": 12,
             "mobile_space_between_cards": 12,
             "autoplay_mode": "disabled",
@@ -264,7 +260,7 @@
         "menu_2_fgMnK6",
         "menu_1_FiD9HW",
         "menu_1_QgB7b6",
-        "menu_3_qKWkDU"
+        "menu_2_Ug3fyH"
       ],
       "settings": {
         "color_scheme": "default",
