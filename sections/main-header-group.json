@@ -57,10 +57,7 @@
             "add_spacing": true,
             "collection": "womens-2",
             "featured_products": [
-              "nba-slamcover-laker-2001-shaquille-oneal",
-              "adilette",
-              "adidas-stan-smith",
-              "adidas-ultraboost-21"
+
             ],
             "img_ratio": "fit-portrait",
             "product_card_align": "left",
@@ -80,9 +77,8 @@
             "featured_products": [
               "air-force-1-lv8-4-gs",
               "air-jordan-1-low-gs-5",
-              "jordan-12-retro-td-8",
-              "jordan-1-mid-ps-23",
-              "nike-huarache-run-gs"
+              "nike-huarache-run-gs",
+              "jordan-1-mid-ps-23"
             ],
             "img_ratio": "fit-portrait",
             "product_card_align": "left",
