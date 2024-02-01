@@ -410,9 +410,14 @@
  .image-with-text_svg__wrapper{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   width: 100%;
   row-gap: 2rem;
+  margin: 4rem 0 0;
+}
+
+.img-svg_icon:last-child {
+  margin-left: 2rem;
 }
 
 .img-desktop_svg {
