@@ -16,7 +16,7 @@
         "show_collection_description": false,
         "image": "{{ collection.metafields.custom.collection_banner_image.value }}",
         "desktop_overlay_opacity": 5,
-        "mobile_overlay_opacity": 20,
+        "mobile_overlay_opacity": 30,
         "desktop_content_position": "align-items:center;justify-content:flex-start;",
         "desktop_content_align": "left",
         "content_max_width": 672,
@@ -34,6 +34,7 @@
         "section_spacing_bottom": 24,
         "desktop_layout": "carousel",
         "mobile_layout": "carousel",
+        "carousel_columns": "carousel-1-column",
         "title": "",
         "heading_size": "h5",
         "heading_size_mobile": "h2",
@@ -131,7 +132,9 @@
         "mobile_row_height": 240,
         "desktop_space_between_cards": 16,
         "mobile_space_between_cards": 16,
-        "mobile_layout": "carousel"
+        "mobile_layout": "carousel",
+        "carousel_columns": "carousel-1-column",
+        "block_height_mobile": "small"
       }
     },
     "products": {
