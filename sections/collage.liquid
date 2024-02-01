@@ -16,6 +16,9 @@
   assign columns = options.columns
 
   assign mobile_layout = options.mobile_layout
+  assign carousel_columns = options.carousel_columns
+  assign block_height_mobile = options.block_height_mobile
+  
 -%}
 
 {% capture css %}
@@ -63,6 +66,20 @@
                     }
         {% endcase %}
     {% endfor %}
+    @media screen and (max-width: 768px) {
+      .collage__carousel-slide--type-carousel.carousel_two_columns {
+        min-width: 48%;
+      }
+      .block_height--small {
+        max-height: calc(var(--gsc-collage-row-height)*0.5);
+      }
+      .block_height--medium {
+        max-height: calc(var(--gsc-collage-row-height)*0.7);
+      }
+      .block_height--large {
+        max-height: calc(var(--gsc-collage-row-height)*0.9);
+      }
+    }
   {% endstyle %}
 {% endcapture %}
 
@@ -88,7 +105,7 @@
       <div class='carousel__container' data-carousel-container>
         {%- for block in section.blocks -%}
           <div
-            class='collage__item carousel__slide collage__carousel-slide {% if mobile_layout == 'carousel' %}collage__carousel-slide--type-carousel{% endif %} block-{{ block.id }} color-{{ block.settings.color_scheme }}'
+            class='collage__item carousel__slide collage__carousel-slide {% if mobile_layout == 'carousel' %}collage__carousel-slide--type-carousel{% endif %}{% if carousel_columns == 'carousel-2-column' %} carousel_two_columns block_height--{{ block_height_mobile }}{% endif %} block-{{ block.id }} color-{{ block.settings.color_scheme }}'
             {{ block.shopify_attributes }}
           >
             {%- render 'collage-item', block: block, section: section -%}
@@ -461,6 +478,42 @@
       ],
       "default": "carousel",
       "label": "t:sections.general_section_settings.mobile_layout.label"
+    },
+    {
+      "type": "select",
+      "id": "carousel_columns",
+      "options": [
+        {
+          "value": "carousel-1-column",
+          "label": "1 column"
+        },
+        {
+          "value": "carousel-2-column",
+          "label": "2 columns"
+        }
+      ],
+      "default": "carousel-1-column",
+      "label": "Number of cards to display (only for carousel--mobile)"
+    },
+    {
+      "type": "select",
+      "id": "block_height_mobile",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "small",
+      "label": "Block height for mobile"
     }
   ],
   "blocks": [
@@ -552,7 +605,6 @@
           "default": "Share information about your brand with your customers. Describe a product, make announcements or welcome customers to your store.",
           "label": "t:sections.collage.blocks.rich_text.text.label"
         },
-
         {
           "type": "select",
           "id": "heading_size",

@@ -4,6 +4,14 @@
   assign section_spacing_bottom = options.section_spacing_bottom
   assign container_size = options.container_size
   assign color_scheme = options.color_scheme
+
+  assign title = options.title
+  assign link = options.link
+  assign link_title = options.link_title
+  assign alignment = options.alignment
+  assign heading_size = options.heading_size
+  assign heading_size_mobile = options.heading_size_mobile
+  assign link_text_color = options.link_text_color
 -%}
 
 {% style %}
@@ -11,10 +19,31 @@
     --gsc-section-spacing-top: {{ section_spacing_top }}px;
     --gsc-section-spacing-bottom: {{ section_spacing_bottom }}px;
   }
+  .app__title-link {
+    color: {{ link_text_color }};
+  }
+  .app__title-link svg path {
+    fill: {{ link_text_color }};
+  }
 {% endstyle %}
 
 <div class='section section-{{ section.id }} color-{{ color_scheme }}'>
   <div class='container container--{{ container_size }} section-spacing'>
+    <div class='app-block--title'>
+      {%- if title != blank -%}
+        <div class='app__header {% if alignment == 'center' %}app__header--center{% endif %}'>
+          <a href='{{ link }}' class='app__title {{ heading_size }} mobile--{{ heading_size_mobile }}'>
+            <span class='app__title-title'>
+              {{ title }} 
+            </span>
+            <span class='app__title-link'>
+              {{ link_title }}
+              {%- render 'icon', icon_name: 'right-up-arrow', class: 'app__title-link_svg' -%}
+            </span>
+          </a>
+        </div>
+      {%- endif -%}
+    </div>
     {%- for block in section.blocks -%}
       <div
         class='custom-app-block custom-app-block--inside-standart-section'
@@ -122,6 +151,125 @@
       "default": 48,
       "unit": "t:sections.general_section_settings.section_spacing_bottom.unit",
       "label": "t:sections.general_section_settings.section_spacing_bottom.label"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "default": "App title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "link_title",
+      "default": "Link",
+      "label": "Link text"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Redirection link"
+    },
+    {
+      "type": "color",
+      "id": "link_text_color",
+      "default": "#141416",
+      "label": "Link text color"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "t:sections.general_section_settings.label_for_heading_size_setting",
+      "options": [
+        {
+          "value": "h0",
+          "label": "t:sections.general_section_settings.heading_size_0_option"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.general_section_settings.heading_size_1_option"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.general_section_settings.heading_size_2_option"
+        },
+        {
+          "value": "h3",
+          "label": "t:sections.general_section_settings.heading_size_3_option"
+        },
+        {
+          "value": "h4",
+          "label": "t:sections.general_section_settings.heading_size_4_option"
+        },
+        {
+          "value": "h5",
+          "label": "t:sections.general_section_settings.heading_size_5_option"
+        },
+        {
+          "value": "h6",
+          "label": "t:sections.general_section_settings.heading_size_6_option"
+        },
+        {
+          "value": "h7",
+          "label": "t:sections.general_section_settings.heading_size_7_option"
+        }
+      ],
+      "default": "h5"
+    },
+    {
+      "type": "select",
+      "id": "heading_size_mobile",
+      "label": "Heading size(Mobile)",
+      "options": [
+        {
+          "value": "h0",
+          "label": "t:sections.general_section_settings.heading_size_0_option"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.general_section_settings.heading_size_1_option"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.general_section_settings.heading_size_2_option"
+        },
+        {
+          "value": "h3",
+          "label": "t:sections.general_section_settings.heading_size_3_option"
+        },
+        {
+          "value": "h4",
+          "label": "t:sections.general_section_settings.heading_size_4_option"
+        },
+        {
+          "value": "h5",
+          "label": "t:sections.general_section_settings.heading_size_5_option"
+        },
+        {
+          "value": "h6",
+          "label": "t:sections.general_section_settings.heading_size_6_option"
+        },
+        {
+          "value": "h7",
+          "label": "t:sections.general_section_settings.heading_size_7_option"
+        }
+      ],
+      "default": "h5"
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "t:sections.general_section_settings.heading_alignment_label",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.general_section_settings.alignment_option_left_label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.general_section_settings.alignment_option_center_label"
+        }
+      ],
+      "default": "left"
     },
     {
       "type": "liquid",

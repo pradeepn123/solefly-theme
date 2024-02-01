@@ -31,7 +31,7 @@
           "settings": {
             "title": "Community Exclusive",
             "text": "<p>Subscribe to our newsletter and be the first to get all inside information on the latest drops and special offers.<\/p>",
-            "enable_custom_round_btn": true,
+            "enable_custom_round_btn": false,
             "input_style": "custom",
             "show_download_apps": true,
             "download_app_title": "Download Solefly’s New App",
