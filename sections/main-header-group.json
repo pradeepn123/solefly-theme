@@ -76,12 +76,12 @@
           "settings": {
             "mega_nav_item_name": "KIDS",
             "add_spacing": true,
-            "collection": "kids-1",
+            "collection": "",
             "featured_products": [
-              "air-jordan-4-retro-gs",
-              "air-jordan-essential-fleece-diamond-shorts-2",
-              "jordan-1-mid-td",
-              "jordan-1-mid-td-3"
+              "air-force-1-lv8-gs-4",
+              "air-force-1-lv8-4-gs",
+              "air-forces-1-lv8-1-gs",
+              "air-jordan-1-low-gs-5"
             ],
             "img_ratio": "fit-portrait",
             "product_card_align": "left",
