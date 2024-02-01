@@ -37,7 +37,7 @@
           "settings": {
             "mega_nav_item_name": "MEN",
             "add_spacing": true,
-            "collection": "",
+            "collection": "mens-1",
             "featured_products": [
               "air-jordan-1-low-gs-5",
               "air-jordan-essential-fleece-diamond-shorts-1",
@@ -60,7 +60,7 @@
           "settings": {
             "mega_nav_item_name": "WOMEN",
             "add_spacing": true,
-            "collection": "",
+            "collection": "womens-2",
             "featured_products": [
               "salehe-bembury-x-the-pollex-slide",
               "jordan-jumpman-sports-bra-wmns-1",
