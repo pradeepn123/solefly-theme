@@ -16,7 +16,7 @@
         "show_collection_description": false,
         "image": "{{ collection.metafields.custom.collection_banner_image.value }}",
         "desktop_overlay_opacity": 5,
-        "mobile_overlay_opacity": 30,
+        "mobile_overlay_opacity": 50,
         "desktop_content_position": "align-items:center;justify-content:flex-start;",
         "desktop_content_align": "left",
         "content_max_width": 672,
