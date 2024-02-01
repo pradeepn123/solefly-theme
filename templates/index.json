@@ -524,7 +524,7 @@
         "desktop_position": "left_top",
         "desktop_layout": "grid_2_column",
         "mobile_layout": "carousel_vertical_cards",
-        "carousel_columns": "carousel-1-column",
+        "carousel_columns": "carousel-2-column",
         "product_card_img_ratio": "fit-portrait",
         "product_card_content_alignment": "left",
         "desktop_gap": 12,
