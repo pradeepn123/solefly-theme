@@ -68,8 +68,9 @@
           "settings": {
             "store_coordinates": "48.85846067584112, 2.294469693037938",
             "store_name": "Store name",
-            "store_details": "<p>345 Main Street<\/br>Your City, ZIP code 345345<\/br><\/br><strong>Store hours<\/strong><\/br>Sun: Closed<\/br>Mon-Sat: 10:00 - 16:00<\/p>",
+            "store_details": "<p>345 Main Street<br\/>Your City, ZIP code 345345<br\/><br\/><strong>Store hours<\/strong><br\/>Sun: Closed<br\/>Mon-Sat: 10:00 - 16:00<\/p>",
             "show_directions": false,
+            "image_1": "shopify:\/\/shop_images\/2020-08-17.jpg",
             "img_ratio": 1
           }
         }
@@ -97,7 +98,8 @@
         "map_position": "right",
         "map_style": "standard",
         "map_custom_style": "",
-        "map_zoom": 10
+        "map_zoom": 10,
+        "map_default_image": "shopify:\/\/shop_images\/2020-08-17.jpg"
       }
     }
   },
