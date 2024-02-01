@@ -74,6 +74,7 @@
         },
         "menu_2_fgMnK6": {
           "type": "menu-2",
+          "disabled": true,
           "settings": {
             "mega_nav_item_name": "KIDS",
             "add_spacing": true,
@@ -230,6 +231,31 @@
             "item_9_btn_text": "Link label",
             "item_9_link": ""
           }
+        },
+        "menu_3_qKWkDU": {
+          "type": "menu-3",
+          "settings": {
+            "mega_nav_item_name": "kids",
+            "add_spacing": false,
+            "block_layout": "carousel",
+            "collection_list": [
+              "kids-1",
+              "kids-accessories",
+              "kids-apparel",
+              "kids-footwear"
+            ],
+            "img_ratio": "default",
+            "text_style": "on-image-bottom",
+            "collection_card_content_align": "center",
+            "heading_size": "h6",
+            "show_product_count": true,
+            "collection_card_overlay_opacity": 15,
+            "columns": 5,
+            "desktop_space_between_cards": 12,
+            "mobile_space_between_cards": 12,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
         }
       },
       "block_order": [
@@ -237,7 +263,8 @@
         "menu_2_k7CPfY",
         "menu_2_fgMnK6",
         "menu_1_FiD9HW",
-        "menu_1_QgB7b6"
+        "menu_1_QgB7b6",
+        "menu_3_qKWkDU"
       ],
       "settings": {
         "color_scheme": "default",
