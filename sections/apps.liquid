@@ -22,6 +22,9 @@
   .app__title-link {
     color: {{ link_text_color }};
   }
+  .app__title-link svg path {
+    fill: {{ link_text_color }};
+  }
 {% endstyle %}
 
 <div class='section section-{{ section.id }} color-{{ color_scheme }}'>
@@ -30,8 +33,13 @@
       {%- if title != blank -%}
         <div class='app__header {% if alignment == 'center' %}app__header--center{% endif %}'>
           <a href='{{ link }}' class='app__title {{ heading_size }} mobile--{{ heading_size_mobile }}'>
-            <span class='app__title-title'>{{ title }} </span>
-            <span class='app__title-link'>{{ link_title }}</span>
+            <span class='app__title-title'>
+              {{ title }} 
+            </span>
+            <span class='app__title-link'>
+              {{ link_title }}
+              {%- render 'icon', icon_name: 'right-up-arrow', class: 'app__title-link_svg' -%}
+            </span>
           </a>
         </div>
       {%- endif -%}

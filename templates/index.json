@@ -891,7 +891,7 @@
         "link_container_bg_color": "#ffffff",
         "image_container_bg_color": "#f4f4f4",
         "view_all_text": "View all brands",
-        "view_all_link": "",
+        "view_all_link": "shopify:\/\/pages\/brands",
         "view_all_text_size": "body3",
         "link_text_size": "h5",
         "link_text_size_mobile": "h5",
