@@ -25,7 +25,7 @@
 <collection-card class='collection-card link-parent-for-hover zoom-parent-for-hover {{ class }} {% if enable_background %} collection-card--with-background {% endif %}'>
   <a
     class='collection-card__link'
-    aria-label='{{ collection.title | escape }}'
+    aria-label='Collection for {{ collection.title | escape }}'
     {% if collection.url != blank %}
       href='{{ collection.url }}'
     {% endif %}
@@ -85,7 +85,7 @@
           {% if link_url != blank %}
             href='{{ link_url }}'
           {% endif %}
-          aria-label='{{ link_text }}'
+          aria-label='{{ link_text }} {{ collection.title }}'
         >
           <span class='link__text'>{{ link_text }}</span>
           {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}

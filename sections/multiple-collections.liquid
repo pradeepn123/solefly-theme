@@ -113,6 +113,7 @@
             data-id='{{ forloop.index }}'
             tabindex="0"
           >
+            <a style="visibility: hidden; font-size: 0px">Menu Title is {{ collection.title }} for Section {{ title }} </a>
             {{ collection.title }}
           </div>
         {%- endfor -%}
