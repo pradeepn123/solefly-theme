@@ -119,8 +119,22 @@
             "link_url": "shopify:\/\/collections\/jordan-1"
           }
         },
+        "column_VAEpFt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Nike_870f01bb-7f4f-430b-ae6d-f24577cae090.png",
+            "desktop_image_width": 50,
+            "mobile_image_width": 50,
+            "image_ratio": 1,
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/nike"
+          }
+        },
         "column_WDnxTA": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Adidas_4d64de7c-2e8b-4703-8176-7cf6353c49c7.png",
             "desktop_image_width": 50,
@@ -169,19 +183,6 @@
             "text": "",
             "link_text": "",
             "link_url": "shopify:\/\/collections\/new-era"
-          }
-        },
-        "column_VAEpFt": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Nike_870f01bb-7f4f-430b-ae6d-f24577cae090.png",
-            "desktop_image_width": 50,
-            "mobile_image_width": 50,
-            "image_ratio": 1,
-            "title": "",
-            "text": "",
-            "link_text": "",
-            "link_url": "shopify:\/\/collections\/nike"
           }
         },
         "column_Jge3Th": {
@@ -251,6 +252,7 @@
         },
         "column_Gqt4dW": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/reigning_camp.png",
             "desktop_image_width": 50,
@@ -292,11 +294,11 @@
       "block_order": [
         "column_8wTmFt",
         "column_AVB4Lt",
+        "column_VAEpFt",
         "column_WDnxTA",
         "column_bMRgmQ",
         "column_d8B8Hz",
         "column_YKDAiG",
-        "column_VAEpFt",
         "column_Jge3Th",
         "column_98CFJj",
         "column_qy4C6p",
