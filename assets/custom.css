@@ -464,3 +464,6 @@
 .hide_row_gap-1{
   row-gap: 0;
 }
+.hide_option{
+  display: none;
+}
