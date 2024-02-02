@@ -597,7 +597,7 @@
           <a
             class='product-card__title unstyled-link'
             href='{{ product.url }}'
-            aria-label='Product Title is {{ product.title }}'
+            aria-label='Product Title is {{ product.title | escape }}'
           >
             {{- product.title -}}
           </a>          
@@ -758,7 +758,7 @@
           
           <a
             class='product-card__title unstyled-link'
-            aria-label='Product is {{ product.title }}'
+            aria-label='Product is {{ product.title | escape }}'
           >
             {{- 'cards.product_card.store_front.default_title' | t -}}
           </a>

@@ -91,7 +91,7 @@
                                     {%- assign in_stock_filter = filter.values | where: 'label', 'In stock' | first -%}
                                     
                                     <label class="slider-switch" for="DesktopFilters-out-of-stock-switch">
-                                        <input id="DesktopFilters-out-of-stock-switch" name="{{ in_stock_filter.param_name }}" value="{{ in_stock_filter.value }}" {% if in_stock_filter.active %} checked{% endif %} type="checkbox" class="slider-switch__checkbox" />
+                                        <input id="DesktopFilters-out-of-stock-switch" name="{{ in_stock_filter.param_name }}" value="{{ in_stock_filter.value }}" {% if in_stock_filter.active %} checked{% endif %} type="checkbox" class="slider-switch__checkbox" aria-label="In Stock Only Switcher" />
                                         <div class="slider-switch__container">
                                             <div class="slider-switch__toggle"></div>
                                         </div>

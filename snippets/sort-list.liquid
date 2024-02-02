@@ -78,19 +78,20 @@
   </div>
 
   <div class='sort-list--desktop'>
-    <dropdown-opener
-      class='sort-list__btn'
-      data-float-element-id='SortList'
-      data-aria-expanded='false'
-      data-trigger='click'
-      tabindex='0'
-    >
-      {% render 'icon', icon_name: 'sort', class: 'sort-list__btn-icon' %}
-      {{ 'general.sort_list.store_front.button_label' | t }}
-      <div class='sort-list-dropdown__active-sort-option'>
-        {{ active_sort_label }}
-      </div>
-    </dropdown-opener>
+    <button tabindex='0' aria-label="Sorting Option, {{ active_sort_label }} is Selected" class='button__without__styles'>
+      <dropdown-opener
+        class='sort-list__btn'
+        data-float-element-id='SortList'
+        data-aria-expanded='false'
+        data-trigger='click'
+      >
+        {% render 'icon', icon_name: 'sort', class: 'sort-list__btn-icon' %}
+        {{ 'general.sort_list.store_front.button_label' | t }}
+        <div class='sort-list-dropdown__active-sort-option'>
+          {{ active_sort_label }}
+        </div>
+      </dropdown-opener>
+    </button>
     <float-element
       class='sort-list-dropdown'
       aria-hidden='true'

@@ -152,16 +152,17 @@
           >
             {%- for column_switch in (1..2) -%}
               {%- assign column_switch_string = column_switch | append: '' -%}
+              <button aria-label="Show {{ column_switch }} columns in the Collections Page" class='button__without__styles'>
               <div
                 class='column-switcher__item {% if mobile_columns == column_switch_string %}selected{% endif %}'
                 data-column-switcher-item
-                tabindex='0'
                 data-value='{{ column_switch }}'
               >
                 {%- for i in (1..column_switch) -%}
                   <span></span>
                 {%- endfor -%}
               </div>
+              </button>
             {%- endfor -%}
           </column-switcher>
         {%- endif -%}
@@ -174,16 +175,17 @@
           >
             {%- for column_switch in (2..4) -%}
               {%- assign column_switch_string = column_switch | append: '' -%}
-              <div
-                class='column-switcher__item {% if desktop_columns == column_switch_string %}selected{% endif %}'
-                data-column-switcher-item
-                tabindex='0'
-                data-value='{{ column_switch }}'
-              >
-                {%- for i in (1..column_switch) -%}
-                  <span></span>
-                {%- endfor -%}
-              </div>
+              <button aria-label="Show {{ column_switch }} columns in the Collections Page" class='button__without__styles'>
+                <div
+                  class='column-switcher__item {% if desktop_columns == column_switch_string %}selected{% endif %}'
+                  data-column-switcher-item
+                  data-value='{{ column_switch }}'
+                >
+                  {%- for i in (1..column_switch) -%}
+                    <span></span>
+                  {%- endfor -%}
+                </div>
+              </button>
             {%- endfor -%}
           </column-switcher>
         {%- endif -%}
