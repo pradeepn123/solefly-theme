@@ -65,7 +65,7 @@
     "enable_product_darken_background": true,
     "product_card_rating_style": "none",
     "product_card_price_size": "xs",
-    "img_hover": "zoom",
+    "img_hover": "show-secondary-media",
     "color_swatches_when_to_show": "never",
     "color_swatches_what_to_show": "colors-and-patterns",
     "show_quick_view": true,
