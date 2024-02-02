@@ -4,18 +4,14 @@
 
 {% case name %}
   {% when 'sold_out' %}
-    <button class="button__without__styles">
-      <div class='{{ class }} product-badge product-badge--sold-out {% if prepared_section_background_color == settings.product_card_sold_out_badge_bg %} product-badge--with-inner-border {% endif %}'>
-        {{- 'product.store_front.sold_out' | t -}}
-      </div>
-    </button>
+    <div class='{{ class }} product-badge product-badge--sold-out {% if prepared_section_background_color == settings.product_card_sold_out_badge_bg %} product-badge--with-inner-border {% endif %}'>
+      {{- 'product.store_front.sold_out' | t -}}
+    </div>
   {% when 'sale' %}
-    <button class="button__without__styles">
-      <div class='{{ class }} product-badge product-badge--sale {% if prepared_section_background_color == settings.product_sale_badge_bg %} product-badge--with-inner-border {% endif %}'>
-      {% render 'sale-badge-text', price: 
-      product.price, old_price: product.compare_at_price %}
-      </div>
-    </button>
+    <div class='{{ class }} product-badge product-badge--sale {% if prepared_section_background_color == settings.product_sale_badge_bg %} product-badge--with-inner-border {% endif %}'>
+    {% render 'sale-badge-text', price: 
+    product.price, old_price: product.compare_at_price %}
+    </div>
   {% when 'custom_1' %}
     <div class='{{ class }} product-badge product-badge--custom-1 {% if prepared_section_background_color == settings.product_card_custom_badge_1_bg %} product-badge--with-inner-border {% endif %}'>
       {{ settings.product_card_custom_badge_1_text }}
