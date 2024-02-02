@@ -68,7 +68,7 @@
     "img_hover": "show-secondary-media",
     "color_swatches_when_to_show": "never",
     "color_swatches_what_to_show": "colors-and-patterns",
-    "show_quick_view": false,
+    "show_quick_view": true,
     "show_add_to_cart": true,
     "desktop_button_style": "without_labels",
     "show_button_on_hover": true,
