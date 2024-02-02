@@ -69,7 +69,7 @@
           "type": "variant_picker",
           "settings": {
             "option_type": "button-solid",
-            "primary_swatch_option_type": "variant-images",
+            "primary_swatch_option_type": "swatches",
             "secondary_swatch_option_type": "swatches",
             "option_name": "",
             "information_drawer_button_label": "",
@@ -93,6 +93,7 @@
         },
         "6d6606d5-ae7e-4306-b3d7-67030f2e4136": {
           "type": "related_products",
+          "disabled": true,
           "settings": {
             "color_scheme": "primary",
             "show_background": false,
@@ -241,6 +242,36 @@
         "desktop_layout": "carousel",
         "mobile_layout": "carousel",
         "carousel_columns": "carousel-2-column",
+        "title": "YOU MAY ALSO LIKE",
+        "heading_size": "h2",
+        "heading_size_mobile": "h5",
+        "alignment": "left",
+        "product_recommendations_type": "auto",
+        "featured_collection": "",
+        "featured_products": [
+
+        ],
+        "img_ratio": "fit-portrait",
+        "product_card_align": "center",
+        "cards_to_show": 18,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 12,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "product_recommendations_FB4KKP": {
+      "type": "product-recommendations",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "section_spacing_top": 60,
+        "section_spacing_bottom": 40,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "carousel_columns": "carousel-2-column",
         "title": "RECENTLY VIEWED",
         "heading_size": "h2",
         "heading_size_mobile": "h5",
@@ -266,6 +297,7 @@
     "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
     "main",
     "product-details",
-    "product-recommendations"
+    "product-recommendations",
+    "product_recommendations_FB4KKP"
   ]
 }
