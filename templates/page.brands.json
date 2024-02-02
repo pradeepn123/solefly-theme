@@ -21,8 +21,8 @@
         "post_k6A4Dp": {
           "type": "post",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Adidas_4d64de7c-2e8b-4703-8176-7cf6353c49c7.png",
-            "block_title": "Adidas",
+            "image": "shopify:\/\/shop_images\/solefly_838c753c-5a14-49a7-bf58-8d55de8a775b.png",
+            "block_title": "Solefly",
             "link": "shopify:\/\/collections\/adidas",
             "icon": "none"
           }
@@ -30,8 +30,8 @@
         "post_wKcyyU": {
           "type": "post",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Nike_870f01bb-7f4f-430b-ae6d-f24577cae090.png",
-            "block_title": "Nike",
+            "image": "shopify:\/\/shop_images\/Jordan_9f853392-d036-426b-85b7-8d07f6a2e552.png",
+            "block_title": "Jordan",
             "link": "shopify:\/\/collections\/nike",
             "icon": "none"
           }
@@ -39,8 +39,8 @@
         "post_mCPDjV": {
           "type": "post",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Crocs.png",
-            "block_title": "Crocs",
+            "image": "shopify:\/\/shop_images\/Nike_b9064c37-f453-42af-a17d-033a5b274ece.png",
+            "block_title": "Nike",
             "link": "shopify:\/\/collections\/crocs",
             "icon": "none"
           }
@@ -48,8 +48,8 @@
         "post_injhxh": {
           "type": "post",
           "settings": {
-            "image": "shopify:\/\/shop_images\/New_era_08c4cd8b-ac9f-4e4b-a7c9-cb3261f9b615.png",
-            "block_title": "New Era",
+            "image": "shopify:\/\/shop_images\/Comme_des_garcons_bea0aaf8-c2a4-4074-9866-782fef1a620d.png",
+            "block_title": "Comme Des Garcon",
             "link": "shopify:\/\/collections\/new-era",
             "icon": "none"
           }
