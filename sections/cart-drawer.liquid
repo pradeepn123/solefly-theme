@@ -940,7 +940,7 @@
                     class='cart-drawer-subtotal__accordeon-plus accordeon-plus accordeon-plus--top-bordered'
                     data-aria-expanded='false'
                   >
-                    <accordeon-btn class='accordeon-plus__btn cart-drawer-subtotal__accordeon-plus-btn' tabindex='0'>
+                    <accordeon-btn class='accordeon-plus__btn cart-drawer-subtotal__accordeon-plus-btn'>
                       {{ 'general.subtotal.store_front.add_order_notes_button' | t }}
                       {% render 'icon', icon_name: 'plus', class: 'accordeon-plus__icon' %}
                     </accordeon-btn>
@@ -958,6 +958,7 @@
                               form='CartDrawerForm'
                               placeholder='{{ 'general.subtotal.store_front.placeholder_for_textarea_for_order_note' | t }}'
                               data-cart-note-textarea
+                              tabindex='-1'
                             >{{ cart.note }}</textarea>
                           </cart-note>
                         </div>
