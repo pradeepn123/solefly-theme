@@ -788,6 +788,7 @@
       "blocks": {
         "image_hYMydA": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Adidas_4d64de7c-2e8b-4703-8176-7cf6353c49c7.png",
             "title": "Adidas",
@@ -879,7 +880,6 @@
         "image_akCY7z",
         "image_f6iMHa"
       ],
-      "disabled": true,
       "settings": {
         "container_size": "full-screen",
         "section_spacing_top": 48,
