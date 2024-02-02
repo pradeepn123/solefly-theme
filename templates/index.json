@@ -261,9 +261,9 @@
           "kids-footwear"
         ],
         "img_ratio": "portrait",
-        "text_style": "under-image-with-background",
+        "text_style": "on-image-bottom",
         "collection_card_content_align": "center",
-        "collection_card_heading_size": "h6",
+        "collection_card_heading_size": "h3",
         "show_product_count": false,
         "collection_card_overlay_opacity": 40,
         "desktop_columns": 4,
