@@ -1126,11 +1126,22 @@
             "show_directions": true,
             "img_ratio": 1
           }
+        },
+        "store_Xwa7J7": {
+          "type": "store",
+          "settings": {
+            "store_coordinates": "48.85846067584112, 2.294469693037938",
+            "store_name": "Coming soon Summer 2024",
+            "store_details": "<p>SoleFly Doral 8405 NW 53 StDoral, FL STE E106<br\/><\/p>",
+            "show_directions": false,
+            "img_ratio": 1
+          }
         }
       },
       "block_order": [
         "store_VbyNQL",
-        "store_MVxHnz"
+        "store_MVxHnz",
+        "store_Xwa7J7"
       ],
       "settings": {
         "color_scheme": "default",
