@@ -54,89 +54,6 @@
         "autoplay_interval": 3
       }
     },
-    "collage_QfGjLD": {
-      "type": "collage",
-      "blocks": {
-        "image_C6r8tH": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "white",
-            "desktop_columns": 1,
-            "desktop_rows": 1,
-            "image": "shopify:\/\/shop_images\/men_Apparel.png",
-            "overlay_opacity": 25,
-            "caption": "",
-            "title": "Mens Apparel",
-            "text": "",
-            "heading_size": "h5",
-            "body_size": "body3",
-            "link_text": "",
-            "link": "",
-            "content_position": "center-center"
-          }
-        },
-        "image_pUykrG": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "white",
-            "desktop_columns": 1,
-            "desktop_rows": 1,
-            "image": "shopify:\/\/shop_images\/men_footwear.png",
-            "overlay_opacity": 25,
-            "caption": "",
-            "title": "Mens Footwear",
-            "text": "",
-            "heading_size": "h5",
-            "body_size": "body3",
-            "link_text": "",
-            "link": "",
-            "content_position": "center-center"
-          }
-        },
-        "image_yUt9B6": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "white",
-            "desktop_columns": 1,
-            "desktop_rows": 1,
-            "image": "shopify:\/\/shop_images\/watches_52968c9c-7058-4e91-a501-f7de37f17c77.png",
-            "overlay_opacity": 10,
-            "caption": "",
-            "title": "Men Accessories",
-            "text": "",
-            "heading_size": "h5",
-            "body_size": "body3",
-            "link_text": "",
-            "link": "",
-            "content_position": "center-center"
-          }
-        }
-      },
-      "block_order": [
-        "image_C6r8tH",
-        "image_pUykrG",
-        "image_yUt9B6"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "default",
-        "container_size": "full-screen",
-        "section_spacing_top": 24,
-        "section_spacing_bottom": 24,
-        "title": "",
-        "heading_size": "h3",
-        "heading_size_mobile": "h5",
-        "alignment": "center",
-        "columns": 3,
-        "desktop_row_height": 240,
-        "mobile_row_height": 240,
-        "desktop_space_between_cards": 16,
-        "mobile_space_between_cards": 16,
-        "mobile_layout": "carousel",
-        "carousel_columns": "carousel-1-column",
-        "block_height_mobile": "small"
-      }
-    },
     "products": {
       "type": "products",
       "settings": {
@@ -145,7 +62,7 @@
         "section_spacing_top": 24,
         "section_spacing_bottom": 48,
         "enable_sorting": true,
-        "show_product_count": true,
+        "show_product_count": false,
         "show_column_count_switcher": true,
         "enable_filtering": true,
         "filters_position": "left",
@@ -169,7 +86,6 @@
   "order": [
     "collection-hero-banner",
     "collection_list_yaW6L4",
-    "collage_QfGjLD",
     "products"
   ]
 }
