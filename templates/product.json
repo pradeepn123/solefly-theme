@@ -235,7 +235,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "color_scheme": "default",
+        "color_scheme": "black",
         "container_size": "large",
         "section_spacing_top": 60,
         "section_spacing_bottom": 40,
