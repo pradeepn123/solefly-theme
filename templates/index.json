@@ -646,8 +646,8 @@
         "container_size": "full-screen",
         "section_spacing_top": 48,
         "section_spacing_bottom": 30,
-        "title": "",
-        "heading_size": "h5",
+        "title": "SHOP BY BRAND",
+        "heading_size": "h2",
         "heading_size_mobile": "h7",
         "alignment": "left",
         "columns": 4,
@@ -879,6 +879,7 @@
         "image_akCY7z",
         "image_f6iMHa"
       ],
+      "disabled": true,
       "settings": {
         "container_size": "full-screen",
         "section_spacing_top": 48,
@@ -1081,6 +1082,7 @@
         "image_34EAG3",
         "image_dtCPXw"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "primary",
         "container_size": "full-screen",
