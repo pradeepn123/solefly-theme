@@ -11,7 +11,7 @@
         "desktop_ratio": 0.2,
         "mobile_ratio": 0.7,
         "show_collection_image": true,
-        "show_breadcrumbs": false,
+        "show_breadcrumbs": true,
         "show_collection_title": true,
         "show_collection_description": false,
         "image": "{{ collection.metafields.custom.collection_banner_image.value }}",
