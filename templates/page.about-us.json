@@ -253,6 +253,7 @@
       "block_order": [
         "reelup_shoppable_videos_reels_reelup_playlist_slider_yewEeV"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "container_size": "large",
