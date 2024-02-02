@@ -258,13 +258,13 @@
         "container_size": "large",
         "section_spacing_top": 48,
         "section_spacing_bottom": 48,
-        "title": "App title",
-        "link_title": "Link",
+        "title": "CONNECT WITH US",
+        "link_title": "@Solefly",
         "link": "",
-        "link_text_color": "#141416",
+        "link_text_color": "#f44336",
         "heading_size": "h5",
         "heading_size_mobile": "h5",
-        "alignment": "left",
+        "alignment": "center",
         "custom_liquid": ""
       }
     }
