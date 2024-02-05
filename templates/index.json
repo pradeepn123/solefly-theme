@@ -541,6 +541,7 @@
         "image_akCY7z",
         "image_f6iMHa"
       ],
+      "disabled": true,
       "settings": {
         "container_size": "full-screen",
         "section_spacing_top": 48,
