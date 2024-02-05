@@ -10,7 +10,7 @@
 -%}
 
 <shop-active-filters id='ShopActiveFilters'>
-  {%- if active_filter_count > 0 -%}
+  {%- if active_filter_count > 1 -%}
     <div class='filters__active-options' data-shop-active-filters-options>
       {%- for filter in results.filters -%}
         {%- if filter.type == 'price_range' -%}
@@ -20,6 +20,7 @@
                 class='filters__active-option'
                 data-url='{{ filter.url_to_remove }}'
                 data-shop-active-filters-remove-btn
+                tabindex='0'
               >
                 {{ filter.min_value.value | money }} - {{ filter.max_value.value | money }}
                 <span class='close-button'>
@@ -44,6 +45,7 @@
                 class='filters__active-option'
                 data-url='{{ value.url_to_remove }}'
                 data-shop-active-filters-remove-btn
+                tabindex='0'
               >
                 {{ value.label | escape }}
                 <span class='close-button'>
