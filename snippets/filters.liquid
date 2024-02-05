@@ -84,7 +84,7 @@
                     {%- if available_filter_value_count > 0 or filter.type == 'price_range' -%}
                         <div class="filters__item {% if show_divider %} filters__item--bordered {% endif %} {% if categories_style == 'static' %} filters__item--bottom-spacing {% endif %} {% if is_swatch == true and is_primary_swatch == true %} theme-with-size{{ settings.primary_size_for_filters }}-swatch-in-filters{% elsif is_swatch == true and is_primary_swatch == false %} theme-with-size{{ settings.secondary_size_for_filters }}-swatch-in-filters{% endif %}">
                             {%- if filter.label == 'Availability' -%}
-                                <div class="filters__label {% if show_divider and forloop.index > 1 %} filters__label--top-spacing {% endif %} {% if enable_uppercase_title %}filters__label--uppercase{% endif %}">
+                                <div class="filters__label hide_option {% if show_divider and forloop.index > 1 %} filters__label--top-spacing {% endif %}{% if enable_uppercase_title %}filters__label--uppercase{% endif %}">
                                     <div>
                                         {{ 'general.filters.store_front.in_stock_only_label' | t }}
                                     </div>
