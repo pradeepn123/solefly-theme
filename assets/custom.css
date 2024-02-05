@@ -458,5 +458,12 @@
 @media screen and (min-width: 768px) {
   body[header-desktop-sticky] .product__info-wrapper {
     top: 0;
-  }
+  }  
+}
+
+.hide_row_gap-1{
+  row-gap: 0;
+}
+.hide_option{
+  display: none;
 }

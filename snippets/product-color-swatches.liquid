@@ -215,9 +215,9 @@
       </div>
     </template>
   </float-element>
-{% else %}
-  <color-swatches-picker>
-    <div class='product-variant-picker__option-label'>
+{% else %}  
+  <color-swatches-picker>    
+    <div class='product-variant-picker__option-label {% if option.values.size == 1 and option.name == "Color" %} hide_option {% endif %}'>
       {{ option.name }}
 
       <span class='truncate product-variant-picker__option-active-color' data-color-swatches-picker-active-value>
@@ -267,7 +267,7 @@
           <div>
             <label
               for='{{ sectionId }}-{{ product.id }}-{{ option.position }}-{{ forloop.index0 }}'
-              class='color-swatch-select-parent {% if option.selected_value == value %} selected {% endif %}'
+              class='color-swatch-select-parent {% if option.selected_value == value %} selected {% endif %} {% if option.values.size == 1 and option.name == "Color" %} hide_option {% endif %}'
               {% if option.selected_value == value %}
                 tabindex='0'
               {% endif %}
@@ -292,7 +292,7 @@
         {%- endfor -%}
       </div>
     {% else %}
-      <div class='image-swatches product-variant-picker__image-swatches {% if is_primary_swatch %} theme-with-size{{ settings.primary_size_for_product_pages }}-swatch-in-product-section{% else %} theme-with-size{{ settings.secondary_size_for_product_pages }}-swatch-in-product-section{% endif %}'>
+      <div class='image-swatches product-variant-picker__image-swatches {% if is_primary_swatch %} theme-with-size{{ settings.primary_size_for_product_pages }}-swatch-in-product-section{% else %} theme-with-size{{ settings.secondary_size_for_product_pages }}-swatch-in-product-section{% endif %}'>        
         {%- for value in option.values -%}
           {% liquid
             assign option_label = 'option' | append: option.position
@@ -302,7 +302,7 @@
           <div>
             <label
               for='{{ sectionId }}-{{ product.id }}-{{ option.position }}-{{ forloop.index0 }}'
-              class='image-swatches__item {% if is_primary_swatch %} image-swatches__item--{{ settings.primary_shape_for_product_pages }}{% else %} image-swatches__item--{{ settings.secondary_shape_for_product_pages }}{% endif %}  {% if option.selected_value == value %} selected {% endif %}'
+              class='image-swatches__item {% if is_primary_swatch %} image-swatches__item--{{ settings.primary_shape_for_product_pages }}{% else %} image-swatches__item--{{ settings.secondary_shape_for_product_pages }}{% endif %}  {% if option.selected_value == value %} selected {% endif %} {% if option.values.size == 1 and option.name == "Color" %} hide_option {% endif %}'
               {% if option.selected_value == value %}
                 tabindex='0'
               {% endif %}
@@ -330,8 +330,8 @@
               {%- endif -%}
             </label>
           </div>
-        {%- endfor -%}
+        {%- endfor -%}        
       </div>
-    {% endif %}
+    {% endif %} 
   </color-swatches-picker>
 {% endif %}

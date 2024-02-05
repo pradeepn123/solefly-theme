@@ -23,6 +23,10 @@
   if settings.product_media_filtering_option != blank and section.settings.show_only_selected_variants == true
     assign product_media_filtering_option = settings.product_media_filtering_option
   endif
+
+  for option in product.options_with_values
+    assign option_value = option.values.size    
+  endfor
 -%}
 
 {%- if product != blank and product.has_only_default_variant == false -%}
@@ -64,7 +68,7 @@
         </div>
       {%- endfor -%}
     </div>
-    <div class='product-variant-picker__list'>
+    <div class='product-variant-picker__list {% if option_value == 1 %}hide_row_gap-{{option_value}}{% endif %}'>
       {%- for option in product.options_with_values -%}
         {% liquid
           assign option_name_downcase = option.name | downcase
