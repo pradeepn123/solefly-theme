@@ -164,7 +164,7 @@
         "section_spacing_bottom": 30,
         "layout": "thumbnails-left",
         "desktop_space_between_media": 16,
-        "thumbnails_size": 100,
+        "thumbnails_size": 90,
         "mobile_layout": "thumbnails-bottom",
         "img_ratio": "fit-portrait",
         "show_only_selected_variants": true,
