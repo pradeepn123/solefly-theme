@@ -159,7 +159,7 @@
       ],
       "settings": {
         "color_scheme": "default",
-        "container_size": "large",
+        "container_size": "medium",
         "section_spacing_top": 30,
         "section_spacing_bottom": 30,
         "layout": "thumbnails-left",
@@ -236,7 +236,7 @@
       "type": "product-recommendations",
       "settings": {
         "color_scheme": "black",
-        "container_size": "large",
+        "container_size": "page-width",
         "section_spacing_top": 60,
         "section_spacing_bottom": 40,
         "desktop_layout": "carousel",
@@ -269,7 +269,7 @@
       "type": "product-recommendations",
       "settings": {
         "color_scheme": "default",
-        "container_size": "large",
+        "container_size": "page-width",
         "section_spacing_top": 60,
         "section_spacing_bottom": 40,
         "desktop_layout": "carousel",
