@@ -95,91 +95,12 @@
             "extra_btn_url": "",
             "extra_btn_style": "solid"
           }
-        },
-        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-1": {
-          "type": "split-image-banner",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "default",
-            "image_proportion": 50,
-            "content_wrapper_width": 30,
-            "caption": "SPLIT IMAGE SLIDE",
-            "title": "Two images with text in between",
-            "text": "",
-            "heading_size": "h2",
-            "body_size": "body3",
-            "content_max_width": 368,
-            "desktop_content_align": "center",
-            "mobile_content_align": "center",
-            "btn_text": "Button label",
-            "btn_url": "",
-            "btn_style": "solid",
-            "extra_btn_text": "",
-            "extra_btn_url": "",
-            "extra_btn_style": "outline"
-          }
-        },
-        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-2": {
-          "type": "image-banner",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "white",
-            "desktop_overlay_opacity": 20,
-            "mobile_overlay_opacity": 20,
-            "caption": "IMAGE SLIDE",
-            "title": "Image with text",
-            "text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
-            "heading_size": "h2",
-            "body_size": "body3",
-            "heading_size_mobile": "h2",
-            "body_size_mobile": "body3",
-            "desktop_content_position": "align-items:center;justify-content:flex-start;",
-            "desktop_content_align": "left",
-            "content_max_width": 560,
-            "content_spacing": 116,
-            "mobile_content_position": "align-items:flex-end;justify-content:center;",
-            "mobile_content_align": "center",
-            "desktop_content_background": "solid",
-            "mobile_content_background": "none",
-            "btn_text": "Button label",
-            "btn_url": "",
-            "btn_style": "solid",
-            "extra_btn_text": "Button label",
-            "extra_btn_url": "",
-            "extra_btn_style": "solid"
-          }
-        },
-        "26ebac8c-4c8a-4e8c-bf1f-615a97d2f78b": {
-          "type": "split-image-banner",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "default",
-            "image_proportion": 30,
-            "content_wrapper_width": 30,
-            "caption": "SPLIT IMAGE SLIDE",
-            "title": "Two images with text in between",
-            "text": "",
-            "heading_size": "h2",
-            "body_size": "body3",
-            "content_max_width": 368,
-            "desktop_content_align": "center",
-            "mobile_content_align": "center",
-            "btn_text": "Button label",
-            "btn_url": "",
-            "btn_style": "outline",
-            "extra_btn_text": "",
-            "extra_btn_url": "",
-            "extra_btn_style": "solid"
-          }
         }
       },
       "block_order": [
         "image_banner_zFf6r9",
         "image_banner_yWXpNz",
-        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-0",
-        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-1",
-        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-2",
-        "26ebac8c-4c8a-4e8c-bf1f-615a97d2f78b"
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-0"
       ],
       "settings": {
         "color_scheme": "primary",
@@ -274,69 +195,6 @@
         "autoplay_interval": 3
       }
     },
-    "0dc71aa6-0b87-4df1-8cec-af939c55b65f": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-0": {
-          "type": "icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 48
-          }
-        },
-        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-3": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>OUR VISION<\/strong><\/p>",
-            "text_2": "",
-            "text_3": "",
-            "body_size": "body3"
-          }
-        },
-        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-1": {
-          "type": "caption",
-          "disabled": true,
-          "settings": {
-            "caption": "About"
-          }
-        },
-        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-2": {
-          "type": "heading",
-          "settings": {
-            "title": "A goal that SoleFly strives to achieve is to build a community filled with vitality.",
-            "heading_size": "h2"
-          }
-        },
-        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-4": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "btn_text": "Explore",
-            "btn_url": "",
-            "btn_style": "link",
-            "extra_btn_text": "",
-            "extra_btn_url": "",
-            "extra_btn_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-0",
-        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-3",
-        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-1",
-        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-2",
-        "template--16729789989105__0dc71aa6-0b87-4df1-8cec-af939c55b65f-16818194315057258c-4"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "primary",
-        "enable_background_around_container": true,
-        "container_size": "small",
-        "section_spacing_top": 0,
-        "section_spacing_bottom": 0,
-        "content_align": "center"
-      }
-    },
     "scrolling_text_WpdCB4": {
       "type": "scrolling-text",
       "blocks": {
@@ -404,50 +262,6 @@
         "container_size": "full-screen",
         "section_spacing_top": 20,
         "section_spacing_bottom": 50,
-        "section_layout": "crossed",
-        "inclination_degree": 5,
-        "crossing_point_position": 0,
-        "overlay_opacity": 0
-      }
-    },
-    "scrolling_text_deM9rU": {
-      "type": "scrolling-text",
-      "blocks": {
-        "announcement_qpzRji": {
-          "type": "announcement",
-          "settings": {
-            "mobile_specific_bg_class": false,
-            "mobile_specific_textColor_class": false,
-            "announcement_text_1": "Make an announcement",
-            "announcement_text_2": "Make an announcement",
-            "show_second_announcement_text": false,
-            "font_family": "body",
-            "font_style": "solid",
-            "font_size": 20,
-            "letter_spacing": 0,
-            "spacing_between_messages": 40,
-            "top_and_bottom_spacing": 12,
-            "link": "",
-            "icon": "none",
-            "icon_size": 24,
-            "scrolling_direction": "left_to_right",
-            "scrolling_speed": 69,
-            "background_color": "#ffffff",
-            "background_color_gradient": "",
-            "text_color": "#e7e7e7",
-            "text_color_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_qpzRji"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "default",
-        "container_size": "full-screen",
-        "section_spacing_top": 0,
-        "section_spacing_bottom": 0,
         "section_layout": "crossed",
         "inclination_degree": 5,
         "crossing_point_position": 0,
@@ -530,36 +344,6 @@
         "desktop_gap": 12,
         "desktop_space_between_cards": 12,
         "mobile_space_between_cards": 12
-      }
-    },
-    "collection_text_FEb4D9": {
-      "type": "collection-text",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "primary",
-        "container_size": "page-width",
-        "section_spacing_top": 0,
-        "section_spacing_bottom": 0,
-        "content_position": "left",
-        "collection": "solefly-x-jordan-1-capsule",
-        "icon": "none",
-        "caption": "SOLEFLY X JORDEN",
-        "title": "EXCLUSIVE COLLECTION",
-        "text": "",
-        "heading_size": "h2",
-        "heading_size_mobile": "h4",
-        "body_size": "body4",
-        "link_text": "Explore Collection",
-        "link_url": "",
-        "img_ratio": "fit-portrait",
-        "product_card_align": "left",
-        "cards_to_show": 12,
-        "desktop_columns": 3,
-        "desktop_space_between_cards": 16,
-        "mobile_space_between_cards": 16,
-        "show_navigation_on_hover": true,
-        "autoplay_mode": "disabled",
-        "autoplay_interval": 3
       }
     },
     "collage_zDCTkk": {
@@ -658,129 +442,6 @@
         "mobile_layout": "carousel",
         "carousel_columns": "carousel-2-column",
         "block_height_mobile": "small"
-      }
-    },
-    "dd10bcbe-6b5f-450d-ade6-fd728dbc9b00": {
-      "type": "instagram",
-      "blocks": {
-        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-0": {
-          "type": "post",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000005126.png",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-1": {
-          "type": "post",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000005131.png",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-2": {
-          "type": "post",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000005135.png",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-3": {
-          "type": "post",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000005127.png",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-4": {
-          "type": "post",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000005128.png",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "post_UYU7r9": {
-          "type": "post",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000005134.png",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "post_zCQhkU": {
-          "type": "post",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000005133.png",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "post_UDdWtW": {
-          "type": "post",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000005130.png",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "post_i6nANm": {
-          "type": "post",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000005132.png",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "post_gLp4je": {
-          "type": "post",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000005129.png",
-            "link": "",
-            "icon": "none"
-          }
-        }
-      },
-      "block_order": [
-        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-0",
-        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-1",
-        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-2",
-        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-3",
-        "template--16729789989105__dd10bcbe-6b5f-450d-ade6-fd728dbc9b00-1681820777c516347a-4",
-        "post_UYU7r9",
-        "post_zCQhkU",
-        "post_UDdWtW",
-        "post_i6nANm",
-        "post_gLp4je"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "primary",
-        "container_size": "full-screen",
-        "section_spacing_top": 60,
-        "section_spacing_bottom": 30,
-        "desktop_layout": "carousel",
-        "mobile_layout": "slideshow",
-        "title": "Solefly Designed",
-        "text": "",
-        "heading_size": "h2",
-        "body_size": "body3",
-        "content_alignment": "left",
-        "img_ratio": 1,
-        "desktop_columns": 5,
-        "desktop_space_between_cards": 8,
-        "mobile_space_between_cards": 16,
-        "show_arrows_on_hover": true,
-        "btn_text": "",
-        "btn_url": "",
-        "btn_style": "outline",
-        "autoplay_mode": "one_at_time",
-        "autoplay_interval": 3
       }
     },
     "hover_image_change_TEiRVY": {
@@ -1036,7 +697,7 @@
             "heading_size": "h3",
             "body_size": "body3",
             "link_text": "",
-            "link": "shopify:\/\/collections\/mens-1-filter-v-availability-1",
+            "link": "shopify:\/\/collections\/mens-1",
             "content_position": "center-center"
           }
         },
@@ -1131,7 +792,7 @@
           "type": "store",
           "settings": {
             "store_coordinates": "48.85846067584112, 2.294469693037938",
-            "store_name": "SoleFly StDoral",
+            "store_name": "SoleFly Doral",
             "store_details": "<p>Coming soon Summer 2024<br\/><br\/>SoleFly Doral 8405 NW 53 StDoral, FL STE E106<br\/><\/p>",
             "show_directions": false,
             "img_ratio": 1
@@ -1247,13 +908,9 @@
     "35abde66-b33a-4178-b3ef-5bba319784ba",
     "bdfcb69a-fe4c-45c6-bccc-aaec4c360dc5",
     "collection_list_hCa7c9",
-    "0dc71aa6-0b87-4df1-8cec-af939c55b65f",
     "scrolling_text_WpdCB4",
-    "scrolling_text_deM9rU",
     "lookbook_UN3KN8",
-    "collection_text_FEb4D9",
     "collage_zDCTkk",
-    "dd10bcbe-6b5f-450d-ade6-fd728dbc9b00",
     "hover_image_change_TEiRVY",
     "countdown_banner_Dzh89p",
     "17055634072e0d0d8e",
