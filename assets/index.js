@@ -7028,16 +7028,24 @@
         i7 = class extends L {
             constructor() {
                 super(), this.handleFormInput = io(t => {
-                    debugger;
+                    debugger
                     t.preventDefault();
                     let i = this.closest("shop-component"),
                         s = this.closest("sidebar-component"),
                         a = t.target;
                     if (s && s.hide(), i && a) {
-                        const af = '&filter.v.availability=1';
-                        let t = this.getSortQuery(a) + af,
-                        s = [i.filterQuery, t].join("&");
-                        i.sortQuery = t, i.updateBySearchParams(s)
+                        const isCollectionPage = window.location.pathname.includes('filter.v.availability');
+                        console.log(isCollectionPage);
+                        if(!isCollectionPage){
+                            const af = '&filter.v.availability=1';
+                            let t = this.getSortQuery(a) + af,
+                            s = [t, i.filterQuery].join("&");
+                            i.sortQuery = t, i.updateBySearchParams(s)
+                        }else{
+                            let t = this.getSortQuery(a),
+                            s = [t, i.filterQuery].join("&");
+                            i.sortQuery = t, i.updateBySearchParams(s)
+                        }
                     }
                 }, 250), this.handleLabelKeyDown = t => {
                     let i = z(t.key || t.keyCode);
