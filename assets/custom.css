@@ -50,12 +50,6 @@
   padding-bottom: 0;
 }
 
-@media screen and (min-width: 768px) {
-  .footer__utils {
-    grid-template-areas: "copyright settings bottom-bar payment-icons";
-  }
-}
-
 /* Product Page */
 .product-variant-picker__pill-list {
   display: grid;
@@ -181,6 +175,17 @@
 }
 
 /* Footer */
+@media screen and (min-width: 768px) {
+  .footer__utils {
+    grid-template-areas: "copyright settings bottom-bar payment-icons";
+  }
+  .footer__block_wrapper--2 {
+    margin-top: auto;
+  }
+}
+.footer__utils {
+  padding: 2rem 0;
+}
 .footer__block_svg__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -190,7 +195,7 @@
   cursor: pointer;
 }
 .footer__block_wrapper--2 {
-  margin-top: 40px;
+  margin-top: 3rem;
 }
 .desktop_svg {
   display: none;
@@ -220,6 +225,47 @@
     display: block;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .footer__social-media {
+    justify-content: center !important;
+  }
+}
+.footer__social-media {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 2rem;
+  justify-content: flex-start;
+}
+.footer__payment-icons {
+  margin: 1rem 0 0;
+}
+.footer__social-media .footer__title {
+  margin: 0;
+  text-align: center;
+}
+.footer__social-media .social-list {
+  flex-wrap: unset;
+}
+.footer__social-media .footer__social-list {
+  margin-right: -1rem;
+}
+.footer__menu {
+  row-gap: 0.9rem;
+}
+.footer__title {
+  margin: 0 0 1rem;
+}
+@media screen and (min-width: 768px) {
+  .round-style .footer__card-grid {
+    padding: 4rem 0;
+  }
+}
+.footer__card-grid {
+  padding: 4rem 0;
+}
+
 :root {
   --gsc-landscape-sm-image-ratio:calc((1/2)*100%);
 }
@@ -461,9 +507,12 @@
   }  
 }
 
-.hide_row_gap-1{
-  row-gap: 0;
-}
 .hide_option{
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .round-style .sidebar-filters--static-left .sidebar-filters__body {
+    padding-left: 0;
+  }
 }
