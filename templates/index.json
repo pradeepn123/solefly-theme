@@ -361,7 +361,7 @@
             "heading_size": "h3",
             "show_product_count": false,
             "image": "shopify:\/\/shop_images\/solefly_banner.webp",
-            "overlay_opacity": 20,
+            "overlay_opacity": 35,
             "link_text": "Explore",
             "content_position": "bottom-left"
           }
@@ -372,8 +372,8 @@
             "color_scheme": "custom-1",
             "desktop_columns": 2,
             "desktop_rows": 1,
-            "image": "shopify:\/\/shop_images\/Bags.webp",
-            "overlay_opacity": 20,
+            "image": "shopify:\/\/shop_images\/comme_des_gracon_banner_copy.webp",
+            "overlay_opacity": 35,
             "caption": "",
             "title": "Bags & Wallets",
             "text": "",
