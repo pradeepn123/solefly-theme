@@ -159,7 +159,7 @@
       ],
       "settings": {
         "color_scheme": "default",
-        "container_size": "medium",
+        "container_size": "large",
         "section_spacing_top": 30,
         "section_spacing_bottom": 30,
         "layout": "thumbnails-left",
