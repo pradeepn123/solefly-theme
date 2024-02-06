@@ -360,7 +360,7 @@
             "show_available_products": true,
             "heading_size": "h3",
             "show_product_count": false,
-            "image": "shopify:\/\/shop_images\/solefly_banner.webp",
+            "image": "shopify:\/\/shop_images\/solefly_banner_copy.webp",
             "overlay_opacity": 35,
             "link_text": "Explore",
             "content_position": "bottom-left"
@@ -394,7 +394,7 @@
             "show_available_products": true,
             "heading_size": "h3",
             "show_product_count": false,
-            "image": "shopify:\/\/shop_images\/Nike_banner.webp",
+            "image": "shopify:\/\/shop_images\/Nike_banner_copy.webp",
             "overlay_opacity": 20,
             "link_text": "Explore",
             "content_position": "bottom-left"
