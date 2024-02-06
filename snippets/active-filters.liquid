@@ -18,7 +18,7 @@
             <button aria-label="Price Filter is applied" class="button__without__styles">
               <filter-remove-btn
                 class='filters__active-option'
-                data-url='{{ filter.url_to_remove }}'
+                data-url='{{ filter.url_to_remove }}?filter.v.availability=1'
                 data-shop-active-filters-remove-btn
                 tabindex='0'
               >
@@ -43,7 +43,7 @@
             <button aria-label="{{ value.label | escape }} filter is applied" class="button__without__styles">
               <filter-remove-btn
                 class='filters__active-option'
-                data-url='{{ value.url_to_remove }}'
+                data-url='{{ value.url_to_remove }}?filter.v.availability=1'
                 data-shop-active-filters-remove-btn
                 tabindex='0'
               >
