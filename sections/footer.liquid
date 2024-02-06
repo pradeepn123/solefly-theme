@@ -12,6 +12,9 @@
   assign container_size = options.container_size
   assign desktop_column_count = options.desktop_column_count
   assign enable_follow_on_shop = options.enable_follow_on_shop
+
+  assign enable_social_media = options.enable_social_media
+  assign social_media_title = options.social_media_title
 -%}
 
 {%- capture css -%}
@@ -381,6 +384,15 @@
           </div>
         {%- endif -%}
 
+        {%- if enable_social_media != blank -%}
+          <div class='footer__social-media'>
+            {%- if social_media_title != blank -%}
+              <div class='footer__title'>{{ social_media_title }}</div>
+            {%- endif -%}
+            {%- render 'social-list', class: 'footer__social-list' -%}
+          </div>
+        {%- endif -%}
+
         {%- if show_payment_icons -%}
           <div class='footer__payment-icons'>
             {%- for type in shop.enabled_payment_types -%}
@@ -535,6 +547,22 @@
       "type": "inline_richtext",
       "id": "copyright_text",
       "label": "t:sections.footer.copyright_text_label"
+    },
+    {
+      "type": "header",
+      "content": "Social media"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_social_media",
+      "default": true,
+      "label": "Enable social media"
+    },
+    {
+      "type": "text",
+      "id": "social_media_title",
+      "label": "t:sections.footer.social_media_block_title_label",
+      "default": "Social media"
     },
     {
       "type": "header",
