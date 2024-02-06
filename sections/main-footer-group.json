@@ -82,8 +82,6 @@
         "bottom_bar": "",
         "show_payment_icons": true,
         "copyright_text": "© 2024 <a href=\"https:\/\/www.solefly.com\/\">SoleFly<\/a>.",
-        "enable_social_media": true,
-        "social_media_title": "Social media",
         "enable_follow_on_shop": false,
         "show_language_selector": false,
         "show_currency_selector": false,
