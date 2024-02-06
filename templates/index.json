@@ -331,7 +331,6 @@
         "heading_size_mobile": "h5",
         "body_size": "body3",
         "heading_content_alignment": "left",
-        "desktop_image": "shopify:\/\/shop_images\/344791172_261515729657621_2893657576970152402_n.jpg",
         "enable_desktop_custom_img_ratio": true,
         "desktop_custom_image_ratio": 1.1,
         "enable_custom_mobile_img_ratio": true,
@@ -827,7 +826,7 @@
         "map_style": "retro",
         "map_custom_style": "",
         "map_zoom": 10,
-        "map_default_image": "shopify:\/\/shop_images\/2020-08-17.jpg"
+        "map_default_image": "shopify:\/\/shop_images\/store_locator_copy.webp"
       }
     },
     "multicolumn_jiDnp7": {
