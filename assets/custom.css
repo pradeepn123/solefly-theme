@@ -228,15 +228,15 @@
 
 @media screen and (min-width: 768px) {
   .footer__social-media {
-    justify-content: space-evenly;
-    padding: 0 5rem;
+    justify-content: center !important;
   }
 }
 .footer__social-media {
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
-  column-gap: 1rem;
+  column-gap: 2rem;
+  justify-content: flex-start;
 }
 .footer__payment-icons {
   margin: 1rem 0 0;

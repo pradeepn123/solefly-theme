@@ -72,7 +72,7 @@
       ],
       "custom_css": [
         ".footer__title {font-size: 18px;}",
-        ".footer__social-media .footer__title {font-size: 15px}"
+        ".footer__social-media .footer__title {font-size: 15px;}"
       ],
       "settings": {
         "color_scheme": "custom-1",
@@ -81,7 +81,7 @@
         "enable_border": true,
         "bottom_bar": "",
         "show_payment_icons": true,
-        "copyright_text": "© 2024 <a href=\"https:\/\/www.solefly.com\/\">SoleFly<\/a>. <a href=\"https:\/\/www.shopify.com\/?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore\" target=\"_blank\">Powered by Shopify<\/a>",
+        "copyright_text": "© 2024 <a href=\"https:\/\/www.solefly.com\/\">SoleFly<\/a>.",
         "enable_social_media": true,
         "social_media_title": "Social media",
         "enable_follow_on_shop": false,
