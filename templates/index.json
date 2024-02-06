@@ -331,6 +331,7 @@
         "heading_size_mobile": "h5",
         "body_size": "body3",
         "heading_content_alignment": "left",
+        "desktop_image": "shopify:\/\/shop_images\/featured_collection_section.webp",
         "enable_desktop_custom_img_ratio": true,
         "desktop_custom_image_ratio": 1.1,
         "enable_custom_mobile_img_ratio": true,
