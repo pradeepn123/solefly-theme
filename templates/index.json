@@ -282,6 +282,16 @@
             "mobile_vertical_position": 30
           }
         },
+        "pin_product_LEzEhV": {
+          "type": "pin_product",
+          "settings": {
+            "product": "",
+            "desktop_horizontal_position": 40,
+            "desktop_vertical_position": 30,
+            "mobile_horizontal_position": 40,
+            "mobile_vertical_position": 30
+          }
+        },
         "pin_product_6haCUz": {
           "type": "pin_product",
           "settings": {
@@ -290,6 +300,16 @@
             "desktop_vertical_position": 59,
             "mobile_horizontal_position": 66,
             "mobile_vertical_position": 74
+          }
+        },
+        "pin_product_kHHNkR": {
+          "type": "pin_product",
+          "settings": {
+            "product": "",
+            "desktop_horizontal_position": 40,
+            "desktop_vertical_position": 30,
+            "mobile_horizontal_position": 40,
+            "mobile_vertical_position": 30
           }
         },
         "pin_product_W4EDd6": {
@@ -315,7 +335,9 @@
       },
       "block_order": [
         "pin_product_JqgNqf",
+        "pin_product_LEzEhV",
         "pin_product_6haCUz",
+        "pin_product_kHHNkR",
         "pin_product_W4EDd6",
         "pin_product_JY8CRY"
       ],
@@ -350,32 +372,16 @@
     "collage_zDCTkk": {
       "type": "collage",
       "blocks": {
-        "collection_qijwBm": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "custom-1",
-            "desktop_columns": 2,
-            "desktop_rows": 2,
-            "collection": "watches",
-            "show_available_products": true,
-            "heading_size": "h3",
-            "show_product_count": false,
-            "image": "shopify:\/\/shop_images\/solefly_banner_copy.webp",
-            "overlay_opacity": 35,
-            "link_text": "Explore",
-            "content_position": "bottom-left"
-          }
-        },
         "image_n7rEYC": {
           "type": "image",
           "settings": {
             "color_scheme": "custom-1",
             "desktop_columns": 2,
-            "desktop_rows": 1,
-            "image": "shopify:\/\/shop_images\/comme_des_gracon_banner_copy.webp",
-            "overlay_opacity": 35,
+            "desktop_rows": 2,
+            "image": "shopify:\/\/shop_images\/solefly_banner_copy.webp",
+            "overlay_opacity": 10,
             "caption": "",
-            "title": "Bags & Wallets",
+            "title": "Solefly",
             "text": "",
             "heading_size": "h3",
             "body_size": "body3",
@@ -384,46 +390,66 @@
             "content_position": "bottom-left"
           }
         },
-        "collection_X3X7Fd": {
-          "type": "collection",
+        "image_3FaLxC": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-1",
+            "desktop_columns": 2,
+            "desktop_rows": 1,
+            "image": "shopify:\/\/shop_images\/comme_des_gracon_banner_copy.webp",
+            "overlay_opacity": 15,
+            "caption": "",
+            "title": "Comme des Garcons",
+            "text": "",
+            "heading_size": "h3",
+            "body_size": "body3",
+            "link_text": "Explore",
+            "link": "\/collections\/apparel?filter.v.availability=1",
+            "content_position": "bottom-left"
+          }
+        },
+        "image_DpiW9h": {
+          "type": "image",
           "settings": {
             "color_scheme": "custom-1",
             "desktop_columns": 2,
             "desktop_rows": 2,
-            "collection": "9five-eyewear",
-            "show_available_products": true,
-            "heading_size": "h3",
-            "show_product_count": false,
             "image": "shopify:\/\/shop_images\/Nike_banner_copy.webp",
-            "overlay_opacity": 20,
+            "overlay_opacity": 0,
+            "caption": "",
+            "title": "Nike",
+            "text": "",
+            "heading_size": "h3",
+            "body_size": "body3",
             "link_text": "Explore",
+            "link": "\/collections\/apparel?filter.v.availability=1",
             "content_position": "bottom-left"
           }
         },
-        "image_DjcnpH": {
+        "image_rRdCnM": {
           "type": "image",
           "settings": {
             "color_scheme": "custom-1",
             "desktop_columns": 2,
             "desktop_rows": 1,
             "image": "shopify:\/\/shop_images\/jordan_banner_copy.webp",
-            "overlay_opacity": 19,
+            "overlay_opacity": 15,
             "caption": "",
-            "title": "Headwear",
+            "title": "Jorden",
             "text": "",
             "heading_size": "h3",
             "body_size": "body3",
             "link_text": "Explore",
-            "link": "\/collections\/accessories?filter.v.availability=1",
+            "link": "\/collections\/apparel?filter.v.availability=1",
             "content_position": "bottom-left"
           }
         }
       },
       "block_order": [
-        "collection_qijwBm",
         "image_n7rEYC",
-        "collection_X3X7Fd",
-        "image_DjcnpH"
+        "image_3FaLxC",
+        "image_DpiW9h",
+        "image_rRdCnM"
       ],
       "custom_css": [
         "h6 {color: #ffffff;}"
