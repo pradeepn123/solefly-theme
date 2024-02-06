@@ -360,7 +360,7 @@
             "show_available_products": true,
             "heading_size": "h3",
             "show_product_count": false,
-            "image": "shopify:\/\/shop_images\/Watch.jpg",
+            "image": "shopify:\/\/shop_images\/solefly_banner.webp",
             "overlay_opacity": 20,
             "link_text": "Explore",
             "content_position": "bottom-left"
