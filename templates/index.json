@@ -58,7 +58,7 @@
             "desktop_content_background": "none",
             "mobile_content_background": "shadow",
             "btn_text": "SHOP NOW",
-            "btn_url": "",
+            "btn_url": "shopify:\/\/collections\/jordan-1",
             "btn_style": "solid",
             "extra_btn_text": "",
             "extra_btn_url": "",
