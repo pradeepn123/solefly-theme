@@ -274,6 +274,7 @@
         "section_spacing_bottom": 48,
         "desktop_layout": "carousel",
         "mobile_layout": "carousel",
+        "carousel_columns": "carousel-2-column",
         "title": "RECENTLY VIEWED",
         "heading_size": "h2",
         "alignment": "left",
