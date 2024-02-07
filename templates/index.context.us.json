@@ -4,5 +4,21 @@
     "market": "us"
   },
   "sections": {
+    "lookbook_UN3KN8": {
+      "settings": {
+      },
+      "blocks": {
+        "pin_product_LEzEhV": {
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "pin_product_kHHNkR": {
+          "disabled": true,
+          "settings": {
+          }
+        }
+      }
+    }
   }
 }
