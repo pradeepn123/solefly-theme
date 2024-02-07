@@ -36,8 +36,6 @@
   assign mobile_layout = options.mobile_layout
   assign carousel_columns = options.carousel_columns
 
-  assign show_available_products = options.show_available_products
-
   if section_layout == 'carousel-overflow'
     assign half_desktop_slide_width = desktop_carousel_percent_width | divided_by: desktop_columns | times: 0.33
     assign half_laptop_slide_width = laptop_carousel_percent_width | divided_by: laptop_columns | times: 0.33
@@ -144,7 +142,6 @@
               collection: collection,
               text_style: text_style,
               show_product_count: show_product_count
-              show_available_products: show_available_products,
             %}
           </div>
         {%- endfor -%}
@@ -622,12 +619,6 @@
       "type": "collection_list",
       "id": "collection_list",
       "label": "t:sections.collection_list.collection_list_label"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_available_products",
-      "default": true,
-      "label": "Show available products only"
     },
     {
       "type": "header",

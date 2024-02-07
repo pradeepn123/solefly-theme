@@ -18,7 +18,7 @@
             {% if filter.max_value.value < filter.range_max or filter.min_value.value > 0 %}
               <filter-remove-btn
                 class='filters__active-option'
-                data-url='{{ filter.url_to_remove }}?filter.v.availability=1'
+                data-url='{{ filter.url_to_remove }}'
                 data-shop-active-filters-remove-btn
                 tabindex='0'
               >
@@ -43,7 +43,7 @@
             {% if value.active %}
               <filter-remove-btn
                 class='filters__active-option'
-                data-url='{{ value.url_to_remove }}?filter.v.availability=1'
+                data-url='{{ value.url_to_remove }}'
                 data-shop-active-filters-remove-btn
                 tabindex='0'
               >
@@ -64,7 +64,7 @@
       {%- if active_filter_count > 0 -%}
         <filter-remove-btn
           class='filters__reset'
-          data-url='{{ results_url }}?filter.v.availability=1'
+          data-url='{{ results_url }}'
           data-shop-active-filters-reset
           tabindex='0'
         >

@@ -694,7 +694,7 @@
                     {%- endfor -%}
                 </form>
                 <div class="filters__btns">
-                    <filter-remove-btn class="btn btn--outline filters__btn {% if active_filter_count == 1 %}hidden{% endif %}" data-url="{{ results.url }}?filter.v.availability=1" tabindex="0">
+                    <filter-remove-btn class="btn btn--outline filters__btn {% if active_filter_count == 1 %}hidden{% endif %}" data-url="{{ results.url }}" tabindex="0">
                         {{- 'general.filters.store_front.clear_button_label' | t -}}
                     </filter-remove-btn>
                     <filters-submit-btn class="btn btn--solid filters__btn">{{- 'general.filters.store_front.apply_button_label' | t -}}</filters-submit-btn>
