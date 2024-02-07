@@ -277,7 +277,7 @@
         "title": "RECENTLY VIEWED",
         "heading_size": "h2",
         "alignment": "left",
-        "img_ratio": "portrait",
+        "img_ratio": "fit-portrait",
         "product_card_align": "left",
         "cards_to_show": 18,
         "desktop_columns": 4,
