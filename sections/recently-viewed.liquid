@@ -26,6 +26,8 @@
   assign desktop_layout = options.desktop_layout
   assign mobile_layout = options.mobile_layout
 
+  assign carousel_columns = options.carousel_columns
+
   if desktop_layout == 'carousel-overflow'
     assign half_desktop_slide_width = desktop_carousel_percent_width | divided_by: desktop_columns | times: 0.33
     assign half_laptop_slide_width = laptop_carousel_percent_width | divided_by: laptop_columns | times: 0.33
@@ -71,6 +73,13 @@
       @media screen and (min-width: 768px) and (max-width: 880px) {
         .section-{{ section.id }} {
           --gsc-slide-width: {{ tablet_carousel_percent_width | times: 1.00 | divided_by: tablet_columns }}%;
+        }
+      }
+    {% endif %}
+    {% if carousel_columns == 'carousel-2-column' %}
+      @media screen and (max-width: 768px) {
+        .card-carousel__slide {
+          min-width: 48%;
         }
       }
     {% endif %}
@@ -385,6 +394,22 @@
       ],
       "default": "carousel",
       "label": "t:sections.general_section_settings.mobile_layout.label"
+    },
+    {
+      "type": "select",
+      "id": "carousel_columns",
+      "options": [
+        {
+          "value": "carousel-1-column",
+          "label": "1 column"
+        },
+        {
+          "value": "carousel-2-column",
+          "label": "2 columns"
+        }
+      ],
+      "default": "carousel-1-column",
+      "label": "Number of cards to display (only for carousel--mobile)"
     },
     {
       "type": "header",

@@ -27,7 +27,7 @@
     class='collection-card__link'
     aria-label='{{ collection.title }}'
     {% if collection.url != blank %}
-      href='{{ collection.url }}{% if show_available_products %}?filter.v.availability=1{% endif %}'
+      href='{{ collection.url }}'
     {% endif %}
   ></a>
   <div

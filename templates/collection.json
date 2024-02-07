@@ -34,7 +34,7 @@
         "section_spacing_bottom": 24,
         "desktop_layout": "carousel",
         "mobile_layout": "carousel",
-        "carousel_columns": "carousel-1-column",
+        "carousel_columns": "carousel-2-column",
         "title": "",
         "heading_size": "h5",
         "heading_size_mobile": "h2",
