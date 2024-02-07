@@ -76,7 +76,7 @@
                 {{ 'collection_hero_banner.store_front.breadcrumb_collections_link' | t }}
               </a>
               <span class='breadcrumbs__divider'>/</span>
-              <a class='breadcrumbs__item' href='{{ collection.url }}' aria-label='{{ collection.title }}'>
+              <a class='breadcrumbs__item' href='{{ collection.url }}' aria-label='{{ collection.title | escape }}'>
                 {{- collection.title -}}
               </a>
             </div>
@@ -147,7 +147,7 @@
                   {{ 'collection_hero_banner.store_front.breadcrumb_collections_link' | t }}
                 </a>
                 <span class='breadcrumbs__divider'>/</span>
-                <a class='breadcrumbs__item' href='{{ collection.url }}' aria-label='{{ collection.title }}'>
+                <a class='breadcrumbs__item' href='{{ collection.url }}' aria-label='{{ collection.title | escape }}'>
                   {{- collection.title -}}
                 </a>
               </div>

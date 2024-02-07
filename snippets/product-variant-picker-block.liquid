@@ -140,7 +140,9 @@
                     tabindex='0'
                   {% endif %}
                 >
+                  <span class="button__without__styles">Product {{ product.title }} of {{ option.name }}</span>
                   <span class='pill__label'>{{ value }}</span>
+                  <span class="button__without__styles">is selected</span>
                 </label>
               {%- endfor -%}
             </div>

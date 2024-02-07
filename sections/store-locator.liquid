@@ -74,7 +74,7 @@
 
     <div class='map__stores-container'>
       {%- if subheading != blank or heading != blank or body_richtext != blank -%}
-        <div class='map__heading {% if content_alignment != 'left' %} map__heading--alignment-{{content_alignment}} {% endif %}'>
+        <div class='map__heading {% if content_alignment != 'left' %} map__heading--alignment-{{content_alignment}} {% endif %}' role="region" aria-labelledby="mapHeading" tabindex="0">
           {%- if subheading != blank -%}
             <span class='caption map__caption'>{{ subheading }}</span>
           {%- endif -%}
@@ -82,7 +82,7 @@
             <h2 class='{{ heading_size }} mobile--{{ heading_size_mobile }}'>{{ heading }}</h2>
           {%- endif -%}
           {%- if body_richtext != blank -%}
-            <div class='{{ body_size }} mobile--{{ body_size_mobile }} map__subtitle'>{{ body_richtext }}</div>
+            <div class='{{ body_size }} mobile--{{ body_size_mobile }} map__subtitle' aria-labelledby="mapHeading" tabindex="0">{{ body_richtext }}</div>
           {%- endif -%}
         </div>
       {%- endif -%}
@@ -245,9 +245,9 @@
                   class='btn btn--solid map__directions-btn'
                   target='_blank'
                   href='https://www.google.com/maps/dir//{{ store.settings.store_coordinates }}'
-                  aria-label='{{ 'map.screen_reader.show_directions_btn' | t }}'
+                  aria-label='Directions'
                 >
-                  {{ 'store_locator.store_front.show_directions_btn' | t }}
+                  Directions
                 </a>
               {% endif %}
             </div>
@@ -255,7 +255,7 @@
         </div>
 
       {% else %}
-        <div class='map__stores'>
+        <div class='map__stores' role="region" aria-labelledby="mapstores" tabindex="0">
           {% for store in stores_list -%}
             {% assign images_length = 0 %}
 
@@ -281,32 +281,33 @@
 
             {% render 'inline-css-minifier', css: css %}
 
-            <accordeon-component
+            <details
               class='accordeon-plus map__accordeon-plus block-{{ store.id }}'
               {% if expand_first_tab == true and forloop.first == true %}
                 data-aria-expanded='true'
               {% else %}
                 data-aria-expanded='false'
-              {% endif %}
+              {% endif %}              
+              tabindex="0"
               data-section-id='{{ section.id }}'
               data-block-id='{{ store.id }}'
               {{ store.shopify_attributes }}
               data-store
               data-coordinates='{{store.settings.store_coordinates}}'
               data-name='{{store.settings.store_name}}'
+              {% if forloop.first == true %}open{% endif %}
             >
-              <accordeon-btn
+              <summary
                 class='accordeon-plus__btn map__accordeon-plus-btn {% if forloop.first == true %}map__accordeon-plus-btn--first{% endif %} {% if stores_list.size == 1 %}map__accordeon-plus-btn--alone{% endif %}'
                 tabindex='0'
               >
                 {{ store.settings.store_name }}
                 {% render 'icon', icon_name: 'plus', class: 'accordeon-plus__icon' %}
-              </accordeon-btn>
+              </summary>
 
-              <div class='accordeon-plus__content-wrap' data-accordeon-content-wrapper>
+              <div class='details__content' role="region" aria-labelledby="accordeonBtn-{{ store.id }}">
                 <div
                   class='map__accordeon-plus-content accordeon-plus__content body-font-weight-from-global-settings'
-                  data-accordeon-content
                 >
                   {% if images_length != 0 %}
                     <carousel-component
@@ -422,22 +423,41 @@
                           class='btn btn--solid map__directions-btn'
                           target='_blank'
                           href='https://www.google.com/maps/dir//{{ store.settings.store_coordinates }}'
-                          aria-label='{{ 'map.screen_reader.show_directions_btn' | t }}'
+                          aria-label='Directions'
                         >
-                          {{ 'store_locator.store_front.show_directions_btn' | t }}
+                          Directions
                         </a>
                       {% endif %}
                     </div>
                   {% endif %}
                 </div>
               </div>
-            </accordeon-component>
+            </details>
           {% endfor %}
         </div>
       {% endif %}
     </div>
   </div>
 </store-locator>
+{% comment %} 
+<details open>
+    <summary>Who is Doctor Strange?</summary>
+    <p>
+      Doctor Stephen Strange is a fictional character in the Marvel Comics universe. He is a former neurosurgeon who becomes the Sorcerer Supreme, the primary protector of Earth against magical and mystical threats.
+    </p>
+  </details>
+  <details>
+    <summary>What are the mystical abilities of Doctor Strange?</summary>
+    <p>
+      Doctor Strange possesses a wide array of mystical abilities, including spellcasting, astral projection, teleportation, time manipulation, and the use of mystical artifacts like the Eye of Agamotto and the Cloak of Levitation.
+    </p>
+  </details>
+  <details>
+    <summary>How did Doctor Strange acquire his powers?</summary>
+    <p>
+      Doctor Strange trained in the mystic arts under the Ancient One after a car accident severely damaged his hands, ending his career as a surgeon. His training led him to become the powerful sorcerer he is known as today.
+    </p>
+  </details> {% endcomment %}
 
 {% schema %}
 {

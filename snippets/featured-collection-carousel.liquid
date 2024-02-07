@@ -51,13 +51,15 @@
 >
   <div class='card-carousel__position-btn-wrap card-carousel__position-btn-wrap--prev {% if img_ratio == 'nature' %} card-carousel__position-btn-wrap--nature-img-ratio {% endif %}'>
     <div class='shape shape--{{ img_ratio }}'>
-      <carousel-btn
-        class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--prev'
-        data-scroll-direction='prev'
-        tabindex='0'
-      >
-        {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' %}
-      </carousel-btn>
+      <button class="button__without__styles">
+        <span class="hidden__span">Arrow to show previous Items in {{ featured_collection.title }} Slider</span>
+        <carousel-btn
+          class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--prev'
+          data-scroll-direction='prev'
+        >
+          {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' %}
+        </carousel-btn>
+      </button>
     </div>
   </div>
   <div
@@ -152,13 +154,15 @@
   </div>
   <div class='card-carousel__position-btn-wrap card-carousel__position-btn-wrap--next {% if img_ratio == 'nature' %} card-carousel__position-btn-wrap--nature-img-ratio {% endif %}'>
     <div class='shape shape--{{ img_ratio }}'>
-      <carousel-btn
-        class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--next'
-        data-scroll-direction='next'
-        tabindex='0'
-      >
-        {%- render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon' -%}
-      </carousel-btn>
+      <button class="button__without__styles">
+        <span class="hidden__span">Arrow to show Next Items in {{ featured_collection.title }} Slider</span>
+        <carousel-btn
+          class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--next'
+          data-scroll-direction='next'
+        >
+          {%- render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon' -%}
+        </carousel-btn>
+      </button>
     </div>
   </div>
 

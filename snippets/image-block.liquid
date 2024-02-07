@@ -51,6 +51,9 @@
       href='{{ link }}'
     {% endif %}
     class='unstyled-link image-block__image-link'
-    aria-label='{% if link_text != blank %}{{ link_text }}{% elsif link.title != blank %}{{ link.title }}{% else %}#{% endif %}'
+    aria-label="
+    {% if link_text == blank and link.title == blank and title == blank %}{{ image.alt }} {% else %}
+      {% if title != blank %}{{ title }} Collection{% elsif link_text != blank %}{{ link_text }}{% else %}#{%endif%}
+    {% endif %}"
   ></a>
 </div>

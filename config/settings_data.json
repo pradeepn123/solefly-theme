@@ -70,7 +70,7 @@
     "color_swatches_what_to_show": "colors-and-patterns",
     "show_quick_view": true,
     "show_add_to_cart": false,
-    "desktop_button_style": "with_labels",
+    "desktop_button_style": "without_labels",
     "show_button_on_hover": true,
     "product_card_badges_position": "on-image",
     "product_card_show_sale_amount_badge": true,
@@ -174,6 +174,20 @@
           "debugging_pops_script": "",
           "debugging_global_script": "",
           "enable_reelPops": true
+        }
+      },
+      "15885745614559378752": {
+        "type": "shopify:\/\/apps\/accessibly\/blocks\/app-embed\/4b59303e-1141-4c8a-945f-bf4adb516864",
+        "disabled": false,
+        "settings": {
+          "themeColor": "#574CD5",
+          "iconColor": "#574CD5",
+          "showLogo": true,
+          "topBottomPosition": 10,
+          "rightLeftPosition": 10,
+          "iconSize": "small",
+          "iconCustomSize": 64,
+          "position": "bottom-left"
         }
       }
     }

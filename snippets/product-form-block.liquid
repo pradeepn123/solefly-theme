@@ -72,7 +72,7 @@
                   {% if available == false %}
                     disabled
                   {% endif %}
-                  aria-label='{%- if available -%}{{ add_to_cart_label }}{%- else -%}{{ sold_out_label }}{%- endif -%}'
+                  aria-label='{%- if available -%}{{ add_to_cart_label }} button for product {{ product.title }} {%- else -%}{{ sold_out_label }}{%- endif -%}'
                 >
                   <span data-button-text>
                     {%- if available -%}
@@ -94,7 +94,7 @@
                   type='submit'
                   name='add'
                   id='sticky-product-buy-btn-{{ product.id }}-{{ sectionId }}'
-                  class='product-form__btn btn btn--lg btn--solid'
+                  class='product-form__btn btn btn--lg btn--outline'
                   {% if available == false %}
                     disabled
                   {% endif %}

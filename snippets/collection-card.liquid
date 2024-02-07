@@ -25,15 +25,9 @@
 <collection-card class='collection-card link-parent-for-hover zoom-parent-for-hover {{ class }} {% if enable_background %} collection-card--with-background {% endif %}'>
   <a
     class='collection-card__link'
-    aria-label='{{ collection.title }}'
+    aria-label='Collection for {{ collection.title | escape }}'
     {% if collection.url != blank %}
-      href='{{ collection.url }}'
-    {% endif %}
-  ></a>
-  <div
-    class='collection-card__media shape shape--{{ img_ratio }} {% if img_ratio contains 'fit' %} shape--fit {% endif %}'
-    {% if img_ratio == 'nature' %}
-      style='padding-bottom: {{ 1 | divided_by: img.aspect_ratio | times: 100 }}%;'
+      href='{{ collection.url }}{% if show_available_products %}?filter.v.availability=1{% endif %}'
     {% endif %}
   >
     {%- if img != blank -%}
@@ -85,19 +79,63 @@
           {% if link_url != blank %}
             href='{{ link_url }}'
           {% endif %}
-          aria-label='{{ link_text }}'
+          aria-label='{{ link_text }} {{ collection.title }}'
         >
-          <span class='link__text'>{{ link_text }}</span>
-          {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}
-        </a>
+      {%- else -%}
+        {{ 'collection-1' | placeholder_svg_tag: 'placeholder-image collection-card__image zoom shape__target-image' }}
       {%- endif -%}
-    {%- else -%}
-      <h2 class='collection-card__title {{ heading_size }}'>{{ title }}</h2>
-      {%- if show_product_count -%}
-        <div class='collection-card__count'>
-          {{- 'cards.collection_card.store_front.product_count' | t: count: all_products_count -}}
-        </div>
+      {%- if on_image_mode_enabled -%}
+        <div
+          class='
+            overlay
+            {% if text_style == 'on-image-top' %} collection-card__overlay--top-gradient {% endif %}
+            {% if text_style == 'on-image-center' %} collection-card__overlay--center-gradient {% endif %}
+            {% if text_style == 'on-image-bottom' or text_style == 'on-image-bottom-vertical' %} collection-card__overlay--bottom-gradient {% endif %}
+          '
+        ></div>
       {%- endif -%}
-    {%- endif -%}
-  </div>
+    </div>
+    <div
+      class='
+        collection-card__content
+        {% if on_image_mode_enabled %} collection-card__content--on-image {% else %} collection-card__content--under-image {% endif %}
+        {% if with_bottom_spacing %} collection-card__content--bottom-spacing {% endif %}
+        {% if content_align == 'center' %} collection-card__content--center-alignment {% endif %}
+        {% if content_align == 'right' %} collection-card__content--right-alignment {% endif %}
+
+        {% if text_style == 'on-image-top' %} collection-card__content--on-image-top {% endif %}
+        {% if text_style == 'on-image-center' %} collection-card__content--on-image-center {% endif %}
+        {% if text_style == 'on-image-bottom' %} collection-card__content--on-image-bottom {% endif %}
+        {% if text_style == 'on-image-bottom-vertical' %} collection-card__content--on-image-bottom-vertical {% endif %}
+      '
+    >
+      {%- if on_image_mode_enabled -%}
+        {%- if show_product_count -%}
+          <div class='collection-card__count'>
+            {{- 'cards.collection_card.store_front.product_count' | t: count: all_products_count -}}
+          </div>
+        {%- endif -%}
+        <h2 class='collection-card__title {{ heading_size }}'>{{ title }}</h2>
+        {%- if link_text != blank -%}
+          <a
+            class='link {% if text_style == 'on-image-bottom-vertical' %} link--vertical {% endif %}'
+            {% if link_url != blank %}
+              href='{{ link_url }}'
+            {% endif %}
+            aria-label='{{ link_text }}'
+          >
+            <span class='link__text'>{{ link_text }}</span>
+            {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}
+          </a>
+        {%- endif -%}
+      {%- else -%}
+        <h2 class='collection-card__title {{ heading_size }}'>{{ title }}</h2>
+        {%- if show_product_count -%}
+          <div class='collection-card__count'>
+            {{- 'cards.collection_card.store_front.product_count' | t: count: all_products_count -}}
+          </div>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+  </a>
 </collection-card>

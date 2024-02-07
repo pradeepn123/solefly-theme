@@ -231,9 +231,11 @@
                   {%- for block in blocks -%}
                     <carousel-dot
                       class='dots-carousel__slide {% if forloop.index == 1 %}is-primary{% endif %}'
-                      tabindex='0'
                       data-dot-index='{{ forloop.index0 }}'
                     >
+                      <button class="button__without__styles" tabindex='0'>
+                        <span class="hidden__span"> {%if block.type == 'image-banner' %}{{ block.settings.desktop_img.alt }} Image is Selected {% endif %}  </span>
+                      </button>
                       <div class='dots-carousel__slide-body'>
                         <div class='dots-carousel__slide-inner-circle'></div>
                         <div
@@ -259,20 +261,30 @@
           {%- endif -%}
           {%- if blocks.size > 1 and show_navigation_arrows != 'never' -%}
             <div class='slideshow__btns {% if arrows_style == 'corner-buttons' %}slideshow__btns--corner{% else %}slideshow__btns--aside{% endif %}'>
-              <carousel-btn
-                class='carousel-btn slideshow__carousel-btn slideshow__carousel-btn--prev'
-                data-scroll-direction='prev'
-                tabindex='0'
-              >
-                {%- render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' -%}
-              </carousel-btn>
+              <button class="button__without__styles">
+                <span class="hidden__span">
+                  Show Previous Image in Slideshow
+                </span>
+                <carousel-btn
+                  class='carousel-btn slideshow__carousel-btn slideshow__carousel-btn--prev'
+                  data-scroll-direction='prev'
+                  aria-label="Carousel Previous Button"
+                >
+                  {%- render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' -%}
+                </carousel-btn>
+              </button>
+              <button class="button__without__styles">
+                <span class="hidden__span">
+                  Show Previous Image in Slideshow
+                </span>
               <carousel-btn
                 class='carousel-btn slideshow__carousel-btn slideshow__carousel-btn--next'
                 data-scroll-direction='next'
-                tabindex='0'
+                aria-label="Carousel Next Button"
               >
                 {%- render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon' -%}
               </carousel-btn>
+              </button
             </div>
           {%- endif -%}
         </carousel-component>

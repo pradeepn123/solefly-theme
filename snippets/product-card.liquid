@@ -111,126 +111,126 @@
       data-product-card-inner
     >
       {%- if images.size > 0 -%}
-        <div
-          class='product-card__images-wrapper'
-          data-product-card-media-container
-        >
           <a
-            class='product-card__link'
-            href='{{ product.url }}'
-            aria-label='{{ product.title }}'
-          ></a>
-          {%- if show_mobile_carousel == true and images.size > 1 -%}
-            <carousel-component
-              class='carousel product-card__carousel'
-              data-draggable
-              data-align='start'
-              data-axis='x'
-              data-contain-scroll='trimSnaps'
-            >
-              <div class='carousel__viewport embla product-card__carousel-viewport' data-carousel-viewport>
-                <a
-                  class='carousel__container product-card__carousel-container unstyled-link'
-                  href='{{ product.url }}'
-                  data-carousel-container
-                  aria-label='{{ product.title }}'
-                  tabindex='-1'
+                class='product-card__link'
+                href='{{ product.url }}'
+                aria-label='Product Image is for {{ product.title }}{%if show_sale_badge == true%} and is on Sale {% elsif product_card_show_sold_out_badge == true %} and is Sold Out {%endif%}'
+              >
+            <div
+              class='product-card__images-wrapper'
+              data-product-card-media-container >
+              {%- if show_mobile_carousel == true and images.size > 1 -%}
+                <carousel-component
+                  class='carousel product-card__carousel'
+                  data-draggable
+                  data-align='start'
+                  data-axis='x'
+                  data-contain-scroll='trimSnaps'
                 >
+                  <div class='carousel__viewport embla product-card__carousel-viewport' data-carousel-viewport>
+                    <a
+                      class='carousel__container product-card__carousel-container unstyled-link'
+                      href='{{ product.url }}'
+                      data-carousel-container
+                      aria-label='{{ product.title }}'
+                      tabindex='-1'
+                    >
+                      {%- for img in images limit: 5 -%}
+                        <div class='carousel__slide product-card__slide unstyled-link {% if settings.enable_product_darken_background %} multiply-mode {% endif %}'>
+                          <img
+                            {% if forloop.index0 == 0 %}
+                              data-product-card-featured-image
+                            {% endif %}
+                            {% render 'image-attributes',
+                              image: img,
+                              size: 'medium',
+                              is_multiply_target: settings.enable_product_darken_background,
+                              class: 'product-card__img product-card__img--visible shape__target-image'
+                            %}
+                          >
+                        </div>
+                      {%- endfor -%}
+                    </a>
+                  </div>
+                  <carousel-dots
+                    class='product-card-dots'
+                    data-axis='x'
+                    data-align='center'
+                    data-contain-scroll='keepSnaps'
+                  >
+                    <div class='product-card-dots__viewport embla' data-carousel-viewport>
+                      <div class='product-card-dots__container' data-carousel-container>
+                        {%- for img in images limit: 5 -%}
+                          <carousel-dot
+                            class='product-card-dots__dot {% if forloop.index == 1 %}is-primary{% endif %}'
+                            data-dot-index='{{ forloop.index0 }}'
+                          >
+                            <div class='product-card-dots__dot-inner'></div>
+                          </carousel-dot>
+                        {%- endfor -%}
+                      </div>
+                    </div>
+                  </carousel-dots>
+                </carousel-component>
+              {%- endif -%}
+              <div class='product-card__images {% if settings.enable_product_darken_background %}multiply-mode{% endif %}'>
+                <img
+                  data-main-media
+                  data-product-card-featured-image
+                  {% render 'image-attributes',
+                    image: featured_media,
+                    size: 'medium',
+                    is_multiply_target: settings.enable_product_darken_background,
+                    class: 'product-card__img product-card__img--visible shape__target-image'
+                  %}
+                >
+                {%- if settings.img_hover == 'show-secondary-media' and images.size > 1 -%}
+                  <img
+                    data-secondary-media
+                    {% render 'image-attributes',
+                      image: images[1],
+                      size: 'medium',
+                      is_multiply_target: settings.enable_product_darken_background,
+                      class: 'product-card__img shape__target-image'
+                    %}
+                  >
+                {%- endif -%}
+                {%- if settings.img_hover == 'show-product-media' and images.size > 1 -%}
                   {%- for img in images limit: 5 -%}
-                    <div class='carousel__slide product-card__slide unstyled-link {% if settings.enable_product_darken_background %} multiply-mode {% endif %}'>
+                    {%- if img.id != featured_media.id -%}
                       <img
-                        {% if forloop.index0 == 0 %}
-                          data-product-card-featured-image
-                        {% endif %}
+                        data-id='{{ forloop.index }}'
                         {% render 'image-attributes',
                           image: img,
                           size: 'medium',
                           is_multiply_target: settings.enable_product_darken_background,
-                          class: 'product-card__img product-card__img--visible shape__target-image'
+                          class: 'product-card__img shape__target-image'
                         %}
                       >
-                    </div>
+                    {%- endif -%}
                   {%- endfor -%}
-                </a>
-              </div>
-              <carousel-dots
-                class='product-card-dots'
-                data-axis='x'
-                data-align='center'
-                data-contain-scroll='keepSnaps'
-              >
-                <div class='product-card-dots__viewport embla' data-carousel-viewport>
-                  <div class='product-card-dots__container' data-carousel-container>
-                    {%- for img in images limit: 5 -%}
-                      <carousel-dot
-                        class='product-card-dots__dot {% if forloop.index == 1 %}is-primary{% endif %}'
-                        data-dot-index='{{ forloop.index0 }}'
+                {%- endif -%}
+
+                {% if color_swatches_when_to_show != 'never' %}
+                  {%- for color in colors limit: 6 -%}
+                    {%- assign variant = product.variants | where: color_option_position, color | first -%}
+
+                    {%- if variant.image.src != blank -%}
+                      <img
+                        data-variant-id='{{ variant.id }}'
+                        {% render 'image-attributes',
+                          image: variant.image,
+                          size: 'medium',
+                          is_multiply_target: settings.enable_product_darken_background,
+                          class: 'product-card__img shape__target-image'
+                        %}
                       >
-                        <div class='product-card-dots__dot-inner'></div>
-                      </carousel-dot>
-                    {%- endfor -%}
-                  </div>
-                </div>
-              </carousel-dots>
-            </carousel-component>
-          {%- endif -%}
-          <div class='product-card__images {% if settings.enable_product_darken_background %}multiply-mode{% endif %}'>
-            <img
-              data-main-media
-              data-product-card-featured-image
-              {% render 'image-attributes',
-                image: featured_media,
-                size: 'medium',
-                is_multiply_target: settings.enable_product_darken_background,
-                class: 'product-card__img product-card__img--visible shape__target-image'
-              %}
-            >
-            {%- if settings.img_hover == 'show-secondary-media' and images.size > 1 -%}
-              <img
-                data-secondary-media
-                {% render 'image-attributes',
-                  image: images[1],
-                  size: 'medium',
-                  is_multiply_target: settings.enable_product_darken_background,
-                  class: 'product-card__img shape__target-image'
-                %}
-              >
-            {%- endif -%}
-            {%- if settings.img_hover == 'show-product-media' and images.size > 1 -%}
-              {%- for img in images limit: 5 -%}
-                {%- if img.id != featured_media.id -%}
-                  <img
-                    data-id='{{ forloop.index }}'
-                    {% render 'image-attributes',
-                      image: img,
-                      size: 'medium',
-                      is_multiply_target: settings.enable_product_darken_background,
-                      class: 'product-card__img shape__target-image'
-                    %}
-                  >
-                {%- endif -%}
-              {%- endfor -%}
-            {%- endif -%}
-
-            {% if color_swatches_when_to_show != 'never' %}
-              {%- for color in colors limit: 6 -%}
-                {%- assign variant = product.variants | where: color_option_position, color | first -%}
-
-                {%- if variant.image.src != blank -%}
-                  <img
-                    data-variant-id='{{ variant.id }}'
-                    {% render 'image-attributes',
-                      image: variant.image,
-                      size: 'medium',
-                      is_multiply_target: settings.enable_product_darken_background,
-                      class: 'product-card__img shape__target-image'
-                    %}
-                  >
-                {%- endif -%}
-              {%- endfor -%}
-            {% endif %}
-          </div>
-        </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                {% endif %}
+              </div>
+            </div>
+          </a>
         <div class='product-card__dots-spinner-wrap' data-product-card-preloader>
           <div class='dots-spinner product-card__dots-spinner'>
             <div class='dots-spinner__dot'></div>
@@ -586,7 +586,13 @@
                 {%- endif -%}
               {%- endfor -%}
             </div>
-          {% endif %}
+          {% endif %}          
+
+          {%- if show_vendor -%}
+            <a class='product-card__vendor unstyled-link' href='/collections/all?filter.p.vendor={{ product.vendor }}' aria-label="Product Vendor is {{ product.vendor }}">
+              {{- product.vendor -}}
+            </a>
+          {%- endif -%}
 
           {%- if show_vendor -%}
             <a class='product-card__vendor unstyled-link' href='/collections/all?filter.p.vendor={{ product.vendor }}'>
@@ -597,10 +603,10 @@
           <a
             class='product-card__title unstyled-link'
             href='{{ product.url }}'
-            aria-label='{{ product.title }}'
+            aria-label='Product Title is {{ product.title | escape }} {%if show_sale_badge == true%} and is on Sale {% elsif product_card_show_sold_out_badge == true %} and is Sold Out {%endif%}'
           >
             {{- product.title -}}
-          </a>
+          </a>          
 
           {%- if product_card_rating_style != 'none' -%}
             {% liquid
@@ -758,7 +764,7 @@
           
           <a
             class='product-card__title unstyled-link'
-            aria-label='{{ product.title }}'
+            aria-label='Product is {{ product.title | escape }} {%if show_sale_badge == true%} and is on Sale {% elsif product_card_show_sold_out_badge == true %} and is Sold Out {%endif%}'
           >
             {{- 'cards.product_card.store_front.default_title' | t -}}
           </a>

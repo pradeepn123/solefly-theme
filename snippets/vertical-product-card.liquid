@@ -22,7 +22,7 @@
       {% if product.url != blank %}
         href='{{ product.url }}'
       {% endif %}
-      aria-label='{{ product.url }}'
+      aria-label='Product Image for {{ product.title }}'
       class='vertical-product-card__link'
     ></a>
     <div class='vertical-product-card__image-wrapper {% if settings.enable_product_darken_background %} multiply-mode {% endif %}'>
@@ -77,7 +77,7 @@
               data-quick-view-button
               data-product-card-quick-view-button
               data-quick-view-id='Quick-view'
-              aria-label='{{- 'cards.vertical_product_card.screen_reader.quick_view_button_label' | t -}}'
+              aria-label='Quick View for Product - {{ product.title | escape}}'
               type='button'
             >
               {%- render 'product-card-icon-eye', class: 'vertical-product-card__button-icon' -%}
@@ -93,7 +93,7 @@
       {% if product.url != blank %}
         href='{{ product.url }}'
       {% endif %}
-      aria-label='{{ product.url }}'
+      aria-label='Product Title is {{ product.title }}'
     >
       {% if product != blank %}
         {{- product.title -}}

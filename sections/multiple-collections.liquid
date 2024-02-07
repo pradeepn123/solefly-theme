@@ -107,14 +107,16 @@
       {%- endif -%}
       <div class='collection__tab-list'>
         {%- for collection in collection_list -%}
-          <div
-            data-tabs-name
-            class='tab-name collection__tab-name {% if forloop.index == 1 %}selected{% endif %}'
-            data-id='{{ forloop.index }}'
-            tabindex="0"
-          >
-            {{ collection.title }}
-          </div>
+          <button class="button__without__styles">
+            <div
+              data-tabs-name
+              class='tab-name collection__tab-name {% if forloop.index == 1 %}selected{% endif %}'
+              data-id='{{ forloop.index }}'
+            >
+              <a style="visibility: hidden; font-size: 0px">Menu Title is {{ collection.title }} for Section {{ title }} </a>
+              {{ collection.title }}
+            </div>
+          </button>
         {%- endfor -%}
       </div>
       <carousel-component
@@ -176,14 +178,15 @@
       {%- endif -%}
       <div class='collection__tab-list'>
         {%- for collection in prepared_collection_list_placeholder -%}
-          <div
-            data-tabs-name
-            class='tab-name collection__tab-name {% if forloop.index == 1 %}selected{% endif %}'
-            data-id='{{ forloop.index }}'
-            tabindex="0"
-          >
-            {{ prepared_collection_list_placeholder[forloop.index0] }}
-          </div>
+          <button class="button__without__styles">
+            <div
+              data-tabs-name
+              class='tab-name collection__tab-name {% if forloop.index == 1 %}selected{% endif %}'
+              data-id='{{ forloop.index }}'
+            >
+              {{ prepared_collection_list_placeholder[forloop.index0] }}
+            </div>
+          </button>
         {%- endfor -%}
       </div>
       <carousel-component

@@ -62,7 +62,7 @@
         <carousel-btn
           class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--prev'
           data-scroll-direction='prev'
-          tabindex='0'
+          tabindex='0' aria-label="Previous Slide Button"
         >
           {%- render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' -%}
         </carousel-btn>
@@ -87,7 +87,7 @@
         <carousel-btn
           class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--next'
           data-scroll-direction='next'
-          tabindex='0'
+          tabindex='0' aria-label="Next Slide Button"
         >
           {%- render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon' -%}
         </carousel-btn>

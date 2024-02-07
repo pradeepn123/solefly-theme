@@ -71,6 +71,7 @@
                   data-sidebar-id='SearchSidebar'
                   class='unstyled-button search-sidebar__close-button-wrapper close-button-with-scale-hover-wrapper'
                   tabindex='0'
+                  aria-label="Close Button"
                 >
                   <span class='search-sidebar__close-button-with-scale-hover close-button-with-scale-hover'></span>
                 </button>
@@ -182,6 +183,7 @@
                       <button
                         class='unstyled-button search-sidebar-section__query'
                         data-sidebar-search-query='{{ query }}'
+                        aria-label="for {{ query }}, most searched query"
                       >
                         {{ query }}
                       </button>
