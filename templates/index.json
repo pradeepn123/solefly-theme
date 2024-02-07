@@ -282,16 +282,6 @@
             "mobile_vertical_position": 30
           }
         },
-        "pin_product_LEzEhV": {
-          "type": "pin_product",
-          "settings": {
-            "product": "",
-            "desktop_horizontal_position": 40,
-            "desktop_vertical_position": 30,
-            "mobile_horizontal_position": 40,
-            "mobile_vertical_position": 30
-          }
-        },
         "pin_product_6haCUz": {
           "type": "pin_product",
           "settings": {
@@ -300,16 +290,6 @@
             "desktop_vertical_position": 59,
             "mobile_horizontal_position": 66,
             "mobile_vertical_position": 74
-          }
-        },
-        "pin_product_kHHNkR": {
-          "type": "pin_product",
-          "settings": {
-            "product": "",
-            "desktop_horizontal_position": 40,
-            "desktop_vertical_position": 30,
-            "mobile_horizontal_position": 40,
-            "mobile_vertical_position": 30
           }
         },
         "pin_product_W4EDd6": {
@@ -335,9 +315,7 @@
       },
       "block_order": [
         "pin_product_JqgNqf",
-        "pin_product_LEzEhV",
         "pin_product_6haCUz",
-        "pin_product_kHHNkR",
         "pin_product_W4EDd6",
         "pin_product_JY8CRY"
       ],
