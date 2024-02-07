@@ -236,15 +236,15 @@
                 {{ block.shopify_attributes }}
               >
                 {%- if cart != empty -%}
-                  <accordeon-component
+                  <details
                     class='accordeon-plus accordeon-plus--top-bordered accordeon-plus--bottom-bordered cart-order-notes'
                     data-aria-expanded='false'
                   >
-                    <accordeon-btn class='accordeon-plus__btn cart-order-notes__accordeon-btn' tabindex='0'>
+                    <summary class='accordeon-plus__btn cart-order-notes__accordeon-btn' tabindex='0'>
                       {{ 'general.subtotal.store_front.add_order_notes_button' | t }}
                       {% render 'icon', icon_name: 'plus', class: 'accordeon-plus__icon' %}
-                    </accordeon-btn>
-                    <div class='accordeon-plus__content-wrap' data-accordeon-content-wrapper>
+                    </summary>
+                    <div class='details__content'>
                       <div class='accordeon-plus__content cart-order-notes__accordeon-content' data-accordeon-content>
                         <cart-note>
                           <textarea
@@ -258,7 +258,7 @@
                         </cart-note>
                       </div>
                     </div>
-                  </accordeon-component>
+                  </details>
                 {%- endif -%}
               </cart-order-notes-block>
             {% when 'buttons' %}
