@@ -10,7 +10,7 @@
 -%}
 
 <shop-active-filters id='ShopActiveFilters'>
-  {%- if active_filter_count > 1 -%}
+  {%- if active_filter_count > 0 -%}
     <div class='filters__active-options' data-shop-active-filters-options>
       {%- for filter in results.filters -%}
         {% unless filter.label == 'Availability' %}
@@ -61,7 +61,7 @@
         {% endunless %}
       {%- endfor -%}
 
-      {%- if active_filter_count > 1 -%}
+      {%- if active_filter_count > 0 -%}
         <filter-remove-btn
           class='filters__reset'
           data-url='{{ results_url }}?filter.v.availability=1'

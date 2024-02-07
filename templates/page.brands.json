@@ -23,7 +23,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/solefly_838c753c-5a14-49a7-bf58-8d55de8a775b.png",
             "block_title": "Solefly",
-            "link": "\/collections\/sole-fly?filter.v.availability=1",
+            "link": "shopify:\/\/collections\/sole-fly",
             "icon": "none"
           }
         },
@@ -32,7 +32,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Jordan_9f853392-d036-426b-85b7-8d07f6a2e552.png",
             "block_title": "Jordan",
-            "link": "\/collections\/jordan-1?filter.v.availability=1",
+            "link": "shopify:\/\/collections\/jordan-1",
             "icon": "none"
           }
         },
@@ -41,7 +41,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Nike_b9064c37-f453-42af-a17d-033a5b274ece.png",
             "block_title": "Nike",
-            "link": "\/collections\/nike?filter.v.availability=1",
+            "link": "shopify:\/\/collections\/nike",
             "icon": "none"
           }
         },
@@ -50,7 +50,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Comme_des_garcons_7e9eef41-643d-440d-9820-92bf28bbbfd8.png",
             "block_title": "Comme Des Garcons",
-            "link": "\/collections\/comme-des-garcons?filter.v.availability=1",
+            "link": "shopify:\/\/collections\/comme-des-garcons",
             "icon": "none"
           }
         }
@@ -103,7 +103,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/comme-des-garcons?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/comme-des-garcons"
           }
         },
         "column_qy4C6p": {
@@ -116,7 +116,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/crocs?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/crocs"
           }
         },
         "column_jWRKQE": {
@@ -129,7 +129,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/g-shock?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/g-shock"
           }
         },
         "column_PULCt8": {
@@ -142,7 +142,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/herschel-supply-company-ltd?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/herschel-supply-company-ltd"
           }
         },
         "column_AVB4Lt": {
@@ -155,7 +155,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/jordan-1?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/jordan-1"
           }
         },
         "column_d8B8Hz": {
@@ -168,7 +168,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/mitchell-ness?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/mitchell-ness"
           }
         },
         "column_YKDAiG": {
@@ -181,7 +181,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/new-era?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/new-era"
           }
         },
         "column_VAEpFt": {
@@ -194,7 +194,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/nike?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/nike"
           }
         },
         "column_Jge3Th": {
@@ -207,7 +207,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/oakley?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/oakley"
           }
         },
         "column_8wTmFt": {
@@ -220,7 +220,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/sole-fly?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/sole-fly"
           }
         },
         "column_9NGPMV": {
@@ -233,7 +233,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/stance?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/stance"
           }
         },
         "column_aQwWLT": {
@@ -246,7 +246,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/suicoke?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/suicoke"
           }
         },
         "column_98CFJj": {
@@ -259,7 +259,7 @@
             "title": "",
             "text": "",
             "link_text": "",
-            "link_url": "\/collections\/vans?filter.v.availability=1"
+            "link_url": "shopify:\/\/collections\/vans"
           }
         },
         "column_WDnxTA": {

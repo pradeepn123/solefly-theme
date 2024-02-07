@@ -44,4 +44,11 @@
       </quantity-btn>
     </quantity-component>
   </div>
+  <script>
+    document.getElementById('Quantity-{{ product.id }}-{{ sectionId }}').addEventListener("input", function() {
+      if (/^0/.test(this.value)) {
+        this.value = this.value.replace(/^0/, "1");
+      }
+    });
+  </script>
 {%- endif -%}

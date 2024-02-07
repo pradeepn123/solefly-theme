@@ -516,3 +516,13 @@
     padding-left: 0;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 840px) {
+  .drawer-menu__list-body--additional-top-spacing {
+    margin-top: 3.5rem;
+  }
+}
+
+.product-thumbnail-carousel-mobile__container {
+  padding-bottom: 2px;
+}
