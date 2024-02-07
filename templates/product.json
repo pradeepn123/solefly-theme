@@ -255,7 +255,7 @@
           "air-force-1-lv8-gs-4"
         ],
         "img_ratio": "fit-portrait",
-        "product_card_align": "center",
+        "product_card_align": "left",
         "cards_to_show": 18,
         "desktop_columns": 4,
         "desktop_space_between_cards": 12,
